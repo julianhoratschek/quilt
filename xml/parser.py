@@ -233,15 +233,19 @@ class Parser:
         while True:
             self.last_input = input(prompt)
 
-            if self.parent_tag.name != "field":
-                return
-
             if self.last_input == "%":
                 self.last_input = self.current_tag.options.get("default", "")
 
+            if self.parent_tag.name != "field":
+                return
+
             # Form type numbers
             if "type" in self.parent_tag.options and self.parent_tag.options["type"] == "numbers":
-                result: list[int] = [int(m.group(0)) for m in finditer(r"\d+", self.last_input)]
+
+                if "," not in self.last_input and " " not in self.last_input:
+                    result: list[int] = [int(i) for i in self.last_input if i.isdigit()]
+                else:
+                    result: list[int] = [int(m.group(0)) for m in finditer(r"\d+", self.last_input)]
 
             # Form type checks (default)
             else:
