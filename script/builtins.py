@@ -15,6 +15,7 @@ def builtin_gt(args: list) -> int:
 def builtin_join(args: list) -> str:
     if not len(args):
         return ""
+    print(args)
     last_join: str = str(args[2]) if len(args) == 3 else str(args[1])
     return str(args[0][0]) if len(args) == 1 else last_join.join([str(args[1]).join(list(args[0])[:-1]), args[0][-1]])
 

@@ -24,7 +24,7 @@ class Parser:
         def get(cls):
             return cls.Singleton if cls.Singleton else cls()
 
-    def __init__(self, rt: Runtime):
+    def __init__(self, rt: Runtime, options: dict[str, str | list[str]] = None):
         self.runtime: Runtime = rt
         self.text: str = ""
         self.pos: int = 0
@@ -40,7 +40,7 @@ class Parser:
         self.field_value_names: list[str] = []
         self.entries: list[Entry] = []
 
-        self.options: dict[str, str | list[str]] = {
+        self.options: dict[str, str | list[str]] = options if options else {
             "ignore_forms": []
         }
 
@@ -53,6 +53,10 @@ class Parser:
 
     @property
     def parent_tag(self) -> Tag:
+        return self.tag_stack[-1]
+
+    @property
+    def opening_tag(self) -> Tag:
         return self.tag_stack[-1]
 
     def _assert_has_name(self) -> bool:
@@ -108,9 +112,9 @@ class Parser:
         return sub(r"#\{([^}]+)}", repl, content_match.group(1))
 
     def _map_field_values(self):
-        start_idx: int = int(self.current_tag.options.get("start", "0"))
+        start_idx: int = int(self.opening_tag.options.get("start", "0"))
         number_type: bool = self.tag_stack[-2].options.get("type", "") == "numbers"
-        mapped_type: bool = self.current_tag.options.get("type", "") == "mapped"
+        mapped_type: bool = self.opening_tag.options.get("type", "") == "mapped"
 
         for ns_name in [self.current_namespace, *self.field_value_names]:
             # Map numbers
@@ -165,9 +169,9 @@ class Parser:
 
             case "import":
                 if self._assert_has_name():
-                    p: Parser = Parser(self.runtime)
+                    p: Parser = Parser(self.runtime, self.options)
                     p.process(Path(self.current_tag.options["name"]))
-                    self.options |= p.options
+                    # self.options |= p.options
 
             case "insert":
                 if "for" not in self.current_tag.options or not glob(
@@ -221,7 +225,6 @@ class Parser:
                 if "when" not in self.current_tag.options \
                         or int(self.runtime.run(self.current_tag.options["when"])) != 0:
                     self.text_blocks.append(self._content())
-                    print(f"\ttext: {self.text_blocks[-1]}")
 
             case "textblock":
                 self.text_blocks.clear()
@@ -231,7 +234,6 @@ class Parser:
                 self.field_value_names.append(self.current_namespace)
                 self.runtime.namespaces[self.current_namespace] = self.runtime.run(
                     self.current_tag.options.get("content", "0"))
-                print(f"{self.current_namespace}: {self.runtime.namespaces[self.current_namespace]}")
 
             case "variable":
                 self.runtime.templates[-1].alias[self.current_tag.options.get("name", "local")] = \
@@ -290,9 +292,6 @@ class Parser:
         self.pos += m.end()
 
     def process(self, file_name: Path):
-        print(f"Process: {file_name}")
-        print(self.runtime)
-
         if not file_name.exists():
             print(f"!! File {file_name} does not exist")
             return
@@ -308,8 +307,6 @@ class Parser:
                 tag_match.group(self.CloseTagGroup) is not None,
                 tag_match.group(self.AutoCloseTagGroup) is not None)
             self.pos += tag_match.end()
-
-            print(self.current_tag)
 
             if self.current_tag.is_closing:
                 self._close_tag()
