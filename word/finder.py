@@ -16,19 +16,19 @@ def pick_file(paths: list[Path]) -> Path:
 
     while True:
         for i, opt in enumerate(option_list, 1):
-            print(f"\t[{i}] {opt[2].strftime('%d.%m.%Y')} {opt[1]}, {opt[2]}")
+            print(f"\t[{i}] {opt[2].strftime('%d.%m.%Y')} {opt[0]}, {opt[1]}")
 
         if not (user_input := input(": ")).isdecimal():
             print(f"Auswahl muss zwischen 1 und {len(option_list)} liegen")
             continue
 
-        return option_list[int(user_input)][3]
+        return option_list[int(user_input) - 1][3]
 
 
 def find_file(options: dict[str, str], patient_name: str) -> Path:
     search_dir: Path = Path(options["search_dir"])
     matches: list[Path] = [path for path in search_dir.glob("*.docx") if patient_name.lower() in path.name.lower()]
-
+    print(matches)
     match len(matches):
         case 0:
             return Path()
