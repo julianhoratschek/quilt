@@ -15,3 +15,6 @@ class Tag:
         }
         self.is_closing: bool = is_closing
         self.auto_close: bool = auto_close
+
+    def __str__(self) -> str:
+        return f"<{self.name} {self.options} closing: {self.is_closing} auto_close: {self.auto_close}>"

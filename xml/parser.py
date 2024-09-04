@@ -1,6 +1,8 @@
 from script.runtime import Runtime
+from script.template import Template
 from .tag import Tag
 from .entry import Entry
+from util import glob
 
 from pathlib import Path
 from re import Match, finditer, search, sub
@@ -11,6 +13,16 @@ class Parser:
     TagNameGroup: int = 2
     OptionsGroup: int = 3
     AutoCloseTagGroup: int = 4
+
+    class EmptyInsert:
+        Singleton = None
+
+        def __init__(self):
+            self.Singleton = self
+
+        @classmethod
+        def get(cls):
+            return cls.Singleton if cls.Singleton else cls()
 
     def __init__(self, rt: Runtime):
         self.runtime: Runtime = rt
@@ -25,7 +37,13 @@ class Parser:
         self.last_input: str = ""
 
         self.text_blocks: list[str] = []
+        self.field_value_names: list[str] = []
         self.entries: list[Entry] = []
+
+        self.options: dict[str, str] = {}
+
+    def __str__(self) -> str:
+        return f"Tag Stack: {self.tag_stack}\nOptions: {self.options}"
 
     @property
     def current_namespace(self) -> str:
@@ -49,8 +67,16 @@ class Parser:
             case "form":
                 self.namespaces.pop()
 
+            case "insert":
+                self.namespaces.pop()
+
             case "mapping":
                 self._map_field_values()
+
+            case "template":
+                self.runtime.templates[-1].text = self.runtime.namespaces[self.current_namespace]
+                self.runtime.namespaces[self.current_namespace] = len(self.runtime.templates) - 1
+                self.namespaces.pop()
 
             case "textblocks":
                 join_str: str = self.parent_tag.options.get("join", " ")
@@ -60,14 +86,15 @@ class Parser:
                 self.namespaces.pop()
 
             case tag_name:
-                if tag_name not in ["entry", "gender", "import", "prompt", "pronoun", "select"]:
+                if tag_name not in ["entry", "gender", "import", "insert", "option",
+                                    "prompt", "pronoun", "select", "set", "templates", "text", "variable"]:
                     print(f"!! Unknown tag <{tag_name}>")
 
         self.tag_stack.pop()
 
     def _content(self):
-        def repl(m: Match):
-            return self.runtime.run(m.group(1))
+        def repl(m: Match) -> str:
+            return str(self.runtime.run(m.group(1)))
 
         if not (content_match := search(f"(.*?)</{self.current_tag.name}>", self.text[self.pos:])):
             print(f"!! Tag {self.current_tag.name} dos not have any content")
@@ -78,37 +105,38 @@ class Parser:
         return sub(r"#\{([^}]+)}", repl, content_match.group(1))
 
     def _map_field_values(self):
-        field_tag: Tag = self.tag_stack[-2]
+        start_idx: int = int(self.current_tag.options.get("start", "0"))
+        number_type: bool = self.tag_stack[-2].options.get("type", "") == "numbers"
+        mapped_type: bool = self.current_tag.options.get("type", "") == "mapped"
 
-        # Map numbers
-        if "type" in field_tag.options and field_tag.options["type"] == "numbers":
-            start_idx: int = int(self.current_tag.options.get("start", "0"))
+        for ns_name in [self.current_namespace, *self.field_value_names]:
+            # Map numbers
+            if number_type:
+                if mapped_type:
+                    result: list[str] = [
+                        entry.content[i] for entry, idx in zip(self.entries, self.runtime.namespaces[ns_name])
+                        if not entry.skip
+                           and isinstance(entry.content, list)
+                           and 0 <= (i := (int(idx) - start_idx)) < len(entry.content)
+                    ]
 
-            if "type" in self.current_tag.options and self.current_tag.options["type"] == "mapped":
-                result: list[str] = [
-                    entry.content[i]
-                    for entry, idx in zip(
-                        self.entries,
-                        self.runtime.namespaces[self.current_namespace]
-                    ) if not entry.skip and isinstance(entry.content, list)
-                         and 0 <= (i := (int(idx) - start_idx)) < len(entry.content)
-                ]
+                else:
+                    result: list[str] = [
+                        self.entries[i].content for idx in self.runtime.namespaces[ns_name]
+                        if 0 <= (i := (int(idx) - start_idx)) < len(self.entries)
+                           and not self.entries[i].skip
+                    ]
 
+            # Map checks
             else:
                 result: list[str] = [
-                    self.entries[i].content
-                    for idx in self.runtime.namespaces[self.current_namespace]
-                    if 0 <= (i := (int(idx) - start_idx)) < len(self.entries) and not self.entries[i].skip
+                    entry.content for val, entry in zip(self.runtime.namespaces[ns_name], self.entries)
+                    if bool(val)
+                       and not entry.skip
+                       and isinstance(entry.content, str)
                 ]
 
-        # Map checks
-        else:
-            result: list[str] = [entry.content for val, entry in zip(
-                self.runtime.namespaces[self.current_namespace],
-                self.entries
-            ) if bool(val) and not entry.skip]
-
-        self.runtime.namespaces[self.current_namespace] = result
+            self.runtime.namespaces[ns_name] = result
 
     def _open_tag(self):
         match self.current_tag.name:
@@ -119,6 +147,7 @@ class Parser:
                 ))
 
             case "field":
+                self.field_value_names.clear()
                 self.namespaces.append(self.current_tag.options.get("name", "global"))
 
             case "form":
@@ -132,6 +161,16 @@ class Parser:
                 if self._assert_has_name():
                     p: Parser = Parser(self.runtime)
                     p.process(Path(self.current_tag.options["name"]))
+                    self.options |= p.options
+
+            case "insert":
+                if "for" not in self.current_tag.options or not glob(
+                        self.current_tag.options["for"],
+                        self.runtime.namespaces["diagnoses:icd10"]):
+                    self.runtime.namespaces[self.current_tag.options.get("name", "local")] = self.EmptyInsert.get()
+                    return self._skip_tag()
+
+                self.namespaces.append(self.current_tag.options.get("name", "local"))
 
             case "mapping":
                 self.entries.clear()
@@ -158,18 +197,32 @@ class Parser:
             case "select":
                 self.entries.append(Entry([], "ignore" in self.current_tag.options))
 
+            case "set":
+                self.options[self.current_tag.options["name"]] = self.current_tag.options["value"]
+
+            case "template":
+                self.runtime.templates.append(Template())
+                self.namespaces.append(f"template:{self.current_tag.options.get('name', 'local')}")
+
             case "text":
                 if "when" not in self.current_tag.options \
                         or int(self.runtime.run(self.current_tag.options["when"])) != 0:
                     self.text_blocks.append(self._content())
+                    print(f"\ttext: {self.text_blocks[-1]}")
 
             case "textblock":
                 self.text_blocks.clear()
 
             case "value":
                 self.namespaces.append(self.current_tag.options.get("name", "local"))
+                self.field_value_names.append(self.current_namespace)
                 self.runtime.namespaces[self.current_namespace] = self.runtime.run(
                     self.current_tag.options.get("content", "0"))
+                print(f"{self.current_namespace}: {self.runtime.namespaces[self.current_namespace]}")
+
+            case "variable":
+                self.runtime.templates[-1].alias[self.current_tag.options.get("name", "local")] = \
+                    self.current_tag.options.get("from", "local")
 
         self.tag_stack.append(self.current_tag)
 
@@ -217,11 +270,15 @@ class Parser:
         self.pos += m.end()
 
     def process(self, file_name: Path):
+        print(f"Process: {file_name}")
+        print(self.runtime)
+
         if not file_name.exists():
             print(f"!! File {file_name} does not exist")
             return
 
         self.text = file_name.read_text("utf-8")
+        self.pos = 0
 
         while tag_match := search(r"<(/)?([a-zA-Z_]+)\s*(.*?)?(/)?>", self.text[self.pos:]):
             self.current_match = tag_match
@@ -230,7 +287,9 @@ class Parser:
                 tag_match.group(self.OptionsGroup),
                 tag_match.group(self.CloseTagGroup) is not None,
                 tag_match.group(self.AutoCloseTagGroup) is not None)
-            self.pos = tag_match.end()
+            self.pos += tag_match.end()
+
+            print(self.current_tag)
 
             if self.current_tag.is_closing:
                 self._close_tag()

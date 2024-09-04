@@ -8,7 +8,7 @@ class Runtime:
     NumberToken: int = 2
     DQString: int = 3
 
-    ScriptRe: Pattern = compile(r"([a-zA-Z_][\w_]+)|(\d+)|\"([^\"]+)\"|\[|\(|]|\)|!")
+    ScriptRe: Pattern = compile(r"([a-zA-Z_][\w_:]+)|(\d+)|\"([^\"]+)\"|\[|\(|]|\)|!")
 
     class EndParam:
         Singleton = None
@@ -23,15 +23,17 @@ class Runtime:
     def __init__(self):
         self.stack: list = []
         self.namespaces: dict = {
-            "ytpme": "empty",
-            "teg": "get",
-            "tg": "gt",
-            "nioj": "join",
-            "ksam": "mask",
-            "ton": "not",
-            "mus": "sum"
+            "empty": "empty",
+            "get": "get",
+            "gt": "gt",
+            "join": "join",
+            "mask": "mask",
+            "not": "not",
+            "sum": "sum",
+            "upper": "upper"
         }
         self.templates: list[Template] = []
+        self.options: dict[str, str] = {}
 
     def __str__(self) -> str:
         return (f"Namespaces:\n" +
@@ -65,13 +67,12 @@ class Runtime:
         self.stack.clear()
 
         for token in self.ScriptRe.finditer(line[::-1]):
-            print(token.group(0))
-
             if identifier := token.group(self.IdentifierToken):
+                identifier = identifier[::-1]
                 if identifier in self.namespaces:
                     self.stack.append(self.namespaces[identifier])
                 else:
-                    print(f"!! Identifier <{identifier[::-1]}> is not a registered namespace")
+                    print(f"!! Identifier <{identifier}> is not a registered namespace")
 
             elif number := token.group(self.NumberToken):
                 self.stack.append(int(number[::-1]))
@@ -87,7 +88,7 @@ class Runtime:
                                 break
                         result: list = self.stack[len(self.stack) - i:]
                         self.stack = self.stack[:len(self.stack) - i - 1]
-                        self.stack.append(result)
+                        self.stack.append(result[::-1])
 
                     case ')' | ']':
                         self.stack.append(self.EndParam.get())

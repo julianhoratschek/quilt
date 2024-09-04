@@ -28,3 +28,7 @@ def builtin_not(args: list) -> bool:
 def builtin_sum(args: list) -> int:
     return sum(args[0])
 
+
+def builtin_upper(args: list) -> str:
+    return str(args[0]).capitalize()
+
