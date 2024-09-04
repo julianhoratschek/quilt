@@ -5,4 +5,6 @@
 
     <set name="search_dir" value="documents\"/>
     <set name="output_dir" value="output\"/>
+
+    <set name="ignore_forms" value="midas_score, treatments, afflictions, whodas_categories, whodas_score" />
 </templates>

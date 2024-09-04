@@ -87,7 +87,8 @@ class Parser:
 
             case tag_name:
                 if tag_name not in ["entry", "gender", "import", "insert", "option",
-                                    "prompt", "pronoun", "select", "set", "templates", "text", "variable"]:
+                                    "prompt", "pronoun", "select", "set", "templates", "text",
+                                    "textblock", "variable"]:
                     print(f"!! Unknown tag <{tag_name}>")
 
         self.tag_stack.pop()
@@ -234,6 +235,9 @@ class Parser:
 
             if self.parent_tag.name != "field":
                 return
+
+            if self.last_input == "%":
+                self.last_input = self.current_tag.options.get("default", "")
 
             # Form type numbers
             if "type" in self.parent_tag.options and self.parent_tag.options["type"] == "numbers":
