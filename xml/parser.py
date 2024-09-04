@@ -40,7 +40,9 @@ class Parser:
         self.field_value_names: list[str] = []
         self.entries: list[Entry] = []
 
-        self.options: dict[str, str] = {}
+        self.options: dict[str, str | list[str]] = {
+            "ignore_forms": []
+        }
 
     def __str__(self) -> str:
         return f"Tag Stack: {self.tag_stack}\nOptions: {self.options}"
@@ -152,7 +154,10 @@ class Parser:
                 self.namespaces.append(self.current_tag.options.get("name", "global"))
 
             case "form":
-                self.namespaces.append(self.current_tag.options.get("name", "global"))
+                form_name: str = self.current_tag.options.get("name", "global")
+                if form_name in self.options["ignore_forms"]:
+                    return self._skip_tag()
+                self.namespaces.append(form_name)
 
             case "gender":
                 if not self._assert_has_name() or self.last_input != self.current_tag.options["name"]:
@@ -199,7 +204,14 @@ class Parser:
                 self.entries.append(Entry([], "ignore" in self.current_tag.options))
 
             case "set":
-                self.options[self.current_tag.options["name"]] = self.current_tag.options["value"]
+                if "name" not in self.current_tag.options or "value" not in self.current_tag.options:
+                    print("!! set-tag must contain name and value attributes")
+                elif self.current_tag.options["name"] == "ignore_forms":
+                    self.options["ignore_forms"] = [
+                        s.strip() for s in self.current_tag.options["value"].split(",")
+                    ]
+                else:
+                    self.options[self.current_tag.options["name"]] = self.current_tag.options["value"]
 
             case "template":
                 self.runtime.templates.append(Template())
