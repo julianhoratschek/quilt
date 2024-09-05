@@ -1,5 +1,4 @@
-from script.runtime import Runtime
-from script.template import Template
+from script import Runtime, Template
 from .tag import Tag
 from .entry import Entry
 from util import glob

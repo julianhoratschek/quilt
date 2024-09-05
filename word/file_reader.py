@@ -1,4 +1,4 @@
-from script.runtime import Runtime
+from script import Runtime
 from pathlib import Path
 from zipfile import ZipFile
 from re import finditer

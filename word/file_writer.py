@@ -1,4 +1,4 @@
-from script.runtime import Runtime
+from script import Runtime
 
 from pathlib import Path
 from re import Match, sub
