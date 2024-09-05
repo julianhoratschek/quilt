@@ -176,10 +176,10 @@ class Parser:
                 if "for" not in self.current_tag.options or not glob(
                         self.current_tag.options["for"],
                         self.runtime.namespaces["diagnoses:icd10"]):
-                    self.runtime.namespaces[self.current_tag.options.get("name", "local")] = ""
+                    self.runtime.namespaces[self.current_tag.options["name"]] = ""
                     return self._skip_tag()
 
-                self.namespaces.append(self.current_tag.options.get("name", "local"))
+                self.namespaces.append(self.current_tag.options["name"])
 
             case "mapping":
                 self.entries.clear()
@@ -218,7 +218,7 @@ class Parser:
 
             case "template":
                 self.runtime.templates.append(Template())
-                self.namespaces.append(f"template:{self.current_tag.options.get('name', 'local')}")
+                self.namespaces.append(f"template:{self.current_tag.options['name']}")
 
             case "text":
                 if "when" not in self.current_tag.options \

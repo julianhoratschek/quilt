@@ -43,7 +43,7 @@ class Runtime:
                 f"\nStack: {self.stack}")
 
     def _execute_template(self) -> str:
-        template_id: int = int(self.stack.pop())
+        template_id: int = int(self.stack.pop()[0])
         if 0 > template_id > len(self.templates):
             print(f"!! Trying to execute template nr {template_id} with only {len(self.templates)} registered")
             return ""
@@ -52,7 +52,7 @@ class Runtime:
         template_aliases = iter(template.alias.values())
         template_len: int = len(self.namespaces[next(template_aliases)])
 
-        while n := next(template_aliases):
+        while n := next(template_aliases, None):
             if len(self.namespaces[n]) != template_len:
                 print(f"!! Template values ({','.join(iter(template.alias.values()))}) "
                       f"don't all have size {template_len}")
@@ -72,6 +72,7 @@ class Runtime:
                 identifier = identifier[::-1]
                 if identifier in self.namespaces:
                     self.stack.append(self.namespaces[identifier])
+                    print(f"# Identifier: {identifier} -> {self.namespaces[identifier]}")
                 else:
                     print(f"!! Identifier <{identifier}> is not a registered namespace")
 
@@ -96,7 +97,6 @@ class Runtime:
 
                     case '!':
                         callback_name: str = self.stack.pop()
-                        print(callback_name)
                         if callback_name == "run":
                             self.stack.append(self._execute_template())
                         elif callback := getattr(script.builtins, f"builtin_{callback_name}"):

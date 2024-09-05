@@ -8,20 +8,23 @@ from shutil import copy
 
 def write_file(runtime: Runtime, options: dict[str, str | list[str]]):
     def repl(m: Match) -> str:
-        print(f"pos: {m.start()}")
-        return runtime.run(m.group(1))
+        return str(runtime.run(m.group(1)))
 
     document_content: str = sub(r"#\{([^}]+)}", repl, Path(options["docx_document"]).read_text("utf-8"))
     header_content: str = sub(r"#\{([^}]+)}", repl, Path(options["docx_header"]).read_text("utf-8"))
+    output_dir: Path = Path(options["output_dir"])
+
+    if not output_dir.exists():
+        output_dir.mkdir(parents=True, exist_ok=True)
 
     file_name: Path = copy(
         options["docx_template"],
-        Path(options["output_dir"]) /
+        output_dir /
         Path(f"A-{runtime.namespaces['patient:last_name']}, "
              f"{runtime.namespaces['patient:first_name']} "
              f"{runtime.namespaces['patient:admission']}.docx"))
 
-    with ZipFile(file_name, "w", compression=ZIP_DEFLATED) as output_file:
+    with ZipFile(file_name, "a", compression=ZIP_DEFLATED) as output_file:
         output_file.writestr(
             "word/document.xml",
             document_content.encode("utf-8"),

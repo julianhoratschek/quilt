@@ -3,7 +3,7 @@
     <set name="docx_header" value="templates\header1.xml"/>
     <set name="docx_template" value="templates\word_template.zip"/>
 
-    <set name="search_dir" value="documents\"/>
-    <set name="output_dir" value="output\"/>
+    <set name="search_dir" value="documents"/>
+    <set name="output_dir" value="output"/>
     <set name="ignore_forms" value=""/>
 </templates>
