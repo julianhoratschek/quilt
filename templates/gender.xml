@@ -1,0 +1,19 @@
+<templates>
+    <form name="gender">
+        <prompt>Geschlecht (m/f): </prompt>
+
+        <gender name="m">
+            <pronoun name="the">der</pronoun>
+            <pronoun name="patient">Patient</pronoun>
+            <pronoun name="appellation">Herrn</pronoun>
+            <pronoun name="pron">er</pronoun>
+        </gender>
+
+        <gender name="f">
+            <pronoun name="the">die</pronoun>
+            <pronoun name="patient">Patientin</pronoun>
+            <pronoun name="appellation">Frau</pronoun>
+            <pronoun name="pron">sie</pronoun>
+        </gender>
+    </form>
+</templates>

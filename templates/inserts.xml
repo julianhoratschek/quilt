@@ -1,0 +1,3203 @@
+<templates xmlns:w="http://www.w3.org/1999/XSL/Transform">
+    <insert for="G44.4*" name="overuse"></insert>
+    <insert for="G44.4*" name="overuse:continuation">
+        <textblock>
+            <text>
+                <w:r w:rsidRPr="00E27723">
+                    <w:rPr>
+                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                        <w:sz w:val="18"/>
+                        <w:szCs w:val="18"/>
+                        <w:highlight w:val="yellow"/>
+                    </w:rPr>
+                    <w:t xml:space="preserve">Des Weiteren empfehlen wir die ambulante Fortführung der Analgetikapause für insgesamt vier Wochen. In dieser Phase kann es sinnvoll sein #{the} #{patient} arbeitsunfähig zu schreiben.</w:t>
+                </w:r>
+            </text>
+        </textblock>
+    </insert>
+    <insert for="G44.4*" name="overuse:medication:acute">
+        <textblock>
+            <text>
+                <w:tr w:rsidR="00877D06" w:rsidRPr="00166F0D">
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="3706" w:type="dxa"/>
+                            <w:gridSpan w:val="2"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00932F5E">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:jc w:val="both"/>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r w:rsidRPr="00166F0D">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>Migräneattacke </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00932F5E">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:jc w:val="both"/>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t xml:space="preserve">während der Schmerzmittelpause </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="00932F5E">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:jc w:val="both"/>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>(für weitere 2 Wochen empfohlen)</w:t>
+                            </w:r>
+                        </w:p>
+                    </w:tc>
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="5391" w:type="dxa"/>
+                            <w:gridSpan w:val="2"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00683856">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t xml:space="preserve">Dimenhydrinat (Vomex A®) Dragee 50 mg (maximal 3x täglich) oder Dimenhydrinat (Vomex A®) als Suppositorium 150 mg (Tageshöchstdosis 300 mg) </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00683856">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>Melperon 10 mg (bis zu 5x täglich) unter Beachtung des Nebenwirkungsspektrums, insbesondere Reaktionsvermögen. Melperon kann bei regelmäßiger Einnahme Dyskinesien verursachen, zudem schränken beide Medikamente die Fahrtauglichkeit ein. </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00683856">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00683856">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t xml:space="preserve">Im Notfall, bei Eskalation der Rebound-Kopfschmerzen: </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00683856">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t xml:space="preserve">16 mg Dexamethason in 250 ml NaCl als Kurzinfusion i.v. </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00683856">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00683856">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t xml:space="preserve">Oder orale Anwendung: </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00683856">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>Prednisolon 100 mg oral (z.B. 2x50 mg Decortin H) oder als Suppositorium (Rectodelt 100
+                                    mg)
+                                </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="00932F5E">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                        </w:p>
+                    </w:tc>
+                </w:tr>
+            </text>
+        </textblock>
+    </insert>
+    <insert for="G44.0*" name="cluster"></insert>
+    <insert for="G44.0*" name="cluster:treatment">
+        <textblock>
+            <text>
+                <w:p w:rsidR="00877D06" w:rsidRPr="008A1328" w:rsidRDefault="00877D06" w:rsidP="008A1328">
+                    <w:pPr>
+                        <w:jc w:val="both"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                            <w:highlight w:val="cyan"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="008A1328">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                            <w:highlight w:val="cyan"/>
+                        </w:rPr>
+                        <w:t>Die Dosierung des Verapamil retard (Isoptin®) sollte dem Krankheitsverlauf angepasst werden. Bei unzureichender Wirkung kann ggf. eine weitere Dosissteigerung unter Beachtung vom Verträglichkeits- und Nebenwirkungsspektrum erfolgen, die Tagesdosis von 960 mg pro Tag nicht überschreitend. Unter Verapamil-Medikation bitten wir um regelmäßige kardiologische Kontrollen mittels EKG und Echokardiographie sowie bei jeder Dosissteigerung. Dosisreduktion des Verapamils nach 6-8 attackenfreien Wochen, hierbei schrittweise Ausdosieren. </w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="008A1328" w:rsidRDefault="00877D06" w:rsidP="008A1328">
+                    <w:pPr>
+                        <w:tabs>
+                            <w:tab w:val="left" w:pos="1701"/>
+                            <w:tab w:val="left" w:pos="6804"/>
+                        </w:tabs>
+                        <w:jc w:val="both"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                            <w:highlight w:val="cyan"/>
+                        </w:rPr>
+                    </w:pPr>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="008A1328">
+                    <w:pPr>
+                        <w:tabs>
+                            <w:tab w:val="left" w:pos="1701"/>
+                            <w:tab w:val="left" w:pos="6804"/>
+                        </w:tabs>
+                        <w:jc w:val="both"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="008A1328">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                            <w:highlight w:val="cyan"/>
+                        </w:rPr>
+                        <w:t>Die Attackenbehandlung des Clusterkopfschmerzes kann durch Inhalation von Sauerstoff 15 l/min über 15 Minuten unter Verwendung einer Gesichtsmaske sowie bei Wirkungslosigkeit durch die Verwendung eines Triptans mit schnellem Wirkungseintritt, z.B. Migra-Pen® (Sumatriptan 3 mg) als Autoinjektor s.c. oder 4 mg Fertigspritze erfolgen. Hier ist darauf zu achten, dass die Maximaldosis von Sumatriptan in 24 Stunden 12 mg s.c. beträgt. Im Gegensatz zur Migränebehandlung mit Triptanen besteht jedoch keine Höchstgrenze der Anwendung in Tagen pro Monat, da medikamenteninduzierte Kopfschmerzen bei Triptanübergebrauch auf dem Boden von Clusterkopfschmerzen bisher nicht beschrieben sind.</w:t>
+                    </w:r>
+                </w:p>
+            </text>
+        </textblock>
+    </insert>
+    <insert for="G44.0*" name="cluster:new_episode">
+        <textblock>
+            <text>
+                <w:p w:rsidR="00877D06" w:rsidRPr="00305FE6" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:b/>
+                            <w:bCs/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="00305FE6">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:b/>
+                            <w:bCs/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>Vorgehen bei neuer aktiver Clusterperiode</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:b/>
+                            <w:bCs/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:b/>
+                            <w:bCs/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>I. Verhaltensregeln</w:t>
+                    </w:r>
+                    <w:r>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:b/>
+                            <w:bCs/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>:</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:b/>
+                            <w:bCs/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t xml:space="preserve">Kein Alkohol, erst wieder, wenn 4 Wochen attackenfrei </w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>- Kein Nikotin</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>- Keine Nitrate</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>- Kein Nitrospray, keine Nitrotabletten</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:b/>
+                            <w:bCs/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:b/>
+                            <w:bCs/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>II. Medikamentöse Vorbeugung (aktuell, Anpassung in ca. 6 Wochen nach Rücksprache):</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:b/>
+                            <w:bCs/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>Isoptin RR (Wirkung tritt nach ca. 7 Tagen ein)</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t xml:space="preserve">- </w:t>
+                    </w:r>
+                    <w:r>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t xml:space="preserve">  </w:t>
+                    </w:r>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>8 Uhr: 240 mg</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>- 20 Uhr: 240 mg</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>Wenn attackenfrei, kann nach 6 Wochen jeweils eine halbe Tablette Isoptin pro Woche abdosiert werden.</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>Zusätzlich Prednisolongabe initial:</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>- Prednisolon (Decortin H) Tabletten à 20 mg (N2=50 Stück)</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>- Dazu Pantoprazol 40 mg am Morgen, Magenschutz (N2=50 Stück)</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>- Zur Nacht für 4 Tage Dalmadorm</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t xml:space="preserve">- </w:t>
+                    </w:r>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>Decortin jeweils am Morgen nach dem Frühstück in folgender absteigender Dosierung:</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>1.-2. Tag</w:t>
+                    </w:r>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:tab/>
+                        <w:t>100 mg</w:t>
+                    </w:r>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:tab/>
+                    </w:r>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:tab/>
+                        <w:t>5 Tabletten zu 20 mg</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>3.-4. Tag</w:t>
+                    </w:r>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:tab/>
+                        <w:t>80 mg</w:t>
+                    </w:r>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:tab/>
+                    </w:r>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:tab/>
+                        <w:t>4 Tabletten zu 20 mg</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>4.-6. Tag</w:t>
+                    </w:r>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:tab/>
+                        <w:t>60 mg</w:t>
+                    </w:r>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:tab/>
+                    </w:r>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:tab/>
+                        <w:t>3 Tabletten zu 20 mg</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>7.-8. Tag</w:t>
+                    </w:r>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:tab/>
+                        <w:t>40 mg</w:t>
+                    </w:r>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:tab/>
+                    </w:r>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:tab/>
+                        <w:t>2 Tabletten zu 20 mg</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>9.-10. Tag</w:t>
+                    </w:r>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:tab/>
+                        <w:t>20 mg</w:t>
+                    </w:r>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:tab/>
+                    </w:r>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:tab/>
+                        <w:t>1 Tablette zu 20 mg</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>11.-12. Tag</w:t>
+                    </w:r>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:tab/>
+                        <w:t>10 mg</w:t>
+                    </w:r>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:tab/>
+                    </w:r>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:tab/>
+                        <w:t>1/2 Tablette zu 20 mg</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>dann absetzen</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:tabs>
+                            <w:tab w:val="left" w:pos="113"/>
+                        </w:tabs>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:b/>
+                            <w:bCs/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="0023639D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:b/>
+                            <w:bCs/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>III. Behandlung der akuten Cluster-Attacke</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:tabs>
+                            <w:tab w:val="left" w:pos="113"/>
+                        </w:tabs>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:b/>
+                            <w:bCs/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:tabs>
+                            <w:tab w:val="left" w:pos="113"/>
+                        </w:tabs>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>- Sumatriptan 3 oder 6 mg s.c. mit Autoinjektor (Alternativ auch 2 oder 4 mg mit Fertigspritze)</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:tabs>
+                            <w:tab w:val="left" w:pos="113"/>
+                        </w:tabs>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>- Sauerstoff 10 Liter/min über 10 Minuten</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRPr="000B1B4D" w:rsidRDefault="00877D06" w:rsidP="007D4265">
+                    <w:pPr>
+                        <w:tabs>
+                            <w:tab w:val="left" w:pos="6804"/>
+                        </w:tabs>
+                        <w:jc w:val="both"/>
+                    </w:pPr>
+                </w:p>
+            </text>
+        </textblock>
+    </insert>
+    <insert for="G44.0*" name="cluster:medication:acute">
+        <textblock>
+            <text>
+                <w:tr w:rsidR="00877D06" w:rsidRPr="00166F0D">
+                    <w:trPr>
+                        <w:gridAfter w:val="1"/>
+                        <w:wAfter w:w="20" w:type="dxa"/>
+                    </w:trPr>
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="3691" w:type="dxa"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="00933427">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:jc w:val="both"/>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t xml:space="preserve">Clusterkopfschmerz </w:t>
+                            </w:r>
+                        </w:p>
+                    </w:tc>
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="5386" w:type="dxa"/>
+                            <w:gridSpan w:val="2"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00933427">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>100% Sauerstoffinhalation 15 l/min über 15 Minuten mit Gesichtsmaske</w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00933427">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00933427">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t xml:space="preserve">oder </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00933427">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r w:rsidRPr="00A96041">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>Sumatriptan</w:t>
+                            </w:r>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t xml:space="preserve"> Inject 6 mg, maximal 2x täglich, Mindestabstand 4 Stunden, keine Obergrenze in Form von Tagen/Monat </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00933427">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00933427">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t xml:space="preserve">alternativ </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00933427">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>Zolmitriptan 5 mg nasal maximal 2x täglich, Mindestabstand 4 Stunden, keine Obergrenze in Form von Tagen/Monat</w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00933427">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00933427">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t xml:space="preserve">und/oder </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00933427">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t xml:space="preserve">Xylocain-Nasenspray </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00933427">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00933427">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>und/oder</w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00933427">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>10 ml Eiswasser</w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="00933427">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                        </w:p>
+                    </w:tc>
+                </w:tr>
+            </text>
+        </textblock>
+    </insert>
+    <insert for="G44.0*" name="cluster:medication:base">
+        <textblock>
+            <text>
+                <w:tr w:rsidR="00877D06" w:rsidRPr="00166F0D">
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="9072" w:type="dxa"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00810AB5">
+                            <w:pPr>
+                                <w:numPr>
+                                    <w:ilvl w:val="0"/>
+                                    <w:numId w:val="21"/>
+                                </w:numPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="743"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="16"/>
+                                    <w:szCs w:val="16"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r w:rsidRPr="004F573F">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="16"/>
+                                    <w:szCs w:val="16"/>
+                                </w:rPr>
+                                <w:t>Kontinuierlich Kopfschmerzkalender führen</w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00810AB5">
+                            <w:pPr>
+                                <w:numPr>
+                                    <w:ilvl w:val="0"/>
+                                    <w:numId w:val="21"/>
+                                </w:numPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="743"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="16"/>
+                                    <w:szCs w:val="16"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="16"/>
+                                    <w:szCs w:val="16"/>
+                                </w:rPr>
+                                <w:t>Die Dosierung des Verapamils sollte dem Krankheitsverlauf angepasst werden. Bei unzureichender Wirkung kann ggf. eine weitere Dosissteigerung unter Beachtung von Verträglichkeit und Nebenwirkungsspektrum erfolgen, die Tagesdosis von 960 mg pro Tag nicht überschreitend. </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00810AB5">
+                            <w:pPr>
+                                <w:numPr>
+                                    <w:ilvl w:val="0"/>
+                                    <w:numId w:val="21"/>
+                                </w:numPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="743"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="16"/>
+                                    <w:szCs w:val="16"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="16"/>
+                                    <w:szCs w:val="16"/>
+                                </w:rPr>
+                                <w:t xml:space="preserve">Unter der aktuellen Verapamil-Medikation bitten wir um regelmäßige kardiologische Kontrollen mittels EKG und Echokardiographie sowie bei jeder Dosissteigerung </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00810AB5">
+                            <w:pPr>
+                                <w:numPr>
+                                    <w:ilvl w:val="0"/>
+                                    <w:numId w:val="21"/>
+                                </w:numPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="743"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="16"/>
+                                    <w:szCs w:val="16"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="16"/>
+                                    <w:szCs w:val="16"/>
+                                </w:rPr>
+                                <w:t>Wegen des chronischen Verlaufs der Clusterkopfschmerzen ist die Einnahme von Verapamil zeitlich nicht befristet. Dosisreduktion des Verapamils nach 4-6 attackenfreien Wochen, hierbei schrittweise ausdosieren. Bei erneutem Ausbrechen von Clusterattacken erneute schrittweise Aufdosierung</w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="004C2EB7" w:rsidRDefault="00877D06" w:rsidP="00810AB5">
+                            <w:pPr>
+                                <w:numPr>
+                                    <w:ilvl w:val="0"/>
+                                    <w:numId w:val="21"/>
+                                </w:numPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="743"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="16"/>
+                                    <w:szCs w:val="16"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r w:rsidRPr="004C2EB7">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="16"/>
+                                    <w:szCs w:val="16"/>
+                                </w:rPr>
+                                <w:t>Wir bitten um kardiologische Kontrolluntersuchung der o.g. Medikation mit Echokardiographie, Langzeitbelastungs-EKG zeitnah durchzuführen </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00810AB5">
+                            <w:pPr>
+                                <w:numPr>
+                                    <w:ilvl w:val="0"/>
+                                    <w:numId w:val="21"/>
+                                </w:numPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="743"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="16"/>
+                                    <w:szCs w:val="16"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="16"/>
+                                    <w:szCs w:val="16"/>
+                                    <w:highlight w:val="yellow"/>
+                                </w:rPr>
+                                <w:t>Dosiserhöhung des Lithiums an die Attackenhäufigkeit angepasst. Maximaler Blutspiegel 0,6 mmol/l. Eine Dosisreduktion des Lithiums frühestens nach 4-6 attackenfreien Wochen. Hierbei schrittweise ausdosieren. Dosisreduktion von Verapamil nach Absetzen des Lithiums von weiteren 4-6 attackenfreien Wochen, hierbei nur schrittweise ausdosieren. Bei erneutem Ausbruch von Clusterattacken erneute schrittweise Aufdosierung. </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00810AB5">
+                            <w:pPr>
+                                <w:numPr>
+                                    <w:ilvl w:val="0"/>
+                                    <w:numId w:val="21"/>
+                                </w:numPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="743"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="16"/>
+                                    <w:szCs w:val="16"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="16"/>
+                                    <w:szCs w:val="16"/>
+                                </w:rPr>
+                                <w:t>Da Clusterkopfschmerz eine Schmerzform ist die überdurchschnittlich häufig bei Rauchern auftritt und durch Alkohol triggerbar ist, empfahlen wir dringend eine Nikotin- und Alkoholabstinenz</w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="004C2EB7" w:rsidRDefault="00877D06" w:rsidP="00810AB5">
+                            <w:pPr>
+                                <w:numPr>
+                                    <w:ilvl w:val="0"/>
+                                    <w:numId w:val="21"/>
+                                </w:numPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="743"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="16"/>
+                                    <w:szCs w:val="16"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r w:rsidRPr="004C2EB7">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="16"/>
+                                    <w:szCs w:val="16"/>
+                                </w:rPr>
+                                <w:t xml:space="preserve">Kein Nitrospray bei Clusterkopfschmerzen </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="004C2EB7" w:rsidRDefault="00877D06" w:rsidP="00810AB5">
+                            <w:pPr>
+                                <w:numPr>
+                                    <w:ilvl w:val="0"/>
+                                    <w:numId w:val="21"/>
+                                </w:numPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="743"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="16"/>
+                                    <w:szCs w:val="16"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r w:rsidRPr="004C2EB7">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="16"/>
+                                    <w:szCs w:val="16"/>
+                                    <w:highlight w:val="yellow"/>
+                                </w:rPr>
+                                <w:t>Wir bitten um Kontrolluntersuchung der o.g. Medikation</w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="004C2EB7" w:rsidRDefault="00877D06" w:rsidP="00810AB5">
+                            <w:pPr>
+                                <w:numPr>
+                                    <w:ilvl w:val="0"/>
+                                    <w:numId w:val="21"/>
+                                </w:numPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="743"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="16"/>
+                                    <w:szCs w:val="16"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r w:rsidRPr="004C2EB7">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="16"/>
+                                    <w:szCs w:val="16"/>
+                                    <w:highlight w:val="yellow"/>
+                                </w:rPr>
+                                <w:t>Die Bestimmung des Serumlithiumspiegels sollte in den ersten 4 Wochen wöchentlich vorgenommen werden, danach ggf. bei weiterer Einnahme im ersten halben Jahr 1x monatlich und später im vierteljährlichen Abstand. Die Bestimmung des Serumlithiumspiegels sollte möglichst genau 12 Stunden nach der letzten Einnahme erfolgen. Zwecksmäßigerweise wird die Bestimmung am Morgen vor der weiteren Tablettengabe durchgeführt. Wir bitten um eine sorgfältige Überwachung des Patienten während der Lithiummedikation. Folgende Untersuchungen werden gemäß Fachinformation jährlich empfohlen: T3, T4, TSH basal, ggf. TAH-Test, Natrium, Kalium und Calciumbestimmung, 24 Stundenurinvolumen, Kreatinin-Clearens, EKG, EEG, Urinanalyse, Blutdruckmessung, Blutbild und ggf. Überprüfung der rhenalen Konzentrationsleistung, Desmopressin-Test und eine vierteljährliche Messung von Körpergewicht und Halsumfang. Bitte kardiologische Kontrolluntersuchung mit Echokardiographie, Langzeit- und Belastungs-EKG zeitnah durchführen lassen. </w:t>
+                            </w:r>
+                        </w:p>
+                    </w:tc>
+                </w:tr>
+            </text>
+        </textblock>
+    </insert>
+    <insert for="G44.8*" name="sleep_bound"></insert>
+    <insert for="G43.8*" name="migraine:chronic"></insert>
+    <insert for="G43.0*" name="migraine:no_aura"></insert>
+    <insert for="G43.0*" name="migraine:no_aura:medication:acute">
+        <textblock>
+            <text>
+                <w:tr w:rsidR="00877D06" w:rsidRPr="00166F0D">
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="3706" w:type="dxa"/>
+                            <w:gridSpan w:val="2"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00932F5E">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:jc w:val="both"/>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r w:rsidRPr="00166F0D">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>Migräne ohne Aura </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="00932F5E">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:jc w:val="both"/>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>(nach der Schmerzmittelpause)</w:t>
+                            </w:r>
+                        </w:p>
+                    </w:tc>
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="5391" w:type="dxa"/>
+                            <w:gridSpan w:val="2"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00DD7025">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t xml:space="preserve">Dimenhydrinat (Vomex A®) 50 mg bei Übelkeit </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00DD7025">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t xml:space="preserve">+ …………….. </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00CB2B28">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r w:rsidRPr="006F3FD9">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>+ Naproxen 500 mg gleichzeitig mit Sumatriptan zur Ve</w:t>
+                            </w:r>
+                            <w:r w:rsidRPr="006F3FD9">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>r</w:t>
+                            </w:r>
+                            <w:r w:rsidRPr="006F3FD9">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>hinderung des Wiederkehrkopfschmerzes einnehmen</w:t>
+                            </w:r>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>.</w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00CB2B28">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00CB2B28">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>Alternativ kann an Stelle von ……….. auch ………… zur Anwendung kommen.</w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00CB2B28">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00CB2B28" w:rsidRDefault="00877D06" w:rsidP="00CB2B28">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r w:rsidRPr="00CB2B28">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t xml:space="preserve">Bitte Triptane innerhalb einer Attacke nicht mischen. </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00CB2B28" w:rsidRDefault="00877D06" w:rsidP="00CB2B28">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r w:rsidRPr="00CB2B28">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t xml:space="preserve">Erneute Einnahme frühestens nach 4 Stunden bei primär guter Wirksamkeit und auftretenden </w:t>
+                            </w:r>
+                            <w:r w:rsidRPr="00CB2B28">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>Wiederkehrkopfschmerz, maximal 3 Tage in Folge anwenden. </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00CB2B28" w:rsidRDefault="00877D06" w:rsidP="00CB2B28">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00CB2B28" w:rsidRDefault="00877D06" w:rsidP="00CB2B28">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r w:rsidRPr="00CB2B28">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t xml:space="preserve">Ersatzmedikation bei Wirkungslosigkeit: </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00CB2B28" w:rsidRDefault="00877D06" w:rsidP="00CB2B28">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r w:rsidRPr="00CB2B28">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>Metamizol (z.B. Novalgin/Novaminsulfon) 1 g (entspr. 40 Tropfen) in Abständen von 6-8 Stunden bis zu 4x am Tag möglich. Oder:</w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="00CB2B28">
+                            <w:pPr>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r w:rsidRPr="00CB2B28">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>Diclofenac: Initialdosis 50 mg (entspr. 20 Tropfen). Falls nach 2 Std. keine ausreichende Besserung eintritt, zweite Dosis von 50 mg (20 Tropfen) möglich. Weitere Dosen in Abständen von 4-6 Stunden möglich. Gesamtdosis von 200 mg/Tag darf nicht überschritten werden.</w:t>
+                            </w:r>
+                        </w:p>
+                    </w:tc>
+                </w:tr>
+            </text>
+        </textblock>
+    </insert>
+    <insert for="G43.1*" name="migraine:with_aura"></insert>
+    <insert for="G43.1*" name="migraine:with_aura:treatment">
+        <textblock>
+            <text>
+                <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="008A1328">
+                    <w:pPr>
+                        <w:tabs>
+                            <w:tab w:val="left" w:pos="1701"/>
+                            <w:tab w:val="left" w:pos="6804"/>
+                        </w:tabs>
+                        <w:spacing w:line="240" w:lineRule="auto"/>
+                        <w:rPr>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="00EB09CF">
+                        <w:rPr>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                            <w:highlight w:val="yellow"/>
+                        </w:rPr>
+                        <w:t xml:space="preserve">Bei Migräne mit Aura ist der Einsatz von Triptanen während einer Aura kontraindiziert. Hier empfiehlt sich die Einnahme von Akutanalgetika wie Novaminsulfon® (Metamizol) 40° bis zu 4x täglich. Alternativ ist Diclofenac 20°, maximal 3x täglich möglich. Nach sicher abgeklungener Aurasymptomatik kann der Einsatz von Triptanen erfolgen.</w:t>
+                    </w:r>
+                </w:p>
+            </text>
+        </textblock>
+    </insert>
+    <insert for="G43.1*" name="migraine:with_aura:medication:acute">
+        <textblock>
+            <text>
+                <w:tr w:rsidR="00877D06" w:rsidRPr="00166F0D">
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="3706" w:type="dxa"/>
+                            <w:gridSpan w:val="2"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="004814EE">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:jc w:val="both"/>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:bookmarkStart w:id="13" w:name="_Hlk535423756"/>
+                            <w:r w:rsidRPr="00166F0D">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>Migräne mit Aura </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="004814EE">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:jc w:val="both"/>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>(nach der Schmerzmittelpause)</w:t>
+                            </w:r>
+                        </w:p>
+                    </w:tc>
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="5391" w:type="dxa"/>
+                            <w:gridSpan w:val="2"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00CB2B28" w:rsidRDefault="00877D06" w:rsidP="003D3F42">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r w:rsidRPr="00CB2B28">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>Metamizol (z.B. Novalgin/Novaminsulfon) 1 g (entspr. 40 Tropfen) in Abständen von 6-8 Stunden bis zu 4x am Tag möglich. Oder:</w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="003D3F42">
+                            <w:pPr>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:color w:val="000000"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r w:rsidRPr="00CB2B28">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>Diclofenac: Initialdosis 50 mg (entspr. 20 Tropfen). Falls nach 2 Std. keine ausreichende Besserung eintritt, zweite Dosis von 50 mg (20 Tropfen) möglich. Weitere Dosen in Abständen von 4-6 Stunden möglich. Gesamtdosis von 200 mg/Tag darf nicht überschritten werden.
+                                </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00F0589D" w:rsidRDefault="00877D06" w:rsidP="004814EE">
+                            <w:pPr>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00F0589D" w:rsidRDefault="00877D06" w:rsidP="004814EE">
+                            <w:pPr>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r w:rsidRPr="00F0589D">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t xml:space="preserve">Bei sicherer vollständiger Rückbildung der Aurasymptomatik Anschlussbehandlung mittels Triptan (s. </w:t>
+                            </w:r>
+                            <w:r w:rsidRPr="00F0589D">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:lastRenderedPageBreak/>
+                                <w:t xml:space="preserve">o.) möglich. </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00F0589D" w:rsidRDefault="00877D06" w:rsidP="004814EE">
+                            <w:pPr>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00E66A25" w:rsidRDefault="00877D06" w:rsidP="00E66A25">
+                            <w:pPr>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:b/>
+                                    <w:bCs/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r w:rsidRPr="00F0589D">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:b/>
+                                    <w:bCs/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>Triptane sind während einer Aura kontraindiziert.</w:t>
+                            </w:r>
+                        </w:p>
+                    </w:tc>
+                </w:tr>
+            </text>
+        </textblock>
+    </insert>
+    <insert for="G43.104" name="migraine:only_aura"></insert>
+    <insert for="G43.2*" name="migraine:status"></insert>
+    <insert for="G43.2*" name="migraine:status:medication:acute">
+        <textblock>
+            <text>
+                <w:tr w:rsidR="00877D06" w:rsidRPr="00166F0D">
+                    <w:trPr>
+                        <w:gridAfter w:val="1"/>
+                        <w:wAfter w:w="20" w:type="dxa"/>
+                    </w:trPr>
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="3691" w:type="dxa"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00746F90">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:jc w:val="both"/>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r w:rsidRPr="00DE7B04">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:lastRenderedPageBreak/>
+                                <w:t>Status migraenosus</w:t>
+                            </w:r>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t xml:space="preserve"> </w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00855614" w:rsidRDefault="00877D06" w:rsidP="00746F90">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:jc w:val="both"/>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t xml:space="preserve">(Attackendauer mehr als 72 Stunden) </w:t>
+                            </w:r>
+                        </w:p>
+                    </w:tc>
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="5386" w:type="dxa"/>
+                            <w:gridSpan w:val="2"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00746F90">
+                            <w:pPr>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>Prednisolon 100 mg + ggf. Diazepam 10 mg zur Schmerzdistanzierung</w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00746F90">
+                            <w:pPr>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00746F90">
+                            <w:pPr>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>Oder alternativ durch den Arzt durchzuführen:</w:t>
+                            </w:r>
+                        </w:p>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="006468BE" w:rsidRDefault="00877D06" w:rsidP="00746F90">
+                            <w:pPr>
+                                <w:rPr>
+                                    <w:b/>
+                                    <w:bCs/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>Aspirin 1.000 mg als Kurzinfusion</w:t>
+                            </w:r>
+                        </w:p>
+                    </w:tc>
+                </w:tr>
+            </text>
+        </textblock>
+    </insert>
+    <insert for="G43.103" name="migraine:brain_stem"></insert>
+    <insert for="G43.108|G44.800" name="stinging"></insert>
+    <insert for="G44.2*" name="tension"></insert>
+    <insert for="G44.2*" name="tension:treatment">
+        <textblock>
+            <text>
+                <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="005A2602">
+                    <w:pPr>
+                        <w:jc w:val="both"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="006D1965">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t xml:space="preserve">Bei der Behandlung chronischer </w:t>
+                    </w:r>
+                    <w:r w:rsidRPr="006D1965">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:b/>
+                            <w:bCs/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>Kopfschmerzen vom Spannungstyp</w:t>
+                    </w:r>
+                    <w:r w:rsidRPr="006D1965">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t xml:space="preserve"> sind Verhaltensmaßnahmen in Form von Stressreduktion, Entspannungsverfahren, Sporttherapie, Biofeedback, Wärmeanwendungen, Massageanwendungen sowie ggf. eine Behandlung einer oromandibulären Dysfunktion ein zentraler Baustein.</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="005A2602">
+                    <w:pPr>
+                        <w:jc w:val="both"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="0055091A">
+                    <w:pPr>
+                        <w:jc w:val="both"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="00662478">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t xml:space="preserve">Die hier vermittelten nicht-medikamentöse Therapieoptionen bei </w:t>
+                    </w:r>
+                    <w:r w:rsidRPr="00662478">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:b/>
+                            <w:bCs/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>Kopfschmerzen vom Spannungstyp</w:t>
+                    </w:r>
+                    <w:r w:rsidRPr="00662478">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t xml:space="preserve"> sollten auch ambulant fortgesetzt werden. Diese beinhalteneine Reduktion psychischer Stressoren, eine Reduktion muskulärer Stressoren, die Behandlung von Angst und Depression sowie die Therapie einer oromandibulären Dysfunktion. Die diesbezüglichen Strategien schließen Entspannungsverfahren wie die progressive Muskelrelaxation, im Biofeedback erlernte Strategien, Stressbewältigungs-kompetenzen, Lerneinheiten aus Patientenseminaren sowie sporttherapeutische Aktivitäten ein. Physikalische Therapiemaßnahmen umfassen die Thermotherapie, Physiotherapie, TENS-Behandlung sowie Reiztherapie. Üblicherweise ist der chronische Kopfschmerz vom Spannungstyp nur nach mehrmonatiger intensiver und nachhaltiger Behandlung zu verbessern.</w:t>
+                    </w:r>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="0055091A">
+                    <w:pPr>
+                        <w:jc w:val="both"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                </w:p>
+                <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00F12FDC">
+                    <w:pPr>
+                        <w:tabs>
+                            <w:tab w:val="left" w:pos="1701"/>
+                            <w:tab w:val="left" w:pos="6804"/>
+                        </w:tabs>
+                        <w:spacing w:line="240" w:lineRule="auto"/>
+                        <w:rPr>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="00711BDC">
+                        <w:rPr>
+                            <w:b/>
+                            <w:bCs/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>Kopfschmerzen vom Spannungstyp</w:t>
+                    </w:r>
+                    <w:r w:rsidRPr="00711BDC">
+                        <w:rPr>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t xml:space="preserve"> sollten möglichst nur in Ausnahmefällen, maximal jedoch an 10 Tagen im Monat analgetisch behandelt werden, um die Entstehung eines medikamenteninduzierten Dauerkopfschmerzes zu vermeiden. Die medikamentöse Akuttherapie muss darauf ausgerichtet sein, einen Kopfschmerz bei Medikamentenübergebrauch als Komplikation zu vermeiden. Daher ist vorzugsweise die Anwendung von Pfefferminzöl in alkoholischer Lösung (z.B. Euminz N) zu empfehlen, Non-Opioid-Analgetika und Opioid-Analgetika im eigentlichen Sinn sollten vermieden werden. Zur </w:t>
+                    </w:r>
+                    <w:r>
+                        <w:rPr>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:lastRenderedPageBreak/>
+                        <w:t xml:space="preserve">Therapiekontrolle sollte der Kopfschmerzkalender oder die Migräne-App kontinuierlich geführt werden, um sowohl Kopfschmerzsymptome, Medikamenteneinnahme als auch Therapieeffekte im Verlauf zu protokollieren. </w:t>
+                    </w:r>
+                </w:p>
+            </text>
+        </textblock>
+    </insert>
+    <insert for="G44.2*" name="tension:medication:acute">
+        <textblock>
+            <text>
+                <w:tr w:rsidR="00877D06" w:rsidRPr="00166F0D">
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="3706" w:type="dxa"/>
+                            <w:gridSpan w:val="2"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="006622C9">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:jc w:val="both"/>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r w:rsidRPr="00166F0D">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>Kopfschmerz vom Spannungstyp</w:t>
+                            </w:r>
+                        </w:p>
+                    </w:tc>
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="5391" w:type="dxa"/>
+                            <w:gridSpan w:val="2"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="006622C9">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r w:rsidRPr="00166F0D">
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t xml:space="preserve">Euminz N kutan im Bereich der schmerzhaften Kopfpartien 3x im Abstand von jeweils 10 Minuten auftragen</w:t>
+                            </w:r>
+                        </w:p>
+                    </w:tc>
+                </w:tr>
+            </text>
+        </textblock>
+    </insert>
+    <insert for="G44.8*" name="cmd"></insert>
+    <insert for="G47.0*" name="sleep"></insert>
+    <insert for="M62.8*" name="mfs"></insert>
+    <insert for="M79.70" name="fibromyalgia">
+        <textblock>
+            <text>
+                <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00F66F6A">
+                    <w:pPr>
+                        <w:tabs>
+                            <w:tab w:val="left" w:pos="1701"/>
+                            <w:tab w:val="left" w:pos="6804"/>
+                        </w:tabs>
+                        <w:spacing w:line="240" w:lineRule="auto"/>
+                        <w:rPr>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="00F66F6A">
+                        <w:rPr>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                            <w:highlight w:val="cyan"/>
+                        </w:rPr>
+                        <w:t>Zur Behandlung des Fibromyalgiesyndroms wird ein niedrig- bis mäßigdosiertes Ausdauertraining (Ziel: 2-3x/Woche für 30-40 Minuten, z.B. Walking, Schwimmen, Fahrradfahren, Aquajogging) empfohlen. Zudem sollte ein Funktionstraining, ein niedrigdosiertes Krafttraining kombiniert mit Dehnübungen sowie Thai Qi oder Qi Gong oder Yoga zum Einsatz kommen.</w:t>
+                    </w:r>
+                </w:p>
+            </text>
+        </textblock>
+    </insert>
+    <insert for="F55.2*" name="misuse"></insert>
+    <insert for="F62.80" name="personality"></insert>
+    <insert for="F45.41" name="chronic_pain"></insert>
+    <insert for="F3?.*" name="depression"></insert>
+
+
+    <template name="diagnoses">
+        <variable name="icd10" from="diagnoses:icd10"/>
+        <variable name="text" from="diagnoses:names"/>
+
+        <textblock>
+            <text>
+                <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="0042211B">
+                    <w:pPr>
+                        <w:ind w:left="1134" w:hanging="1134"/>
+                        <w:jc w:val="both"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:color w:val="000000"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>{icd10}</w:t>
+                    </w:r>
+                    <w:r>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:tab/>
+                    </w:r>
+                    <w:r w:rsidRPr="0091023D">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:color w:val="000000"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>{text}</w:t>
+                    </w:r>
+                </w:p>
+            </text>
+        </textblock>
+    </template>
+
+    <template name="base_medication">
+        <variable name="name" from="medication:current:base:name"/>
+        <variable name="dosage" from="medication:current:base:dosage"/>
+        <variable name="unit" from="medication:current:base:unit"/>
+        <variable name="morning" from="medication:current:base:morning"/>
+        <variable name="noon" from="medication:current:base:noon"/>
+        <variable name="evening" from="medication:current:base:evening"/>
+        <variable name="night" from="medication:current:base:night"/>
+
+        <textblock>
+            <text>
+                <w:tr w:rsidR="00877D06" w:rsidRPr="00166F0D">
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="3686" w:type="dxa"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="00746F90">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:jc w:val="both"/>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>{name}</w:t>
+                            </w:r>
+                        </w:p>
+                    </w:tc>
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="1276" w:type="dxa"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="00746F90">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:jc w:val="both"/>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>{dosage} {unit}</w:t>
+                            </w:r>
+                        </w:p>
+                    </w:tc>
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="992" w:type="dxa"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="00746F90">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:jc w:val="center"/>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>{morning}</w:t>
+                            </w:r>
+                        </w:p>
+                    </w:tc>
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="992" w:type="dxa"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="00746F90">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:jc w:val="center"/>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>{noon}</w:t>
+                            </w:r>
+                        </w:p>
+                    </w:tc>
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="992" w:type="dxa"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="00746F90">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:jc w:val="center"/>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>{evening}</w:t>
+                            </w:r>
+                        </w:p>
+                    </w:tc>
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="1134" w:type="dxa"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="00746F90">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:jc w:val="center"/>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>{night}</w:t>
+                            </w:r>
+                        </w:p>
+                    </w:tc>
+                </w:tr>
+            </text>
+        </textblock>
+    </template>
+
+    <template name="other_medication">
+        <variable name="name" from="medication:current:other:name"/>
+        <variable name="dosage" from="medication:current:other:dosage"/>
+        <variable name="unit" from="medication:current:other:unit"/>
+        <variable name="morning" from="medication:current:other:morning"/>
+        <variable name="noon" from="medication:current:other:noon"/>
+        <variable name="evening" from="medication:current:other:evening"/>
+        <variable name="night" from="medication:current:other:night"/>
+
+        <textblock>
+            <text>
+                <w:tr w:rsidR="00877D06" w:rsidRPr="00166F0D">
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="3686" w:type="dxa"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="00787D01">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:jc w:val="both"/>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>{name}</w:t>
+                            </w:r>
+                        </w:p>
+                    </w:tc>
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="1276" w:type="dxa"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="00787D01">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:jc w:val="both"/>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>{dosage} {unit}</w:t>
+                            </w:r>
+                        </w:p>
+                    </w:tc>
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="992" w:type="dxa"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="00787D01">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:jc w:val="center"/>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>{morning}</w:t>
+                            </w:r>
+                        </w:p>
+                    </w:tc>
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="992" w:type="dxa"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="00787D01">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:jc w:val="center"/>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>{noon}</w:t>
+                            </w:r>
+                        </w:p>
+                    </w:tc>
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="992" w:type="dxa"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="00787D01">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:jc w:val="center"/>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>{evening}</w:t>
+                            </w:r>
+                        </w:p>
+                    </w:tc>
+                    <w:tc>
+                        <w:tcPr>
+                            <w:tcW w:w="1134" w:type="dxa"/>
+                        </w:tcPr>
+                        <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="00787D01">
+                            <w:pPr>
+                                <w:tabs>
+                                    <w:tab w:val="left" w:pos="1701"/>
+                                    <w:tab w:val="left" w:pos="2268"/>
+                                    <w:tab w:val="left" w:pos="6804"/>
+                                </w:tabs>
+                                <w:jc w:val="center"/>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                            </w:pPr>
+                            <w:r>
+                                <w:rPr>
+                                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                              w:cs="Lucida Sans Unicode"/>
+                                    <w:sz w:val="18"/>
+                                    <w:szCs w:val="18"/>
+                                </w:rPr>
+                                <w:t>{night}</w:t>
+                            </w:r>
+                        </w:p>
+                    </w:tc>
+                </w:tr>
+            </text>
+        </textblock>
+    </template>
+</templates>

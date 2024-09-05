@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:hdr xmlns:ve="http://schemas.openxmlformats.org/markup-compatibility/2006"
+       xmlns:o="urn:schemas-microsoft-com:office:office"
+       xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+       xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml"
+       xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+       xmlns:w10="urn:schemas-microsoft-com:office:word"
+       xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+       xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml">
+    <w:tbl>
+        <w:tblPr>
+            <w:tblW w:w="0" w:type="auto"/>
+            <w:tblInd w:w="2" w:type="dxa"/>
+            <w:tblBorders>
+                <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+            </w:tblBorders>
+            <w:tblLayout w:type="fixed"/>
+            <w:tblCellMar>
+                <w:left w:w="70" w:type="dxa"/>
+                <w:right w:w="70" w:type="dxa"/>
+            </w:tblCellMar>
+            <w:tblLook w:val="01E0"/>
+        </w:tblPr>
+        <w:tblGrid>
+            <w:gridCol w:w="5353"/>
+            <w:gridCol w:w="3827"/>
+        </w:tblGrid>
+        <w:tr w:rsidR="00877D06">
+            <w:tc>
+                <w:tcPr>
+                    <w:tcW w:w="5353" w:type="dxa"/>
+                    <w:tcBorders>
+                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+                    </w:tcBorders>
+                </w:tcPr>
+                <w:p w:rsidR="00877D06" w:rsidRPr="00D35317" w:rsidRDefault="00877D06" w:rsidP="004E016A">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:tabs>
+                            <w:tab w:val="clear" w:pos="4252"/>
+                            <w:tab w:val="clear" w:pos="8504"/>
+                        </w:tabs>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                      w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                      w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>#{patient:last_name}, #{patient:first_name}, *#{patient:birthdate}</w:t>
+                    </w:r>
+                </w:p>
+            </w:tc>
+            <w:tc>
+                <w:tcPr>
+                    <w:tcW w:w="3827" w:type="dxa"/>
+                    <w:tcBorders>
+                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+                    </w:tcBorders>
+                </w:tcPr>
+                <w:p w:rsidR="00877D06" w:rsidRPr="00D35317" w:rsidRDefault="00877D06">
+                    <w:pPr>
+                        <w:pStyle w:val="Kopfzeile"/>
+                        <w:tabs>
+                            <w:tab w:val="clear" w:pos="4252"/>
+                            <w:tab w:val="clear" w:pos="8504"/>
+                        </w:tabs>
+                        <w:jc w:val="right"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                      w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="00D35317">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                      w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t xml:space="preserve">Seite </w:t>
+                    </w:r>
+                    <w:r w:rsidR="00764662" w:rsidRPr="00D35317">
+                        <w:rPr>
+                            <w:rStyle w:val="Seitenzahl"/>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                      w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:fldChar w:fldCharType="begin"/>
+                    </w:r>
+                    <w:r w:rsidRPr="00D35317">
+                        <w:rPr>
+                            <w:rStyle w:val="Seitenzahl"/>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                      w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:instrText xml:space="preserve"> PAGE </w:instrText>
+                    </w:r>
+                    <w:r w:rsidR="00764662" w:rsidRPr="00D35317">
+                        <w:rPr>
+                            <w:rStyle w:val="Seitenzahl"/>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                      w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:fldChar w:fldCharType="separate"/>
+                    </w:r>
+                    <w:r w:rsidR="008E1BE5">
+                        <w:rPr>
+                            <w:rStyle w:val="Seitenzahl"/>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                      w:cs="Lucida Sans Unicode"/>
+                            <w:noProof/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:t>15</w:t>
+                    </w:r>
+                    <w:r w:rsidR="00764662" w:rsidRPr="00D35317">
+                        <w:rPr>
+                            <w:rStyle w:val="Seitenzahl"/>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                      w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                        <w:fldChar w:fldCharType="end"/>
+                    </w:r>
+                </w:p>
+            </w:tc>
+        </w:tr>
+    </w:tbl>
+    <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06">
+        <w:pPr>
+            <w:pStyle w:val="Kopfzeile"/>
+            <w:rPr>
+                <w:sz w:val="18"/>
+                <w:szCs w:val="18"/>
+            </w:rPr>
+        </w:pPr>
+    </w:p>
+</w:hdr>

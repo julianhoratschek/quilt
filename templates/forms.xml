@@ -1,0 +1,342 @@
+<templates>
+    <form name="patient">
+        <field name="height" type="text">
+            <prompt>Größe (cm): </prompt>
+        </field>
+        <field name="weight" type="text">
+            <prompt>Gewicht (kg): </prompt>
+        </field>
+        <field name="rr" type="text">
+            <prompt>Blutdruck (mmHg): </prompt>
+        </field>
+        <field name="pulse" type="text">
+            <prompt>Herzfrequenz (/Min.): </prompt>
+        </field>
+    </form>
+
+    <form name="midas_score">
+        <field name="values" type="numbers" count="5">
+            <prompt default="00000">MIDAS-Score (5 Zahlen): </prompt>
+        </field>
+
+        <textblock>
+            <text>Im MIDAS-Score erreicht #{the} #{patient} einen Wert von #{!sum(midas_score:values)}, einer sehr schweren Beeinträchtigung entsprechend.</text>
+            <text when="!gt(!get(midas_score:values, 0), 0)">An #{!get(midas_score:values, 0)} Tagen in den letzten 3 Monaten ist #{the} #{patient} wegen der Schmerzen nicht zur Arbeit gegangen.</text>
+            <text when="!gt(!get(midas_score:values, 1), 0)">An #{!get(midas_score:values, 1)} Tagen in den letzten 3 Monaten war die Leistungsfähigkeit am Arbeitsplatz um die Hälfte oder mehr eingeschränkt.</text>
+            <text when="!gt(!get(midas_score:values, 2), 0)">An #{!get(midas_score:values, 2)} Tagen in den letzten 3 Monaten konnte #{the} #{patient} wegen der Schmerzen keine Hausarbeit verrichten.</text>
+            <text when="!gt(!get(midas_score:values, 3), 0)">An #{!get(midas_score:values, 3)} Tagen in den letzten 3 Monaten war die Leistungsfähigkeit im Haushalt um die Hälfte oder mehr eingeschränkt.</text>
+            <text when="!gt(!get(midas_score:values, 4), 0)">An #{!get(midas_score:values, 4)} Tagen in den letzten 3 Monaten konnte #{the} #{patient} an familiären, sozialen oder Freizeitaktivitäten wegen der Schmerzen nicht teilnehmen.</text>
+        </textblock>
+    </form>
+
+    <form name="treatments">
+        <field name="values" type="checks" count="40">
+            <prompt default="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx">Vorbehandlungen (40 x/y): </prompt>
+
+            <value name="medical" content="!mask(treatments:values, [1, 2, 5, 7, 9, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 30, 31, 32, 33, 34, 36, 37, 38, 39])" />
+            <value name="alternative" content="!mask(treatments:values, [0, 3, 4, 6, 8, 12, 27, 35])" />
+            <value name="other" content="!mask(treatments:values, [11, 29])" />
+
+            <mapping>
+                <entry>Akupunktur</entry>
+                <entry>Allgemeinmedizin</entry>
+                <entry>Apotheker</entry>
+                <entry>Versorgung durch Bademeister</entry>
+                <entry>Chiropraxie</entry>
+                <entry>Endokrinologie</entry>
+                <entry>Besuche beim Geistheiler</entry>
+                <entry>Dermatologie</entry>
+                <entry>Hypnosen</entry>
+                <entry>Pädiatrie</entry>
+                <entry ignore="true">Krankenschwester</entry>
+                <entry>Massagen</entry>
+                <entry>naturheilkundliche Behandlungen</entry>
+                <entry>Neurologie</entry>
+                <entry>Onkologie</entry>
+                <entry>Proktologie</entry>
+                <entry>Psychiatrie</entry>
+                <entry>Psychotherapie</entry>
+                <entry>Rheumatologie</entry>
+                <entry>Urologie</entry>
+                <entry>Allergologie</entry>
+                <entry>Anästhesiologie</entry>
+                <entry>Ophthalmologie</entry>
+                <entry>Kardiologie</entry>
+                <entry>Chirurgie</entry>
+                <entry>Gynäkologie</entry>
+                <entry>HNO-Heilkunde</entry>
+                <entry>Besuche beim Heilpraktiker</entry>
+                <entry>Internist</entry>
+                <entry>Physiotherapie</entry>
+                <entry>Pulmologie</entry>
+                <entry>MKG-Chirurgie</entry>
+                <entry>Nervenarzt</entry>
+                <entry>Neurochirurgie</entry>
+                <entry>Orthopädie</entry>
+                <entry>Priesterkonsultation</entry>
+                <entry>Dipl.-Psychologe</entry>
+                <entry>Radiologie</entry>
+                <entry>Schmerztherapie</entry>
+                <entry>Zahnheilkunde</entry>
+            </mapping>
+        </field>
+
+        <textblock>
+            <text>Die bisherige Behandlung erfolgte bei Ärzten mit der Fach- bzw. Zusatzbezeichnung #{!join(treatments:values:medical, ", ", " und ")}.</text>
+            <text>Versuche einer Kopfschmerzprophylaxe waren leitliniengerecht mit #{!join(medication:former:base, ", ", " und ")} unternommen worden.</text>
+            <text>Zur Akutschmerzmedikation kamen #{!join(medication:former:acute, ", ", " und ")} zum Einsatz.</text>
+            <text>Alternativmedizinische Behandlungsversuche umfassten #{!join(treatments:values:alternative, ", ", " und ")}.</text>
+            <text when="!not(!empty(treatments:values:other))">Zudem betätigte #{the} #{patient} sich regelmäßig sportlich, erhielt #{!join(treatments:values:other, " und ")}.</text>
+            <text>Insgesamt besteht damit ein Fehlschlag der bisherigen unimodalen Schmerztherapie sowie einer Entzugsbehandlung.</text>
+        </textblock>
+    </form>
+
+    <form name="afflictions">
+        <field name="values" type="numbers" max="64">
+            <prompt>Beschwerden (0-64 Zahlen): </prompt>
+
+            <mapping>
+                <entry>Kreuz- und Rückenschmerzen</entry>
+                <entry>Überempfindlichkeit gegen Wärme</entry>
+                <entry>Überempfindlichkeit gegen Kälte</entry>
+                <entry>Kurzatmigkeit</entry>
+                <entry>Stichen, Schmerzen oder Ziehen in der Brust</entry>
+                <entry>Kloßgefühl, Enge oder Würgen im Hals</entry>
+                <entry>starkem Schwitzen</entry>
+                <entry>Schweregefühl in den Beinen</entry>
+                <entry>Unruhe in den Beinen</entry>
+                <entry>Nacken- oder Schulterschmerzen</entry>
+                <entry>Schwindelgefühl</entry>
+                <entry>Übermäßigem Schlafbedürfnis</entry>
+                <entry>Schlaflosigkeit</entry>
+                <entry>Kopfscherzen, Druck im Kopf, Gesichtsschmerzen</entry>
+                <entry>Erstickungsgefühl</entry>
+                <entry>Appetitlosigkeit</entry>
+                <entry>Herzklopfen, Herzjagen oder Herzstolpern</entry>
+                <entry>Verstopfung</entry>
+                <entry ignore="true">Mangel an geschlechtlicher Erregbarkeit</entry>
+                <entry>Taubheitsgefühlen, Kribbeln, Brennen</entry>
+                <entry>Störungen beim Wasserlassen</entry>
+                <entry>geschwollenen Beine</entry>
+                <entry>Blut im Stuhl</entry>
+                <entry>Atemnot</entry>
+                <entry>Neigung zum Weinen</entry>
+                <entry>Gelenk- oder Gliederschmerzen</entry>
+                <entry>Mattigkeit</entry>
+                <entry>Übelkeit</entry>
+                <entry>Grübelei</entry>
+                <entry>innerer Unruhe</entry>
+                <entry>Schwächegefühl</entry>
+                <entry>Schluckbeschwerden</entry>
+                <entry>Leibschmerzen, Unterleibsschmerzen</entry>
+                <entry>kalten Füße</entry>
+                <entry>Frieren</entry>
+                <entry>trüben Gedanken</entry>
+                <entry>chronischem Husten</entry>
+                <entry>Durchfall</entry>
+                <entry>Juckreiz</entry>
+                <entry>Reizbarkeit</entry>
+                <entry>Zittern</entry>
+                <entry>Druck- oder Völlegefühl im Leib</entry>
+                <entry>Gleichgewichtsstörungen</entry>
+                <entry>Angstgefühl</entry>
+                <entry>Konzentrationsschwäche</entry>
+                <entry>innerer Gespanntheit</entry>
+                <entry>Müdigkeit</entry>
+                <entry>Schluckauf</entry>
+                <entry>aufsteigender Hitze, Hitzewallungen</entry>
+                <entry>Energielosigkeit</entry>
+                <entry>rascher Erschöpfbarkeit</entry>
+                <entry>Heißhunger</entry>
+                <entry>Vergesslichkeit</entry>
+                <entry>Ohnmachtsanfällen</entry>
+                <entry>beruflichen oder privaten Sorgen</entry>
+                <entry>Unverträglichkeit bestimmter Speisen</entry>
+                <entry>Regelbeschwerden</entry>
+                <entry>Sodbrennen oder saurem Aufstoßen</entry>
+                <entry>leichtem Erröten</entry>
+                <entry>Gewichtsverlust</entry>
+                <entry>starkem Durst</entry>
+                <entry>Sehstörungen</entry>
+                <entry>Lebensmüdigkeit</entry>
+                <entry>Erbrechen</entry>
+                <entry>Hautveränderungen</entry>
+            </mapping>
+        </field>
+
+        <textblock>
+            <text>In der Selbstauskunft beschreibt #{the} #{patient} das häufige Auftreten von #{!join(afflictions:values, ", ", " und ")}.</text>
+        </textblock>
+    </form>
+
+    <form name="whodas_categories">
+        <field name="values" type="checks" count="6">
+            <prompt default="xxxxxx">WHODAS Kategorien (6 x/y): </prompt>
+
+            <mapping>
+                <entry>Verständnis und Kommunikation</entry>
+                <entry>Mobilität</entry>
+                <entry>Selbstversorgung</entry>
+                <entry>Umgang mit anderen Menschen</entry>
+                <entry>Tätigkeiten des alltäglichen Lebens</entry>
+                <entry>Teilnahme am gesellschaftlichen Leben</entry>
+            </mapping>
+        </field>
+
+        <textblock>
+            <text>Diese Angaben spiegeln sich auch im WHODAS-2.0 insbesondere im Bereich #{!join(whodas_categories:values, ", ", " und ")} wider.</text>
+        </textblock>
+    </form>
+
+    <form name="whodas_score">
+        <field name="values" type="numbers" count="3">
+            <prompt default="000">WHODAS Score (3 Zahlen): </prompt>
+        </field>
+
+        <textblock>
+            <text when="!gt(!get(whodas_score:values, 0), 0)">An #{!get(whodas_score:values, 0)} in den letzten 30 Tagen traten diese Schwierigkeiten auf.</text>
+            <text when="!gt(!get(whodas_score:values, 1), 0)">An #{!get(whodas_score:values, 1)} in den letzten 30 Tagen war #{the} #{patient} aufgrund der Gesundheitsprobleme absolut unfähig alltägliche Aktivitäten oder Arbeit zu verrichten.</text>
+            <text when="!gt(!get(whodas_score:values, 2), 0)">An #{!get(whodas_score:values, 2)} Tagen von 30 Tagen musste #{the} #{patient} aufgrund der Gesundheitsprobleme alltägliche Aktivitäten oder Arbeit reduzieren.</text>
+            <text>Somit besteht eine ausgeprägte Beeinträchtigung sowohl der Lebensqualität als auch der Arbeitsfähigkeit.</text>
+        </textblock>
+    </form>
+
+    <form name="bdi">
+        <field name="values" type="numbers" count="19">
+            <prompt default="1111111111111111111">BDI-II Score (19 Zahlen): </prompt>
+
+            <mapping start="2" type="mapped">
+                <select>
+                    <option>sei oft traurig</option>
+                    <option>sei ständig traurig</option>
+                    <option>sei so traurig und unglücklich, dass es nicht auszuhalten sei</option>
+                </select>
+                <select>
+                    <option>sehe mutloser in die Zukunft</option>
+                    <option>sei mutlos und erwarte nicht, dass die Situation besser werde</option>
+                    <option>glaube, dass die Zukunft hoffnungslos sei und nur noch schlechter werde</option>
+                </select>
+                <select>
+                    <option>habe häufiger Versagensgefühle</option>
+                    <option>sehe eine Menge Fehlschläge</option>
+                    <option>habe das Gefühl, als Mensch ein völliger Versager zu sein</option>
+                </select>
+                <select>
+                    <option>könne Dinge nicht mehr so genießen wie früher</option>
+                    <option>könne Dinge, die früher Freude gemacht hätten, nicht mehr genießen</option>
+                    <option>könne Dinge, die früher Freude gemacht hätten, überhaupt nicht mehr genießen</option>
+                </select>
+                <select>
+                    <option>habe oft Schuldgefühle bezüglich Dingen, die #{pron} getan habe oder hätte tun sollen</option>
+                    <option>habe die meiste Zeit Schuldgefühle</option>
+                    <option>habe ständig Schuldgefühle</option>
+                </select>
+                <select>
+                    <option>habe das Gefühl, vielleicht bestraft zu werden</option>
+                    <option>erwarte, bestraft zu werden</option>
+                    <option>habe das Gefühl, bestraft zu sein</option>
+                </select>
+                <select>
+                    <option>habe das Vertrauen in sich verloren</option>
+                    <option>sei von sich enttäuscht</option>
+                    <option>lehne sich völlig ab</option>
+                </select>
+                <select>
+                    <option>sei sich selbst gegenüber kritischer als sonst</option>
+                    <option>kritisiere sich für alle Mängel</option>
+                    <option>gebe sich selbst die Schuld für alles Schlimme, was passiere</option>
+                </select>
+                <select>
+                    <option>denke manchmal an Suizid, würde dies aber nicht tun</option>
+                    <option>wolle sich am liebsten suizidieren</option>
+                    <option>würde sich suizidieren, wenn #{pron} die Gelegenheit dazu hätte</option>
+                </select>
+                <select>
+                    <option>weine jetzt mehr als früher</option>
+                    <option>weine beim geringsten Anlass</option>
+                    <option>möchte gerne weinen, könne es aber nicht</option>
+                </select>
+                <select>
+                    <option>sei unruhiger als sonst</option>
+                    <option>sei so unruhig, dass es schwerfalle, still zu sitzen</option>
+                    <option>sei so unruhig, dass #{pron} ständig etwas bewegen oder tun müsse</option>
+                </select>
+                <select>
+                    <option>habe weniger Interesse an anderen Dingen</option>
+                    <option>habe das Interesse an anderen Menschen oder Dingen zum größten Teil verloren</option>
+                    <option>könne sich überhaupt nicht für irgendwas zu interessieren</option>
+                </select>
+                <select>
+                    <option>habe es schwerer als sonst, Entscheidungen zu treffen</option>
+                    <option>habe es viel schwerer als sonst, Entscheidungen zu treffen</option>
+                    <option>habe Mühe, überhaupt Entscheidungen zu treffen</option>
+                </select>
+                <select>
+                    <option>halte sich für weniger wertvoll und nützlich als sonst</option>
+                    <option>fühle sich verglichen mit anderen Menschen viel weniger wert</option>
+                    <option>halte sich für völlig wertlos</option>
+                </select>
+                <select>
+                    <option>habe weniger Energie als sonst</option>
+                    <option>habe so wenig Energie, dass #{pron} kaum noch etwas schaffe</option>
+                    <option>habe keine Energie mehr, überhaupt etwas zu tun</option>
+                </select>
+                <select>
+                    <option>schlafe etwas mehr als sonst</option>
+                    <option>schlafe etwas weniger als sonst</option>
+                    <option>schlafe viel mehr als sonst</option>
+                    <option>schlafe viel weniger als sonst</option>
+                    <option>schlafe fast den ganzen Tag</option>
+                    <option>wache 1-2 Stunden früher auf als gewöhnlich und könne nicht mehr einschlafen</option>
+                </select>
+                <select>
+                    <option>sei reizbarer als sonst</option>
+                    <option>sei viel reizbarer als sonst</option>
+                    <option>fühle sich dauernd gereizt</option>
+                </select>
+                <select>
+                    <option>könne sich nicht mehr so gut konzentrieren wie sonst</option>
+                    <option>könne sich nur schwer längere Zeit auf irgendwas konzentrieren</option>
+                    <option>könne sich gar nicht mehr konzentrieren</option>
+                </select>
+                <select>
+                    <option>werde schneller müde oder erschöpft als sonst</option>
+                    <option>sei zu müde oder erschöpft für viele Dinge, die #{pron} üblicherweise tue</option>
+                    <option>sei so müde oder erschöpft, dass #{pron} fast nichts mehr tun könne</option>
+                </select>
+            </mapping>
+        </field>
+
+        <textblock>
+            <text>Es ist eine depressive Störung vorbeschrieben. Aktuell gibt #{the} #{patient} in der Selbstauskunft an, #{pron} #{!join(bdi:values, ", ")}.</text>
+        </textblock>
+    </form>
+
+    <form name="chronic_pain">
+        <field name="values" type="checks" count="15">
+            <prompt default="xxxxxxxxxxxxxxx">Chronische Schmerzerkrankung (15 x/y): </prompt>
+
+            <mapping>
+                <entry>eine verminderte körperliche Leistungsfähigkeit zu haben</entry>
+                <entry>körperlich empfindlicher zu reagieren als früher</entry>
+                <entry>sich aufgrund der Schmerzen mehr zu schonen</entry>
+                <entry>zu versuchen, trotz der Schmerzen durchzuhalten</entry>
+                <entry>zunehmend mehr Medikamente einzunehmen</entry>
+                <entry>zu glauben, die Schmerzen würden immer schlimmer</entry>
+                <entry>wegen der Schmerzen nicht mehr weiterzuwissen und habe keine Idee zu haben, was zu tun sei</entry>
+                <entry>wegen der Schmerzen gedrückt zu sein und habe Angst zu haben</entry>
+                <entry>reizbarer zu sein</entry>
+                <entry>oft keine Ruhe finden zu können</entry>
+                <entry>häufiger arbeitsunfähig oder bei der Arbeit stark beeinträchtigt zu sein</entry>
+                <entry>in den Alltagsaktivitäten beeinträchtigt zu sein</entry>
+                <entry>häufig Ärzte, Therapeuten oder Kliniken aufzusuchen</entry>
+                <entry>in gesellschaftlichen und familiären Aktivitäten beeinträchtigt zu sein</entry>
+                <entry>es sei bereits zu Spannungen in Beruf und Familie gekommen</entry>
+            </mapping>
+        </field>
+
+        <textblock>
+            <text>Insgesamt gibt #{the} #{patient} an, #{!join(chronic_pain:values, ", ")}.</text>
+        </textblock>
+    </form>
+</templates>

@@ -1,0 +1,5 @@
+<templates>
+    <import name="templates\gender.xml"/>
+    <import name="templates\forms.xml"/>
+    <import name="templates\inserts.xml"/>
+</templates>
