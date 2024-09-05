@@ -176,7 +176,7 @@ class Parser:
                 if "for" not in self.current_tag.options or not glob(
                         self.current_tag.options["for"],
                         self.runtime.namespaces["diagnoses:icd10"]):
-                    self.runtime.namespaces[self.current_tag.options.get("name", "local")] = self.EmptyInsert.get()
+                    self.runtime.namespaces[self.current_tag.options.get("name", "local")] = ""
                     return self._skip_tag()
 
                 self.namespaces.append(self.current_tag.options.get("name", "local"))
@@ -218,7 +218,6 @@ class Parser:
 
             case "template":
                 self.runtime.templates.append(Template())
-                print(f"template:{self.current_tag.options.get('name', 'local')}")
                 self.namespaces.append(f"template:{self.current_tag.options.get('name', 'local')}")
 
             case "text":
@@ -259,16 +258,28 @@ class Parser:
                 return
 
             # Form type numbers
-            if "type" in self.parent_tag.options and self.parent_tag.options["type"] == "numbers":
+            if "type" not in self.parent_tag.options:
+                print("!! field tags require type attribute")
+                return
 
-                if "," not in self.last_input and " " not in self.last_input:
-                    result: list[int] = [int(i) for i in self.last_input if i.isdigit()]
-                else:
-                    result: list[int] = [int(m.group(0)) for m in finditer(r"\d+", self.last_input)]
+            match self.parent_tag.options["type"]:
+                case "numbers":
+                    if "," not in self.last_input and " " not in self.last_input:
+                        result: list[int] = [int(i) for i in self.last_input if i.isdigit()]
+                    else:
+                        result: list[int] = [int(m.group(0)) for m in finditer(r"\d+", self.last_input)]
 
             # Form type checks (default)
-            else:
-                result: list[bool] = [c == "x" for c in self.last_input.lower() if c.isalpha()]
+                case "checks":
+                    result: list[bool] = [c == "x" for c in self.last_input.lower() if c.isalpha()]
+
+                case "text":
+                    result: str = self.last_input
+                    break
+
+                case parent_type:
+                    print(f"!! Unknown field type {parent_type}")
+                    return
 
             if "count" in self.parent_tag.options and len(result) != int(self.parent_tag.options["count"]):
                 print(f"!! Expected {self.parent_tag.options['count']} entries, found {len(result)}")

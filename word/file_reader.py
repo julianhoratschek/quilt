@@ -3,6 +3,7 @@ from pathlib import Path
 from zipfile import ZipFile
 from re import finditer
 from enum import IntEnum
+from datetime import datetime, date
 
 
 class CellName(IntEnum):
@@ -54,7 +55,11 @@ def attach_runtime(runtime: Runtime, file_name: Path):
                     list(map(str.strip, text[0].split(",")))[0:2]
 
             case CellName.BirthDate:
+                birthdate: date = datetime.strptime(text[0], "%d.%m.%Y").date()
+                today: date = date.today()
                 runtime.namespaces["patient:birthdate"] = text[0]
+                runtime.namespaces["patient:age"] = (today.year - birthdate.year -
+                                                     ((today.month, today.day) < (birthdate.month, birthdate.day)))
 
             case CellName.Address:
                 runtime.namespaces["patient:address"] = text[0]

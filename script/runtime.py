@@ -29,6 +29,7 @@ class Runtime:
             "join": "join",
             "mask": "mask",
             "not": "not",
+            "run": "run",
             "sum": "sum",
             "upper": "upper"
         }
@@ -94,7 +95,9 @@ class Runtime:
                         self.stack.append(self.EndParam.get())
 
                     case '!':
-                        if (callback_name := self.stack.pop()) == "run":
+                        callback_name: str = self.stack.pop()
+                        print(callback_name)
+                        if callback_name == "run":
                             self.stack.append(self._execute_template())
                         elif callback := getattr(script.builtins, f"builtin_{callback_name}"):
                             self.stack.append(callback(self.stack.pop()))

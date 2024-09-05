@@ -8,6 +8,7 @@ from shutil import copy
 
 def write_file(runtime: Runtime, options: dict[str, str | list[str]]):
     def repl(m: Match) -> str:
+        print(f"pos: {m.start()}")
         return runtime.run(m.group(1))
 
     document_content: str = sub(r"#\{([^}]+)}", repl, Path(options["docx_document"]).read_text("utf-8"))
