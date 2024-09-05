@@ -84,7 +84,7 @@ class Parser:
                 self.runtime.namespaces[self.current_namespace] = len(self.runtime.templates) - 1
                 self.namespaces.pop()
 
-            case "textblocks":
+            case "textblock":
                 join_str: str = self.parent_tag.options.get("join", " ")
                 self.runtime.namespaces[self.current_namespace] = join_str.join(self.text_blocks)
 
@@ -93,8 +93,7 @@ class Parser:
 
             case tag_name:
                 if tag_name not in ["entry", "gender", "import", "insert", "option",
-                                    "prompt", "pronoun", "select", "set", "templates", "text",
-                                    "textblock", "variable"]:
+                                    "prompt", "pronoun", "select", "set", "templates", "text", "variable"]:
                     print(f"!! Unknown tag <{tag_name}>")
 
         self.tag_stack.pop()
@@ -219,6 +218,7 @@ class Parser:
 
             case "template":
                 self.runtime.templates.append(Template())
+                print(f"template:{self.current_tag.options.get('name', 'local')}")
                 self.namespaces.append(f"template:{self.current_tag.options.get('name', 'local')}")
 
             case "text":
@@ -236,8 +236,13 @@ class Parser:
                     self.current_tag.options.get("content", "0"))
 
             case "variable":
-                self.runtime.templates[-1].alias[self.current_tag.options.get("name", "local")] = \
-                    self.current_tag.options.get("from", "local")
+                if self.parent_tag.name != "template":
+                    print("!! variable-tag must have template-tag as parent")
+                elif "name" not in self.current_tag.options or "from" not in self.current_tag.options:
+                    print("!! variable-tag must have name and from attributes")
+                else:
+                    self.runtime.templates[-1].alias[self.current_tag.options["name"]] = \
+                        self.current_tag.options["from"]
 
         self.tag_stack.append(self.current_tag)
 

@@ -42,7 +42,7 @@ class Runtime:
                 f"\nStack: {self.stack}")
 
     def _execute_template(self) -> str:
-        template_id: int = self.stack.pop()
+        template_id: int = int(self.stack.pop())
         if 0 > template_id > len(self.templates):
             print(f"!! Trying to execute template nr {template_id} with only {len(self.templates)} registered")
             return ""
