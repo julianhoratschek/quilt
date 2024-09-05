@@ -28,7 +28,7 @@ def pick_file(paths: list[Path]) -> Path:
 def find_file(options: dict[str, str], patient_name: str) -> Path:
     search_dir: Path = Path(options["search_dir"])
     matches: list[Path] = [path for path in search_dir.glob("*.docx") if patient_name.lower() in path.name.lower()]
-    print(matches)
+
     match len(matches):
         case 0:
             return Path()
