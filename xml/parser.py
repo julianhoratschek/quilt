@@ -1,27 +1,21 @@
+import re
+
 from script import Runtime, Template
 from .tag import Tag
 from .entry import Entry
 from util import glob
 
 from pathlib import Path
-from re import Match, finditer, search, sub
+from re import Pattern, Match, compile, finditer, search, sub
 
 
 class Parser:
+
+    # RegEx-Groups
     CloseTagGroup: int = 1
     TagNameGroup: int = 2
     OptionsGroup: int = 3
     AutoCloseTagGroup: int = 4
-
-    class EmptyInsert:
-        Singleton = None
-
-        def __init__(self):
-            self.Singleton = self
-
-        @classmethod
-        def get(cls):
-            return cls.Singleton if cls.Singleton else cls()
 
     def __init__(self, rt: Runtime, options: dict[str, str | list[str]] = None):
         self.runtime: Runtime = rt
@@ -58,62 +52,55 @@ class Parser:
     def opening_tag(self) -> Tag:
         return self.tag_stack[-1]
 
-    def _assert_has_name(self) -> bool:
-        if "name" not in self.current_tag.options:
-            print(f"!! {self.current_tag.name}-tag must have name attribute")
-            return False
-        return True
-
     def _close_tag(self):
         match self.current_tag.name:
-            case "field":
-                self.namespaces.pop()
-
-            case "form":
-                self.namespaces.pop()
-
-            case "insert":
+            case "field" | "form" | "insert" | "value":
                 self.namespaces.pop()
 
             case "mapping":
                 self._map_field_values()
 
             case "template":
+                # Assign last read text to template
                 self.runtime.templates[-1].text = self.runtime.namespaces[self.current_namespace]
+                # Let namespace point to current template
                 self.runtime.namespaces[self.current_namespace] = len(self.runtime.templates) - 1
+                # Leave scope
                 self.namespaces.pop()
 
             case "textblock":
-                join_str: str = self.parent_tag.options.get("join", " ")
-                self.runtime.namespaces[self.current_namespace] = join_str.join(self.text_blocks)
-
-            case "value":
-                self.namespaces.pop()
+                print(f"{self.current_namespace} {self.text_blocks}")
+                self.runtime.namespaces[self.current_namespace] = \
+                    self.parent_tag.attr("join", " ").join(self.text_blocks)
 
             case tag_name:
-                if tag_name not in ["entry", "gender", "import", "insert", "option",
+                if tag_name not in ["entry", "gender", "import", "option",
                                     "prompt", "pronoun", "select", "set", "templates", "text", "variable"]:
                     print(f"!! Unknown tag <{tag_name}>")
 
         self.tag_stack.pop()
 
-    def _content(self):
+    def _content(self) -> str:
+        """Read text node of current tag and execute scripts in it"""
+
         def repl(m: Match) -> str:
             return str(self.runtime.run(m.group(1)))
 
-        if not (content_match := search(f"(.*?)</{self.current_tag.name}>", self.text[self.pos:])):
+        if not (content_match := search(f"(.*?)</{self.current_tag.name}>", self.text[self.pos:], re.DOTALL)):
             print(f"!! Tag {self.current_tag.name} dos not have any content")
             return ""
 
+        # Ensure we don't omit closing tag
         self.pos += content_match.end(1)
 
         return sub(r"#\{([^}]+)}", repl, content_match.group(1))
 
     def _map_field_values(self):
-        start_idx: int = int(self.opening_tag.options.get("start", "0"))
-        number_type: bool = self.tag_stack[-2].options.get("type", "") == "numbers"
-        mapped_type: bool = self.opening_tag.options.get("type", "") == "mapped"
+        start_idx: int = int(self.opening_tag.attr("start", "0"))
+        number_type: bool = self.tag_stack[-2].attr("type", "") == "numbers"
+        mapped_type: bool = self.opening_tag.attr("type", "") == "mapped"
 
+        # For all values in this field
         for ns_name in [self.current_namespace, *self.field_value_names]:
             # Map numbers
             if number_type:
@@ -148,42 +135,45 @@ class Parser:
             case "entry":
                 self.entries.append(Entry(
                     self._content(),
-                    "ignore" in self.current_tag.options
+                    self.current_tag.attr("ignore") != ""
                 ))
 
             case "field":
-                self.field_value_names.clear()
-                self.namespaces.append(self.current_tag.options.get("name", "global"))
+                if (field_name := self.current_tag["name"]) and self.current_tag["type"]:
+                    self.field_value_names.clear()
+                    self.namespaces.append(field_name)
 
             case "form":
-                form_name: str = self.current_tag.options.get("name", "global")
-                if form_name in self.options["ignore_forms"]:
+                if not (form_name := self.current_tag["name"]) or form_name in self.options.get("ignore_forms", []):
                     return self._skip_tag()
                 self.namespaces.append(form_name)
 
             case "gender":
-                if not self._assert_has_name() or self.last_input != self.current_tag.options["name"]:
+                if not (gender_name := self.current_tag["name"]) or self.last_input != gender_name:
                     return self._skip_tag()
 
             case "import":
-                if self._assert_has_name():
+                if import_file := self.current_tag["name"]:
                     p: Parser = Parser(self.runtime, self.options)
-                    p.process(Path(self.current_tag.options["name"]))
-                    # self.options |= p.options
+                    p.process(Path(import_file))
 
             case "insert":
-                if "for" not in self.current_tag.options or not glob(
-                        self.current_tag.options["for"],
-                        self.runtime.namespaces["diagnoses:icd10"]):
-                    self.runtime.namespaces[self.current_tag.options["name"]] = ""
+                if not (ns_name := self.current_tag["name"]):
                     return self._skip_tag()
 
-                self.namespaces.append(self.current_tag.options["name"])
+                self.namespaces.append(ns_name)
+
+                if (not (glob_pattern := self.current_tag["for"])
+                        or not glob(glob_pattern, self.runtime.namespaces["diagnoses:icd10"])):
+                    self.runtime.namespaces[self.current_namespace] = ""
+                    self.namespaces.pop()
+                    return self._skip_tag()
 
             case "mapping":
                 self.entries.clear()
                 if self.parent_tag.name != "field":
                     print("!! mapping tag must be child of field tag")
+                    return self._skip_tag()
 
             case "option":
                 if len(self.entries) == 0:
@@ -199,48 +189,47 @@ class Parser:
                 self._prompt_user()
 
             case "pronoun":
-                if self._assert_has_name():
-                    self.runtime.namespaces[self.current_tag.options["name"]] = self._content()
+                if ns_name := self.current_tag["name"]:
+                    self.runtime.namespaces[ns_name] = self._content()
 
             case "select":
-                self.entries.append(Entry([], "ignore" in self.current_tag.options))
+                self.entries.append(Entry([], self.current_tag.attr("ignore") != ""))
 
             case "set":
-                if "name" not in self.current_tag.options or "value" not in self.current_tag.options:
-                    print("!! set-tag must contain name and value attributes")
-                elif self.current_tag.options["name"] == "ignore_forms":
-                    self.options["ignore_forms"] = [
-                        s.strip() for s in self.current_tag.options["value"].split(",")
-                    ]
-                else:
-                    self.options[self.current_tag.options["name"]] = self.current_tag.options["value"]
+                print("set")
+                if ((set_name := self.current_tag["name"])
+                        and (set_value := self.current_tag["value"])):
+                    print(f"'{set_name}'")
+                    self.options[set_name] = [
+                        s.strip() for s in set_value.split(",")
+                    ] if set_name == "ignore_forms" else set_value
 
             case "template":
-                self.runtime.templates.append(Template())
-                self.namespaces.append(f"template:{self.current_tag.options['name']}")
+                if template_name := self.current_tag["name"]:
+                    self.runtime.templates.append(Template())
+                    self.namespaces.append(f"template:{template_name}")
 
             case "text":
-                if "when" not in self.current_tag.options \
-                        or int(self.runtime.run(self.current_tag.options["when"])) != 0:
+                if not (when_clause := self.current_tag.attr("when")) \
+                        or int(self.runtime.run(when_clause)) != 0:
                     self.text_blocks.append(self._content())
 
             case "textblock":
                 self.text_blocks.clear()
 
             case "value":
-                self.namespaces.append(self.current_tag.options.get("name", "local"))
-                self.field_value_names.append(self.current_namespace)
-                self.runtime.namespaces[self.current_namespace] = self.runtime.run(
-                    self.current_tag.options.get("content", "0"))
+                if self.parent_tag.name != "field":
+                    print("!! value-tag must have field-tag as parent")
+                elif (value_name := self.current_tag["name"]) and (value_content := self.current_tag["content"]):
+                    self.namespaces.append(value_name)
+                    self.field_value_names.append(self.current_namespace)
+                    self.runtime.namespaces[self.current_namespace] = self.runtime.run(value_content)
 
             case "variable":
                 if self.parent_tag.name != "template":
                     print("!! variable-tag must have template-tag as parent")
-                elif "name" not in self.current_tag.options or "from" not in self.current_tag.options:
-                    print("!! variable-tag must have name and from attributes")
-                else:
-                    self.runtime.templates[-1].alias[self.current_tag.options["name"]] = \
-                        self.current_tag.options["from"]
+                elif (var_name := self.current_tag["name"]) and (from_var := self.current_tag["from"]):
+                    self.runtime.templates[-1].alias[var_name] = from_var
 
         self.tag_stack.append(self.current_tag)
 
@@ -250,18 +239,16 @@ class Parser:
         while True:
             self.last_input = input(prompt)
 
+            # Fill in default values, if set
             if self.last_input == "%":
-                self.last_input = self.current_tag.options.get("default", "")
+                self.last_input = self.current_tag.attr("default", "")
 
+            # Don't process or save to namespace, if parent tag isn't a field
             if self.parent_tag.name != "field":
                 return
 
-            # Form type numbers
-            if "type" not in self.parent_tag.options:
-                print("!! field tags require type attribute")
-                return
-
-            match self.parent_tag.options["type"]:
+            # field-tags are asserted to have type attribute
+            match self.parent_tag["type"]:
                 case "numbers":
                     if "," not in self.last_input and " " not in self.last_input:
                         result: list[int] = [int(i) for i in self.last_input if i.isdigit()]
@@ -280,23 +267,25 @@ class Parser:
                     print(f"!! Unknown field type {parent_type}")
                     return
 
-            if "count" in self.parent_tag.options and len(result) != int(self.parent_tag.options["count"]):
-                print(f"!! Expected {self.parent_tag.options['count']} entries, found {len(result)}")
+            if (cnt := self.parent_tag.attr("count")) and len(result) != int(cnt):
+                print(f"!! Expected {cnt} entries, found {len(result)}")
                 continue
 
             else:
-                if "min" in self.parent_tag.options and len(result) < int(self.parent_tag.options["min"]):
-                    print(f"!! Expected at least {self.parent_tag.options['min']} entries, found {len(result)}")
+                if (min_val := self.parent_tag.attr("min")) and len(result) < int(min_val):
+                    print(f"!! Expected at least {min_val} entries, found {len(result)}")
                     continue
 
-                if "max" in self.parent_tag.options and len(result) > int(self.parent_tag.options["max"]):
-                    print(f"!! Expected at most {self.parent_tag.options['max']} entries, found {len(result)}")
+                if (max_val := self.parent_tag.attr("max")) and len(result) > int(max_val):
+                    print(f"!! Expected at most {max_val} entries, found {len(result)}")
                     continue
             break
 
         self.runtime.namespaces[self.current_namespace] = result
 
     def _skip_tag(self):
+        """Read all including closing tag. Read position is set after closing tag"""
+
         if self.current_tag.auto_close:
             return
 
@@ -311,10 +300,13 @@ class Parser:
             print(f"!! File {file_name} does not exist")
             return
 
+        tag_pattern: Pattern = compile(r"<(/)?([a-zA-Z_]+)\s*(.*?)?(/)?>")
+
         self.text = file_name.read_text("utf-8")
         self.pos = 0
 
-        while tag_match := search(r"<(/)?([a-zA-Z_]+)\s*(.*?)?(/)?>", self.text[self.pos:]):
+        # Look for all tags
+        while tag_match := tag_pattern.search(self.text[self.pos:]):
             self.current_match = tag_match
             self.current_tag = Tag(
                 tag_match.group(self.TagNameGroup),
