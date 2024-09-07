@@ -121,5 +121,5 @@ def attach_runtime(runtime: Runtime, file_name: Path):
                         f"medication:"
                         f"current:"
                         f"{'base' if i == CellName.CurrentBaseMedication else 'other'}:"
-                        f"{med_entry[0]}"] = med_entry[1:]
+                        f"{med_entry[0]}"] = list(map(lambda x: 0 if x is None else x, med_entry[1:]))
 

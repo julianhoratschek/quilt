@@ -4,6 +4,7 @@
 
         <gender name="m">
             <pronoun name="the">der</pronoun>
+            <pronoun name="of">des</pronoun>
             <pronoun name="patient">Patient</pronoun>
             <pronoun name="appellation">Herrn</pronoun>
             <pronoun name="pron">er</pronoun>
@@ -11,6 +12,7 @@
 
         <gender name="f">
             <pronoun name="the">die</pronoun>
+            <pronoun name="of">der</pronoun>
             <pronoun name="patient">Patientin</pronoun>
             <pronoun name="appellation">Frau</pronoun>
             <pronoun name="pron">sie</pronoun>

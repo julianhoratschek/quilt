@@ -1,5 +1,55 @@
 <templates xmlns:w="http://www.w3.org/1999/XSL/Transform">
     <insert for="G44.4*" name="overuse"></insert>
+    <insert for="G44.4*" name="overuse:continuation:front">
+        <textblock>
+            <text>
+                <w:p w:rsidR="00877D06" w:rsidRPr="0012639C" w:rsidRDefault="00877D06" w:rsidP="001B3A32">
+                    <w:pPr>
+                        <w:numPr>
+                            <w:ilvl w:val="0"/>
+                            <w:numId w:val="21"/>
+                        </w:numPr>
+                        <w:ind w:left="601" w:hanging="241"/>
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                      w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                        </w:rPr>
+                    </w:pPr>
+                    <w:r w:rsidRPr="0012639C">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                      w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="16"/>
+                            <w:szCs w:val="16"/>
+                        </w:rPr>
+                        <w:t xml:space="preserve">Wir empfehlen die ambulante Fortführung der </w:t>
+                    </w:r>
+                    <w:r w:rsidRPr="0012639C">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                      w:cs="Lucida Sans Unicode"/>
+                            <w:b/>
+                            <w:bCs/>
+                            <w:sz w:val="16"/>
+                            <w:szCs w:val="16"/>
+                        </w:rPr>
+                        <w:t>Analgetikapause für insgesamt vier Wochen</w:t>
+                    </w:r>
+                    <w:r w:rsidRPr="0012639C">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                      w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="16"/>
+                            <w:szCs w:val="16"/>
+                        </w:rPr>
+                        <w:t>. Medikamentenpause heißt: Alle Medikamente für die Akutbehandlung von Kopfschmerzen dürfen für einen bestimmten Zeitraum nicht eingenommen werden. Die Pause hat nach spätestens vier bis sechs Wochen ihr Ziel erreicht und kann beendet werden. Attacken können dann wieder mit Akutmedikation behandelt werden. Eine medikamentöse Attackentherapie kann auch dann wieder beginnen. Nach Abschluss der Analgetikapause sollte eine Reevaluation der Kopfschmerzen und entsprechende Diagnosesicherung erfolgen.</w:t>
+                    </w:r>
+                </w:p>
+            </text>
+        </textblock>
+    </insert>
     <insert for="G44.4*" name="overuse:continuation">
         <textblock>
             <text>
@@ -2364,6 +2414,614 @@
                         </w:p>
                     </w:tc>
                 </w:tr>
+            </text>
+        </textblock>
+    </insert>
+    <insert for="G43.0*|G43.1*" name="migraine:pain_type">
+        <textblock>
+            <text>
+                <w:tbl>
+                    <w:tblPr>
+                        <w:tblW w:w="0" w:type="auto"/>
+                        <w:tblInd w:w="2" w:type="dxa"/>
+                        <w:tblLook w:val="00A0"/>
+                    </w:tblPr>
+                    <w:tblGrid>
+                        <w:gridCol w:w="2234"/>
+                        <w:gridCol w:w="6944"/>
+                    </w:tblGrid>
+                    <w:tr w:rsidR="00877D06" w:rsidRPr="00764B64">
+                        <w:tc>
+                            <w:tcPr>
+                                <w:tcW w:w="2234" w:type="dxa"/>
+                            </w:tcPr>
+                            <w:p w:rsidR="00877D06" w:rsidRPr="00764B64" w:rsidRDefault="00877D06" w:rsidP="00746F90">
+                                <w:pPr>
+                                    <w:tabs>
+                                        <w:tab w:val="left" w:pos="1701"/>
+                                        <w:tab w:val="left" w:pos="2268"/>
+                                        <w:tab w:val="left" w:pos="6804"/>
+                                    </w:tabs>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                </w:pPr>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:b/>
+                                        <w:bCs/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:t>Schmerztyp 1</w:t>
+                                </w:r>
+                                <w:r w:rsidRPr="00764B64">
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:t>:</w:t>
+                                </w:r>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:br/>
+                                </w:r>
+                                <w:r w:rsidRPr="00764B64">
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:t>zeitlicher Verlauf:</w:t>
+                                </w:r>
+                            </w:p>
+                        </w:tc>
+                        <w:tc>
+                            <w:tcPr>
+                                <w:tcW w:w="6944" w:type="dxa"/>
+                            </w:tcPr>
+                            <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00746F90">
+                                <w:pPr>
+                                    <w:tabs>
+                                        <w:tab w:val="left" w:pos="1701"/>
+                                        <w:tab w:val="left" w:pos="2268"/>
+                                        <w:tab w:val="left" w:pos="6804"/>
+                                    </w:tabs>
+                                    <w:jc w:val="both"/>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                </w:pPr>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:t xml:space="preserve">Migräne </w:t>
+                                </w:r>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                        <w:highlight w:val="yellow"/>
+                                    </w:rPr>
+                                    <w:t xml:space="preserve">mit und </w:t>
+                                </w:r>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:t>ohne Aura</w:t>
+                                </w:r>
+                            </w:p>
+                            <w:p w:rsidR="00877D06" w:rsidRPr="00764B64" w:rsidRDefault="00877D06" w:rsidP="00746F90">
+                                <w:pPr>
+                                    <w:tabs>
+                                        <w:tab w:val="left" w:pos="1701"/>
+                                        <w:tab w:val="left" w:pos="2268"/>
+                                        <w:tab w:val="left" w:pos="6804"/>
+                                    </w:tabs>
+                                    <w:jc w:val="both"/>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                </w:pPr>
+                                <w:r w:rsidRPr="00764B64">
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:t xml:space="preserve">Kopfschmerzanfälle seit </w:t>
+                                </w:r>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:t xml:space="preserve">der Kindheit bestehend, seit einigen Jahren deutliche Zunahme der Frequenz. Attackendauer </w:t>
+                                </w:r>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                        <w:highlight w:val="yellow"/>
+                                    </w:rPr>
+                                    <w:t>XX Tage/Stunden</w:t>
+                                </w:r>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:t xml:space="preserve">, Kopfschmerzen an bis zu </w:t>
+                                </w:r>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                        <w:highlight w:val="yellow"/>
+                                    </w:rPr>
+                                    <w:t>XX</w:t>
+                                </w:r>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:t xml:space="preserve"> Tagen/Monat.</w:t>
+                                </w:r>
+                            </w:p>
+                        </w:tc>
+                    </w:tr>
+                    <w:tr w:rsidR="00877D06" w:rsidRPr="00764B64">
+                        <w:tc>
+                            <w:tcPr>
+                                <w:tcW w:w="2234" w:type="dxa"/>
+                            </w:tcPr>
+                            <w:p w:rsidR="00877D06" w:rsidRPr="00764B64" w:rsidRDefault="00877D06" w:rsidP="00746F90">
+                                <w:pPr>
+                                    <w:tabs>
+                                        <w:tab w:val="left" w:pos="1701"/>
+                                        <w:tab w:val="left" w:pos="2268"/>
+                                        <w:tab w:val="left" w:pos="6804"/>
+                                    </w:tabs>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                </w:pPr>
+                                <w:r w:rsidRPr="00764B64">
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:t>Schmerzlokalisation:</w:t>
+                                </w:r>
+                            </w:p>
+                        </w:tc>
+                        <w:tc>
+                            <w:tcPr>
+                                <w:tcW w:w="6944" w:type="dxa"/>
+                            </w:tcPr>
+                            <w:p w:rsidR="00877D06" w:rsidRPr="00764B64" w:rsidRDefault="00877D06" w:rsidP="00746F90">
+                                <w:pPr>
+                                    <w:tabs>
+                                        <w:tab w:val="left" w:pos="1701"/>
+                                        <w:tab w:val="left" w:pos="2268"/>
+                                        <w:tab w:val="left" w:pos="6804"/>
+                                    </w:tabs>
+                                    <w:jc w:val="both"/>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                </w:pPr>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:t>Unilateral, Seitenwechselnd, temporal, parietal, periorbital, orbital, nuchal</w:t>
+                                </w:r>
+                            </w:p>
+                        </w:tc>
+                    </w:tr>
+                    <w:tr w:rsidR="00877D06" w:rsidRPr="00764B64">
+                        <w:tc>
+                            <w:tcPr>
+                                <w:tcW w:w="2234" w:type="dxa"/>
+                            </w:tcPr>
+                            <w:p w:rsidR="00877D06" w:rsidRPr="00764B64" w:rsidRDefault="00877D06" w:rsidP="00746F90">
+                                <w:pPr>
+                                    <w:tabs>
+                                        <w:tab w:val="left" w:pos="1701"/>
+                                        <w:tab w:val="left" w:pos="2268"/>
+                                        <w:tab w:val="left" w:pos="6804"/>
+                                    </w:tabs>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                </w:pPr>
+                                <w:r w:rsidRPr="00764B64">
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:t>Intensität:</w:t>
+                                </w:r>
+                            </w:p>
+                        </w:tc>
+                        <w:tc>
+                            <w:tcPr>
+                                <w:tcW w:w="6944" w:type="dxa"/>
+                            </w:tcPr>
+                            <w:p w:rsidR="00877D06" w:rsidRPr="00764B64" w:rsidRDefault="00877D06" w:rsidP="00746F90">
+                                <w:pPr>
+                                    <w:tabs>
+                                        <w:tab w:val="left" w:pos="1701"/>
+                                        <w:tab w:val="left" w:pos="2268"/>
+                                        <w:tab w:val="left" w:pos="6804"/>
+                                    </w:tabs>
+                                    <w:jc w:val="both"/>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                </w:pPr>
+                                <w:r w:rsidRPr="00764B64">
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:t>Stark bis sehr stark</w:t>
+                                </w:r>
+                            </w:p>
+                        </w:tc>
+                    </w:tr>
+                    <w:tr w:rsidR="00877D06" w:rsidRPr="00764B64">
+                        <w:tc>
+                            <w:tcPr>
+                                <w:tcW w:w="2234" w:type="dxa"/>
+                            </w:tcPr>
+                            <w:p w:rsidR="00877D06" w:rsidRPr="00764B64" w:rsidRDefault="00877D06" w:rsidP="00746F90">
+                                <w:pPr>
+                                    <w:tabs>
+                                        <w:tab w:val="left" w:pos="1701"/>
+                                        <w:tab w:val="left" w:pos="2268"/>
+                                        <w:tab w:val="left" w:pos="6804"/>
+                                    </w:tabs>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                </w:pPr>
+                                <w:r w:rsidRPr="00764B64">
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:t>Schmerzcharakter:</w:t>
+                                </w:r>
+                            </w:p>
+                        </w:tc>
+                        <w:tc>
+                            <w:tcPr>
+                                <w:tcW w:w="6944" w:type="dxa"/>
+                            </w:tcPr>
+                            <w:p w:rsidR="00877D06" w:rsidRPr="00764B64" w:rsidRDefault="00877D06" w:rsidP="00746F90">
+                                <w:pPr>
+                                    <w:tabs>
+                                        <w:tab w:val="left" w:pos="1701"/>
+                                        <w:tab w:val="left" w:pos="2268"/>
+                                        <w:tab w:val="left" w:pos="6804"/>
+                                    </w:tabs>
+                                    <w:jc w:val="both"/>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                </w:pPr>
+                                <w:r w:rsidRPr="00764B64">
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:t>Pulsierend, pochend</w:t>
+                                </w:r>
+                            </w:p>
+                        </w:tc>
+                    </w:tr>
+                    <w:tr w:rsidR="00877D06" w:rsidRPr="00764B64">
+                        <w:tc>
+                            <w:tcPr>
+                                <w:tcW w:w="2234" w:type="dxa"/>
+                            </w:tcPr>
+                            <w:p w:rsidR="00877D06" w:rsidRPr="00764B64" w:rsidRDefault="00877D06" w:rsidP="00746F90">
+                                <w:pPr>
+                                    <w:tabs>
+                                        <w:tab w:val="left" w:pos="1701"/>
+                                        <w:tab w:val="left" w:pos="2268"/>
+                                        <w:tab w:val="left" w:pos="6804"/>
+                                    </w:tabs>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                </w:pPr>
+                                <w:r w:rsidRPr="00764B64">
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:t>Modulation:</w:t>
+                                </w:r>
+                            </w:p>
+                        </w:tc>
+                        <w:tc>
+                            <w:tcPr>
+                                <w:tcW w:w="6944" w:type="dxa"/>
+                            </w:tcPr>
+                            <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00746F90">
+                                <w:pPr>
+                                    <w:tabs>
+                                        <w:tab w:val="left" w:pos="1701"/>
+                                        <w:tab w:val="left" w:pos="2268"/>
+                                        <w:tab w:val="left" w:pos="6804"/>
+                                    </w:tabs>
+                                    <w:jc w:val="both"/>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                </w:pPr>
+                                <w:r w:rsidRPr="00764B64">
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:t xml:space="preserve">Körperliche Routineaktivitäten verstärken die Beschwerden und führen zu deren Vermeidung</w:t>
+                                </w:r>
+                                <w:r w:rsidRPr="00690B32">
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                        <w:highlight w:val="yellow"/>
+                                    </w:rPr>
+                                    <w:t>. Oder:</w:t>
+                                </w:r>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:t xml:space="preserve"> </w:t>
+                                </w:r>
+                            </w:p>
+                            <w:p w:rsidR="00877D06" w:rsidRPr="00764B64" w:rsidRDefault="00877D06" w:rsidP="00746F90">
+                                <w:pPr>
+                                    <w:tabs>
+                                        <w:tab w:val="left" w:pos="1701"/>
+                                        <w:tab w:val="left" w:pos="2268"/>
+                                        <w:tab w:val="left" w:pos="6804"/>
+                                    </w:tabs>
+                                    <w:jc w:val="both"/>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                </w:pPr>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:t>Körperliche Tätigkeiten verstärken den Schmerz, Bettruhe erforderlich, Bettruhe wird häufig eingehalten.</w:t>
+                                </w:r>
+                            </w:p>
+                        </w:tc>
+                    </w:tr>
+                    <w:tr w:rsidR="00877D06" w:rsidRPr="00764B64">
+                        <w:tc>
+                            <w:tcPr>
+                                <w:tcW w:w="2234" w:type="dxa"/>
+                            </w:tcPr>
+                            <w:p w:rsidR="00877D06" w:rsidRPr="00764B64" w:rsidRDefault="00877D06" w:rsidP="00C54D31">
+                                <w:pPr>
+                                    <w:tabs>
+                                        <w:tab w:val="left" w:pos="1701"/>
+                                        <w:tab w:val="left" w:pos="2268"/>
+                                        <w:tab w:val="left" w:pos="6804"/>
+                                    </w:tabs>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                </w:pPr>
+                                <w:r w:rsidRPr="00764B64">
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:t>Begleitsymptome:</w:t>
+                                </w:r>
+                            </w:p>
+                        </w:tc>
+                        <w:tc>
+                            <w:tcPr>
+                                <w:tcW w:w="6944" w:type="dxa"/>
+                            </w:tcPr>
+                            <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00C54D31">
+                                <w:pPr>
+                                    <w:tabs>
+                                        <w:tab w:val="left" w:pos="1701"/>
+                                        <w:tab w:val="left" w:pos="2268"/>
+                                        <w:tab w:val="left" w:pos="6804"/>
+                                    </w:tabs>
+                                    <w:jc w:val="both"/>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                </w:pPr>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:t>Übelkeit, Erbrechen, Phonophobie, Photophobie, Geruchsüberempfindlichkeit, Schwindel, Schlafstörungen, Konzentrationsstörungen, Müdigkeit, Berührungsempfindlichkeit</w:t>
+                                </w:r>
+                            </w:p>
+                        </w:tc>
+                    </w:tr>
+                    <w:tr w:rsidR="00877D06" w:rsidRPr="00764B64">
+                        <w:tc>
+                            <w:tcPr>
+                                <w:tcW w:w="2234" w:type="dxa"/>
+                            </w:tcPr>
+                            <w:p w:rsidR="00877D06" w:rsidRPr="00764B64" w:rsidRDefault="00877D06" w:rsidP="00B25585">
+                                <w:pPr>
+                                    <w:tabs>
+                                        <w:tab w:val="left" w:pos="1701"/>
+                                        <w:tab w:val="left" w:pos="2268"/>
+                                        <w:tab w:val="left" w:pos="6804"/>
+                                    </w:tabs>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                </w:pPr>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:t>Auren:</w:t>
+                                </w:r>
+                            </w:p>
+                        </w:tc>
+                        <w:tc>
+                            <w:tcPr>
+                                <w:tcW w:w="6944" w:type="dxa"/>
+                            </w:tcPr>
+                            <w:p w:rsidR="00877D06" w:rsidRPr="00764B64" w:rsidRDefault="00877D06" w:rsidP="00B25585">
+                                <w:pPr>
+                                    <w:tabs>
+                                        <w:tab w:val="left" w:pos="1701"/>
+                                        <w:tab w:val="left" w:pos="2268"/>
+                                        <w:tab w:val="left" w:pos="6804"/>
+                                    </w:tabs>
+                                    <w:jc w:val="both"/>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                </w:pPr>
+                                <w:r>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:t>Vorübergehende einseitige Sehstörungen in Form von Flimmerskotomen</w:t>
+                                </w:r>
+                            </w:p>
+                        </w:tc>
+                    </w:tr>
+                </w:tbl>
             </text>
         </textblock>
     </insert>
