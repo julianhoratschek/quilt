@@ -8,6 +8,7 @@
             <pronoun name="patient">Patient</pronoun>
             <pronoun name="appellation">Herrn</pronoun>
             <pronoun name="pron">er</pronoun>
+            <pronoun name="poss">seine</pronoun>
         </gender>
 
         <gender name="f">
@@ -16,6 +17,7 @@
             <pronoun name="patient">Patientin</pronoun>
             <pronoun name="appellation">Frau</pronoun>
             <pronoun name="pron">sie</pronoun>
+            <pronoun name="poss">ihre</pronoun>
         </gender>
     </form>
 </templates>
