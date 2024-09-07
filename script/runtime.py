@@ -23,6 +23,7 @@ class Runtime:
     def __init__(self):
         self.stack: list = []
         self.namespaces: dict = {
+            "counter": "counter",
             "empty": "empty",
             "get": "get",
             "gt": "gt",
@@ -31,7 +32,8 @@ class Runtime:
             "not": "not",
             "run": "run",
             "sum": "sum",
-            "upper": "upper"
+            "upper": "upper",
+            "var": "var"
         }
         self.templates: list[Template] = []
         self.options: dict[str, str] = {}
@@ -97,10 +99,15 @@ class Runtime:
 
                     case '!':
                         callback_name: str = self.stack.pop()
-                        if callback_name == "run":
-                            self.stack.append(self._execute_template())
-                        elif callback := getattr(script.builtins, f"builtin_{callback_name}"):
-                            self.stack.append(callback(self.stack.pop()))
+
+                        match callback_name:
+                            case "run":
+                                self.stack.append(self._execute_template())
+                            case "var":
+                                self.namespaces[self.stack.pop()[0]] = 0
+                            case _:
+                                if callback := getattr(script.builtins, f"builtin_{callback_name}"):
+                                    self.stack.append(callback(self.stack.pop()))
 
         return self.stack.pop()
 

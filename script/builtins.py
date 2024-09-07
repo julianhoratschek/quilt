@@ -1,5 +1,22 @@
 
 
+counters: dict[str, tuple[int, int]] = {}
+
+
+def builtin_counter(args: list) -> int:
+    """counter(c_name: str[, c_start: int[, c_step: int]])"""
+    cntr_name = str(args[0])
+    if cntr_name in counters:
+        cntr, inc = counters[cntr_name]
+        counters[cntr_name] = (cntr + inc, inc)
+        return cntr
+
+    start: int = args[1] if len(args) > 1 else 0
+    add: int = args[2] if len(args) > 2 else 1
+    counters[cntr_name] = (start, add)
+    return start
+
+
 def builtin_empty(args: list) -> bool:
     return bool(len(args[0]))
 
@@ -33,4 +50,3 @@ def builtin_sum(args: list) -> int:
 
 def builtin_upper(args: list) -> str:
     return str(args[0]).capitalize()
-
