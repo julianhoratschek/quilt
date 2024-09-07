@@ -74,7 +74,6 @@ class Runtime:
                 identifier = identifier[::-1]
                 if identifier in self.namespaces:
                     self.stack.append(self.namespaces[identifier])
-                    print(f"# Identifier: {identifier} -> {self.namespaces[identifier]}")
                 else:
                     print(f"!! Identifier <{identifier}> is not a registered namespace")
 

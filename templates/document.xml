@@ -1583,7 +1583,6 @@
                     <w:sz w:val="18"/>
                     <w:szCs w:val="18"/>
                 </w:rPr>
-                <w:lastRenderedPageBreak/>
                 <w:t>Mit freundlichen kollegialen Grüßen</w:t>
             </w:r>
         </w:p>
@@ -2006,7 +2005,6 @@
                     <w:sz w:val="28"/>
                     <w:szCs w:val="28"/>
                 </w:rPr>
-                <w:lastRenderedPageBreak/>
                 <w:t>Behandlungsplan</w:t>
             </w:r>
         </w:p>
@@ -5736,8 +5734,6 @@
                 </w:tc>
             </w:tr>
         </w:tbl>
-        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00E43C7B"/>
-        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00E43C7B"/>
         <w:tbl>
             <w:tblPr>
                 <w:tblW w:w="0" w:type="auto"/>
@@ -6745,7 +6741,6 @@
                     <w:sz w:val="18"/>
                     <w:szCs w:val="18"/>
                 </w:rPr>
-                <w:lastRenderedPageBreak/>
                 <w:t>Schmerzphänomenologie</w:t>
             </w:r>
         </w:p>
@@ -7984,7 +7979,6 @@
                     <w:sz w:val="18"/>
                     <w:szCs w:val="18"/>
                 </w:rPr>
-                <w:lastRenderedPageBreak/>
                 <w:t xml:space="preserve">Aufgrund der ausgeprägten depressiven Erschöpfungsreaktion, der komplexen bestehenden unterhaltenden psychischen Komorbidität, der gravierenden somatischen Begleiterkrankungen, des schwerwiegenden langen chronischen Verlaufes und der notwendigen Minimierung des Rückfallrisikos in den Analgetika-Übergebrauch und Analgetika-Fehlgebrauch erforderte die Behandlung den Zeitraum bis zum </w:t>
             </w:r>
             <w:r w:rsidRPr="00213423">
@@ -8205,7 +8199,6 @@
         #{migraine:with_aura:treatment}
         <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="008A1328">
             <w:pPr>
-                <w:pStyle w:val="Textkrper"/>
                 <w:tabs>
                     <w:tab w:val="left" w:pos="1701"/>
                     <w:tab w:val="left" w:pos="6804"/>
@@ -8218,11 +8211,8 @@
             </w:pPr>
         </w:p>
         #{cluster:treatment}
-        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="008A1328"/>
         #{fibromyalgia}
-        <w:p w:rsidR="00877D06" w:rsidRPr="005E3B51" w:rsidRDefault="00877D06" w:rsidP="008A1328"/>
         #{tension:treatment}
-        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00F12FDC"/>
         <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="008200BE">
             <w:pPr>
                 <w:jc w:val="both"/>

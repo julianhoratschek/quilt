@@ -196,10 +196,8 @@ class Parser:
                 self.entries.append(Entry([], self.current_tag.attr("ignore") != ""))
 
             case "set":
-                print("set")
                 if ((set_name := self.current_tag["name"])
                         and (set_value := self.current_tag["value"])):
-                    print(f"'{set_name}'")
                     self.options[set_name] = [
                         s.strip() for s in set_value.split(",")
                     ] if set_name == "ignore_forms" else set_value

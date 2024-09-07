@@ -2943,7 +2943,6 @@
                                     <w:szCs w:val="18"/>
                                 </w:rPr>
                             </w:pPr>
-                            <w:bookmarkStart w:id="13" w:name="_Hlk535423756"/>
                             <w:r w:rsidRPr="00166F0D">
                                 <w:rPr>
                                     <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
@@ -3065,7 +3064,6 @@
                                     <w:sz w:val="18"/>
                                     <w:szCs w:val="18"/>
                                 </w:rPr>
-                                <w:lastRenderedPageBreak/>
                                 <w:t xml:space="preserve">o.) möglich. </w:t>
                             </w:r>
                         </w:p>
@@ -3766,7 +3764,6 @@
                                     <w:sz w:val="18"/>
                                     <w:szCs w:val="18"/>
                                 </w:rPr>
-                                <w:lastRenderedPageBreak/>
                                 <w:t>Status migraenosus</w:t>
                             </w:r>
                             <w:r>
@@ -3966,7 +3963,6 @@
                             <w:sz w:val="18"/>
                             <w:szCs w:val="18"/>
                         </w:rPr>
-                        <w:lastRenderedPageBreak/>
                         <w:t>bei der Einhaltung von Therapieregeln sowie bei der Therapieanpassung. Die Migräne-App enthält zusätzlich umfangreiche Report-, Informations- und Selbsthilfe-Tools.</w:t>
                     </w:r>
                 </w:p>
@@ -4118,7 +4114,6 @@
                             <w:sz w:val="18"/>
                             <w:szCs w:val="18"/>
                         </w:rPr>
-                        <w:lastRenderedPageBreak/>
                         <w:t xml:space="preserve">Therapiekontrolle sollte der Kopfschmerzkalender oder die Migräne-App kontinuierlich geführt werden, um sowohl Kopfschmerzsymptome, Medikamenteneinnahme als auch Therapieeffekte im Verlauf zu protokollieren. </w:t>
                     </w:r>
                 </w:p>
