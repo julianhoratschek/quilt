@@ -18,7 +18,7 @@ def builtin_counter(args: list) -> int:
         counters[cntr_name] = (cntr + inc, inc)
         return cntr
 
-    start: int = args[1] if len(args) > 1 else 0
+    start: int = args[1] if len(args) > 1 else 1
     add: int = args[2] if len(args) > 2 else 1
     counters[cntr_name] = (start, add)
     return start
