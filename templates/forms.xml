@@ -14,6 +14,16 @@
         </field>
     </form>
 
+    <form name="gdb">
+        <field name="values" type="text">
+            <prompt default="0">GDB: </prompt>
+        </field>
+        <textblock>
+            <text when="!gt(gdb:values, 0)">Es besteht ein Grad der Behinderung von #{gdb:values}.</text>
+            <text when="!eq(gdb:values, 0)">Bisher wurde kein Grad der Behinderung beantragt.</text>
+        </textblock>
+    </form>
+
     <form name="midas_score">
         <field name="values" type="numbers" count="5">
             <prompt default="00000">MIDAS-Score (5 Zahlen): </prompt>
@@ -191,7 +201,7 @@
         </field>
 
         <textblock>
-            <text>Diese Angaben spiegeln sich auch im WHODAS-2.0 insbesondere im Bereich #{!join(whodas_categories:values, ", ", " und ")} wider.</text>
+            <text>Diese Angaben spiegeln sich auch im WHODAS-2.0 insbesondere im Bereich #{!join(whodas_categories:values, ", ", " und ")} wider. </text>
         </textblock>
     </form>
 
