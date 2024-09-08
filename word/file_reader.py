@@ -7,6 +7,8 @@ from datetime import datetime, date
 
 
 class CellName(IntEnum):
+    """Access to cells with data of interest"""
+
     PatientName = 0
     BirthDate = 1
     Address = 4
@@ -28,6 +30,7 @@ class CellName(IntEnum):
 
 
 def extract_text(content: str) -> list[str]:
+    """Read all <w:t> elements within a paragraph tag, read the content and join it."""
     return [
         "".join([
             t.group(1) for t in finditer(r"<w:t(?:\s[^>]+)?>(.*?)</w:t>", p.group(1))
@@ -88,12 +91,12 @@ def attach_runtime(runtime: Runtime, file_name: Path):
                   CellName.OtherDiagnoses):
 
                 diagnoses: list[tuple[str, str]] = list(zip(*[
-                    ("??" if not m.group(2) else m.group(2), m.group(1).strip())
+                    (m.group(2), m.group(1).strip())
                     for m in finditer(r"([\w,. ]+)([A-Z]\d{2,3}(?:\.\d{1,3})?)", "\n".join(text))
-                    if m.group(1) is not None
+                    # if m.group(1) is not None
                 ]))
 
-                if len(diagnoses):
+                if diagnoses:
                     runtime.namespaces["diagnoses:icd10"].extend(diagnoses[0])
                     runtime.namespaces["diagnoses:names"].extend(diagnoses[1])
 
@@ -118,8 +121,7 @@ def attach_runtime(runtime: Runtime, file_name: Path):
                             r"(?:\s*-\s*([\d.,/?]+))?)?", "\n".join(text))])):
 
                     runtime.namespaces[
-                        f"medication:"
-                        f"current:"
+                        f"medication:current:"
                         f"{'base' if i == CellName.CurrentBaseMedication else 'other'}:"
                         f"{med_entry[0]}"] = list(map(lambda x: 0 if x is None else x, med_entry[1:]))
 

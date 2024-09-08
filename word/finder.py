@@ -5,6 +5,9 @@ from datetime import date, datetime
 
 
 def pick_file(paths: list[Path]) -> Path:
+    """Prompt user to select the correct file"""
+
+    # Extract surname, name and admission date
     file_pattern: Pattern = compile(r"([.\w\- ]+),\s*([.\w\- ]+)\s*(\d{8})")
     option_list: list[tuple[str, str, date, Path]] = [
         (m.group(1), m.group(2), datetime.strptime(m.group(3), "%d%m%Y").date(), p)
@@ -30,10 +33,7 @@ def find_file(options: dict[str, str], patient_name: str) -> Path:
     matches: list[Path] = [path for path in search_dir.glob("*.docx") if patient_name.lower() in path.name.lower()]
 
     match len(matches):
-        case 0:
-            return Path()
-        case 1:
-            return matches[0]
-        case _:
-            return pick_file(matches)
+        case 0: return Path()
+        case 1: return matches[0]
+        case _: return pick_file(matches)
 
