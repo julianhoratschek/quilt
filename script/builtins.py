@@ -37,7 +37,7 @@ def builtin_get(args: list):
 
 
 def builtin_gt(args: list) -> int:
-    return int(args[0] > args[1])
+    return int(int(args[0]) > int(args[1]))
 
 
 def builtin_join(args: list) -> str:
