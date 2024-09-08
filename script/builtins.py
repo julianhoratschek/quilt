@@ -1,4 +1,11 @@
 
+def builtin_btwn(args: list) -> bool:
+    """btwn(val: int, lower: int, higher: int)"""
+    if len(args) != 3:
+        print("!! #btwn expects 3 parameters: value, lower (inclusive), higher (inclusive)")
+        return False
+    return int(args[1]) <= int(args[0]) <= int(args[2])
+
 
 counters: dict[str, tuple[int, int]] = {}
 

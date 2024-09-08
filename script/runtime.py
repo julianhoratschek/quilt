@@ -23,6 +23,7 @@ class Runtime:
     def __init__(self):
         self.stack: list = []
         self.namespaces: dict = {
+            "btwn": "btwn",
             "counter": "counter",
             "empty": "empty",
             "get": "get",
