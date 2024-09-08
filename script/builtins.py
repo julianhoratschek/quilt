@@ -28,6 +28,10 @@ def builtin_empty(args: list) -> bool:
     return bool(len(args[0]))
 
 
+def builtin_eq(args: list) -> bool:
+    return bool(int(args[0]) == int(args[1]))
+
+
 def builtin_get(args: list):
     return args[0][args[1]]
 

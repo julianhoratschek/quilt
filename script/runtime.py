@@ -26,6 +26,7 @@ class Runtime:
             "btwn": "btwn",
             "counter": "counter",
             "empty": "empty",
+            "eq": "eq",
             "get": "get",
             "gt": "gt",
             "join": "join",
