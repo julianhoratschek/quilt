@@ -104,7 +104,6 @@
             <text>Zur Akutschmerzmedikation kamen #{!join(medication:former:acute, ", ", " und ")} zum Einsatz.</text>
             <text>Alternativmedizinische Behandlungsversuche umfassten #{!join(treatments:values:alternative, ", ", " und ")}.</text>
             <text when="!not(!empty(treatments:values:other))">Zudem betätigte #{the} #{patient} sich regelmäßig sportlich, erhielt #{!join(treatments:values:other, " und ")}.</text>
-            <text>Insgesamt besteht damit ein Fehlschlag der bisherigen unimodalen Schmerztherapie sowie einer Entzugsbehandlung.</text>
         </textblock>
     </form>
 
