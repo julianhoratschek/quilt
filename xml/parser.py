@@ -19,18 +19,30 @@ class Parser:
 
     def __init__(self, rt: Runtime, options: dict[str, str | list[str]] = None):
         self.runtime: Runtime = rt
+
+        # Content of xml-file to process
         self.text: str = ""
+        # Offset in xml-content
         self.pos: int = 0
 
+        # Currently "open" tags
         self.tag_stack: list[Tag] = []
+        # Last opened tag (before being pushed onto tag_stack)
         self.current_tag: Tag = Tag("templates")
+        # Last match in text
         self.current_match: Match | None = None
 
+        # List of names to build runtime namespace name (e.g. "patient", "height", "values" -> "patient:height:values")
         self.namespaces: list[str] = []
+
+        # Last user input from <prompt> tag
         self.last_input: str = ""
 
+        # All currently read <text> tag contents
         self.text_blocks: list[str] = []
+        # All currently registered <value> tags in the last encountered <field> tag
         self.field_value_names: list[str] = []
+        # All currently registered <entry> or <select> tags in the last encountered <mapping> tag
         self.entries: list[Entry] = []
 
         self.options: dict[str, str | list[str]] = options if options else {
