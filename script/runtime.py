@@ -4,13 +4,20 @@ from re import Pattern, compile
 
 
 class Runtime:
+    """Evaluates scripts and stores all relevant data"""
+
+    # RegEx capturing groups
     IdentifierToken: int = 1
     NumberToken: int = 2
     DQString: int = 3
 
+    # Script syntax as RegEx
     ScriptRe: Pattern = compile(r"([a-zA-Z_][\w_:]+)|(\d+)|\"([^\"]+)\"|\[|\(|]|\)|!")
 
     class EndParam:
+        """Singleton-Class representing end of parameter list, used for array- and parameter creation.
+        Should only be called using its class-method get()."""
+
         Singleton = None
 
         def __init__(self):
@@ -21,7 +28,11 @@ class Runtime:
             return cls.Singleton if cls.Singleton else cls()
 
     def __init__(self):
+
+        # Value stack for script evaluation
         self.stack: list = []
+
+        # Setup namespaces containing all builtin method names
         self.namespaces: dict = {
             "btwn": "btwn",
             "counter": "counter",
@@ -38,7 +49,7 @@ class Runtime:
             "var": "var"
         }
         self.templates: list[Template] = []
-        self.options: dict[str, str] = {}
+        # self.options: dict[str, str] = {}
 
     def __str__(self) -> str:
         return (f"Namespaces:\n" +
@@ -47,15 +58,20 @@ class Runtime:
                 f"\nStack: {self.stack}")
 
     def _execute_template(self) -> str:
+        """Run a template using all its registered aliases for namespaces. All namespaces used in the template
+        must have the same length"""
+
+        # Get template id from stack
         template_id: int = int(self.stack.pop()[0])
-        if 0 > template_id > len(self.templates):
+        if 0 > template_id or template_id > len(self.templates):
             print(f"!! Trying to execute template nr {template_id} with only {len(self.templates)} registered")
             return ""
 
         template: Template = self.templates[template_id]
         template_aliases = iter(template.alias.values())
-        template_len: int = len(self.namespaces[next(template_aliases)])
 
+        # Test length of each used namespace
+        template_len: int = len(self.namespaces[next(template_aliases)])
         while n := next(template_aliases, None):
             if len(self.namespaces[n]) != template_len:
                 print(f"!! Template values ({','.join(iter(template.alias.values()))}) "
