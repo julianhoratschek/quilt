@@ -17,10 +17,17 @@
     <form name="midas_score">
         <field name="values" type="numbers" count="5">
             <prompt default="00000">MIDAS-Score (5 Zahlen): </prompt>
+
+            <value name="sum" content="!sum(midas_score:values)"/>
         </field>
 
         <textblock>
-            <text>Im MIDAS-Score erreicht #{the} #{patient} einen Wert von #{!sum(midas_score:values)}, einer sehr schweren Beeinträchtigung entsprechend.</text>
+            <text>Im MIDAS-Score erreicht #{the} #{patient} einen Wert von #{midas_score:values:sum},</text>
+            <text when="!btwn(midas_score:values:sum, 0, 5)">einer geringen</text>
+            <text when="!btwn(midas_score:values:sum, 6, 10)">einer milden</text>
+            <text when="!btwn(midas_score:values:sum, 11, 20)">einer mittelschweren</text>
+            <text when="!gt(midas_score:values:sum, 20)">einer sehr schweren</text>
+            <text>Beeinträchtigung entsprechend.</text>
             <text when="!gt(!get(midas_score:values, 0), 0)">An #{!get(midas_score:values, 0)} Tagen in den letzten 3 Monaten ist #{the} #{patient} wegen der Schmerzen nicht zur Arbeit gegangen.</text>
             <text when="!gt(!get(midas_score:values, 1), 0)">An #{!get(midas_score:values, 1)} Tagen in den letzten 3 Monaten war die Leistungsfähigkeit am Arbeitsplatz um die Hälfte oder mehr eingeschränkt.</text>
             <text when="!gt(!get(midas_score:values, 2), 0)">An #{!get(midas_score:values, 2)} Tagen in den letzten 3 Monaten konnte #{the} #{patient} wegen der Schmerzen keine Hausarbeit verrichten.</text>
