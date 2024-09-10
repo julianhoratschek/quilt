@@ -92,8 +92,7 @@ def attach_runtime(runtime: Runtime, file_name: Path):
 
                 diagnoses: list[tuple[str, str]] = list(zip(*[
                     (m.group(2), m.group(1).strip())
-                    for m in finditer(r"([\w,. ]+)([A-Z]\d{2,3}(?:\.\d{1,3})?)", "\n".join(text))
-                    # if m.group(1) is not None
+                    for m in finditer(r"([äöüÄÖÜß\w\-,. ]+)([A-Z]\d{2,3}(?:\.\d{1,3})?)", "\n".join(text))
                 ]))
 
                 if diagnoses:
@@ -104,24 +103,31 @@ def attach_runtime(runtime: Runtime, file_name: Path):
                   CellName.FormerAcuteMedication |
                   CellName.FormerBaseMedication):
 
-                med_field_name: str = "medication:former:base" if i == CellName.FormerBaseMedication \
-                    else "medication:former:acute"
+                if i == CellName.FormerBaseMedication:
+                    med_field_name: str = "medication:former:base"
+                else:
+                    med_field_name: str = "medication:former:acute"
+
                 runtime.namespaces[med_field_name].extend([
-                    med_name.strip()
-                    for med_name in ",".join(text[1:]).split(",")
+                    med_name.strip() for med_name in ",".join(text[1:]).split(",") if med_name
                 ])
 
             case CellName.CurrentBaseMedication | CellName.CurrentOtherMedication:
-                for med_entry in list(zip(
-                    ["name", "dosage", "unit", "morning", "noon", "evening", "night"],
-                    *[m.group(*list(range(1, 8)))
-                      for m in finditer(
-                            r"([a-zA-Z ]+?)\s+([\d.,/\-?]+)\s*(\S+)"
-                            r"(?:\s+([\d.,/?]+)\s*-\s*([\d.,/?]+)\s*-\s*([\d.,/?]+)"
-                            r"(?:\s*-\s*([\d.,/?]+))?)?", "\n".join(text))])):
-
+                for med_entry in list(
+                        zip(
+                            ["name", "dosage", "unit", "morning", "noon", "evening", "night"],
+                            *[m.group(*list(range(1, 8)))
+                              for m in finditer(
+                                    r"([äüöÄÜÖß0-9\w\- ]+?)\s+([\d.,/\-?]+)\s*(\S+)"
+                                    r"(?:\s+([\d.,/?]+)\s*-\s*([\d.,/?]+)\s*-\s*([\d.,/?]+)"
+                                    r"(?:\s*-\s*([\d.,/?]+))?)?", "\n".join(text))]
+                        )
+                ):
                     runtime.namespaces[
                         f"medication:current:"
                         f"{'base' if i == CellName.CurrentBaseMedication else 'other'}:"
                         f"{med_entry[0]}"] = list(map(lambda x: 0 if x is None else x, med_entry[1:]))
+
+                    if i == CellName.CurrentBaseMedication and med_entry[0] == "name":
+                        runtime.namespaces["medication:former:base"].extend(med_entry[1:])
 
