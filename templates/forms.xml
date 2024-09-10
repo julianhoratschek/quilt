@@ -102,7 +102,7 @@
             <text>Die bisherige Behandlung erfolgte bei Ärzten mit der Fach- bzw. Zusatzbezeichnung #{!join(treatments:values:medical, ", ", " und ")}.</text>
             <text>Versuche einer Kopfschmerzprophylaxe waren leitliniengerecht mit #{!join(medication:former:base, ", ", " und ")} unternommen worden.</text>
             <text>Zur Akutschmerzmedikation kamen #{!join(medication:former:acute, ", ", " und ")} zum Einsatz.</text>
-            <text>Alternativmedizinische Behandlungsversuche umfassten #{!join(treatments:values:alternative, ", ", " und ")}.</text>
+            <text when="!not(!empty(treatments:values:alternative))">Alternativmedizinische Behandlungsversuche umfassten #{!join(treatments:values:alternative, ", ", " und ")}.</text>
             <text when="!not(!empty(treatments:values:other))">Zudem betätigte #{the} #{patient} sich regelmäßig sportlich, erhielt #{!join(treatments:values:other, " und ")}.</text>
         </textblock>
     </form>
@@ -111,7 +111,7 @@
         <field name="values" type="numbers" max="64">
             <prompt>Beschwerden (0-64 Zahlen): </prompt>
 
-            <mapping>
+            <mapping start="1">
                 <entry>Kreuz- und Rückenschmerzen</entry>
                 <entry>Überempfindlichkeit gegen Wärme</entry>
                 <entry>Überempfindlichkeit gegen Kälte</entry>
