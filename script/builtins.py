@@ -15,11 +15,13 @@ def builtin_counter(args: list) -> int:
     Signature: counter(c_name: str[, c_start: int[, c_step: int]])"""
 
     cntr_name: str = str(args[0])
+    print(f"<{cntr_name}>, [{builtin_counter.counters}]")
 
     # Increment and return old counter
     if cntr_name in builtin_counter.counters:
         cntr, inc = builtin_counter.counters[cntr_name]
-        builtin_counter.counters[cntr_name] = (cntr + inc, inc)
+        cntr += inc
+        builtin_counter.counters[cntr_name] = (cntr, inc)
         return cntr
 
     # Create new counter
