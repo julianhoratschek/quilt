@@ -49,7 +49,6 @@ class Runtime:
             "var": "var"
         }
         self.templates: list[Template] = []
-        # self.options: dict[str, str] = {}
 
     def __str__(self) -> str:
         return (f"Namespaces:\n" +

@@ -62,29 +62,37 @@ class Parser:
 
     @property
     def opening_tag(self) -> Tag:
+        """Just for semantics"""
         return self.tag_stack[-1]
 
     def _close_tag(self):
+        """Called for every closing tag"""
+
         match self.current_tag.name:
+
+            # Remove namespace part from stack
             case "field" | "form" | "insert" | "value":
                 self.namespaces.pop()
 
+            # Map all values onto last processed field input
             case "mapping":
                 self._map_field_values()
 
+            # Register a new template
             case "template":
                 # Assign last read text to template
-                self.runtime.templates[-1].text = self.runtime.namespaces[self.current_namespace]
+                self.runtime.templates[-1].text = str(self.runtime.namespaces[self.current_namespace])
                 # Let namespace point to current template
                 self.runtime.namespaces[self.current_namespace] = len(self.runtime.templates) - 1
                 # Leave scope
                 self.namespaces.pop()
 
+            # Concat all saved text elements
             case "textblock":
-                print(f"{self.current_namespace} {self.text_blocks}")
                 self.runtime.namespaces[self.current_namespace] = \
                     self.parent_tag.attr("join", " ").join(self.text_blocks)
 
+            # Make sure we didn't encounter unexpected tags
             case tag_name:
                 if tag_name not in ["entry", "gender", "import", "option",
                                     "prompt", "pronoun", "select", "set", "templates", "text", "variable"]:
@@ -96,8 +104,10 @@ class Parser:
         """Read text node of current tag and execute scripts in it"""
 
         def repl(m: Match) -> str:
+            # Run script content and return results
             return str(self.runtime.run(m.group(1)))
 
+        # Match everything until closing tag (even other tags)
         if not (content_match := search(f"(.*?)</{self.current_tag.name}>", self.text[self.pos:], re.DOTALL)):
             print(f"!! Tag {self.current_tag.name} dos not have any content")
             return ""
@@ -108,9 +118,14 @@ class Parser:
         return sub(r"#\{([^}]+)}", repl, content_match.group(1))
 
     def _map_field_values(self):
-        start_idx: int = int(self.opening_tag.attr("start", "0"))
+        """Map processed field user input onto mapping values"""
+
+        # Read type from field-tag, parent of mapping tag is asserted to be field-tag
         number_type: bool = self.tag_stack[-2].attr("type", "") == "numbers"
+
+        # Get mapping-tag attributes
         mapped_type: bool = self.opening_tag.attr("type", "") == "mapped"
+        start_idx: int = int(self.opening_tag.attr("start", "0"))
 
         # For all values in this field
         for ns_name in [self.current_namespace, *self.field_value_names]:
