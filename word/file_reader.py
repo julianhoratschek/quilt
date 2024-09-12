@@ -38,6 +38,26 @@ def extract_text(content: str) -> list[str]:
     ]
 
 
+def parse_medication(runtime: Runtime, text: list[str], medication_type: CellName):
+    for med_entry in list(
+            zip(
+                ["name", "dosage", "unit", "morning", "noon", "evening", "night"],
+                *[m.group(*list(range(1, 8)))
+                  for m in finditer(
+                        r"([äüöÄÜÖß0-9\w\- ]+?)\s+([\d.,/\-?]+)\s*(\S+)"
+                        r"(?:\s+([\d.,/?]+)\s*-\s*([\d.,/?]+)\s*-\s*([\d.,/?]+)"
+                        r"(?:\s*-\s*([\d.,/?]+))?)?", "\n".join(text))]
+            )
+    ):
+        runtime.namespaces[
+            f"medication:current:"
+            f"{'base' if medication_type == CellName.CurrentBaseMedication else 'other'}:"
+            f"{med_entry[0]}"] = list(map(lambda x: 0 if x is None else x, med_entry[1:]))
+
+        if medication_type == CellName.CurrentBaseMedication and med_entry[0] == "name":
+            runtime.namespaces["medication:former:base"].extend(med_entry[1:])
+
+
 def attach_runtime(runtime: Runtime, file_name: Path):
     with ZipFile(file_name, "r") as zip_archive:
         content: str = zip_archive.read("word/document.xml").decode("utf-8")
@@ -113,21 +133,5 @@ def attach_runtime(runtime: Runtime, file_name: Path):
                 ])
 
             case CellName.CurrentBaseMedication | CellName.CurrentOtherMedication:
-                for med_entry in list(
-                        zip(
-                            ["name", "dosage", "unit", "morning", "noon", "evening", "night"],
-                            *[m.group(*list(range(1, 8)))
-                              for m in finditer(
-                                    r"([äüöÄÜÖß0-9\w\- ]+?)\s+([\d.,/\-?]+)\s*(\S+)"
-                                    r"(?:\s+([\d.,/?]+)\s*-\s*([\d.,/?]+)\s*-\s*([\d.,/?]+)"
-                                    r"(?:\s*-\s*([\d.,/?]+))?)?", "\n".join(text))]
-                        )
-                ):
-                    runtime.namespaces[
-                        f"medication:current:"
-                        f"{'base' if i == CellName.CurrentBaseMedication else 'other'}:"
-                        f"{med_entry[0]}"] = list(map(lambda x: 0 if x is None else x, med_entry[1:]))
-
-                    if i == CellName.CurrentBaseMedication and med_entry[0] == "name":
-                        runtime.namespaces["medication:former:base"].extend(med_entry[1:])
+                parse_medication(runtime, text, CellName(i))
 
