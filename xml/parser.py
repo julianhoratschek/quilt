@@ -35,6 +35,9 @@ class Parser:
         # List of names to build runtime namespace name (e.g. "patient", "height", "values" -> "patient:height:values")
         self.namespaces: list[str] = []
 
+        # Namespace variable in runtime to match globs against for inserts
+        self.glob_namespace: list[str] = []
+
         # Last user input from <prompt> tag
         self.last_input: str = ""
 
@@ -58,11 +61,6 @@ class Parser:
 
     @property
     def parent_tag(self) -> Tag:
-        return self.tag_stack[-1]
-
-    @property
-    def opening_tag(self) -> Tag:
-        """Just for semantics"""
         return self.tag_stack[-1]
 
     def _close_tag(self):
@@ -94,7 +92,7 @@ class Parser:
 
             # Make sure we didn't encounter unexpected tags
             case tag_name:
-                if tag_name not in ["entry", "gender", "import", "option",
+                if tag_name not in ["entry", "gender", "import", "match", "option",
                                     "prompt", "pronoun", "select", "set", "templates", "text", "variable"]:
                     print(f"!! Unknown tag <{tag_name}>")
 
@@ -124,8 +122,8 @@ class Parser:
         number_type: bool = self.tag_stack[-2].attr("type", "") == "numbers"
 
         # Get mapping-tag attributes
-        mapped_type: bool = self.opening_tag.attr("type", "") == "mapped"
-        start_idx: int = int(self.opening_tag.attr("start", "0"))
+        mapped_type: bool = self.parent_tag.attr("type", "") == "mapped"
+        start_idx: int = int(self.parent_tag.attr("start", "0"))
 
         # For all values in this field
         for ns_name in [self.current_namespace, *self.field_value_names]:
@@ -191,7 +189,7 @@ class Parser:
                 self.namespaces.append(ns_name)
 
                 if (not (glob_pattern := self.current_tag["for"])
-                        or not glob(glob_pattern, self.runtime.namespaces["diagnoses:icd10"])):
+                        or not glob(glob_pattern, self.glob_namespace, self.current_tag.attr("ignore_case") != "")):
                     self.runtime.namespaces[self.current_namespace] = ""
                     self.namespaces.pop()
                     return self._skip_tag()
@@ -201,6 +199,14 @@ class Parser:
                 if self.parent_tag.name != "field":
                     print("!! mapping tag must be child of field tag")
                     return self._skip_tag()
+
+            case "match":
+                if not (glob_match := self.current_tag["against"]):
+                    return self._skip_tag()
+                if glob_match not in self.runtime.namespaces:
+                    print(f"!! Namespace {glob_match} for glob match is not registered in runtime")
+                    return
+                self.glob_namespace = self.runtime.namespaces[self.glob_namespace]
 
             case "option":
                 if len(self.entries) == 0:

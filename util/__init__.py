@@ -1,16 +1,20 @@
-from re import Match, Pattern, compile, search, sub
+import re
+from re import Match, Pattern, compile, sub
 
 
-def glob(pattern: str, text_list: list[str]) -> bool:
+def glob(pattern: str, text_list: list[str], ignore_case: bool = False) -> bool:
 
     def repl(m: Match) -> str:
-        return {".": r"\.", "?": ".", "*": ".*?"}[m.group(0)]
+        return glob.lookup[m.group(0)]
 
-    s: str = sub(r"[.?*]", repl, pattern)
-
-    pattern_re: Pattern = compile(s)
+    flags: int = re.IGNORECASE if ignore_case else 0
+    pattern_re: Pattern = compile(sub(r"[.?*]", repl, pattern), flags)
     for val in text_list:
         if pattern_re.search(val) is not None:
             print(f"\tmatched: {val}")
             return True
     return False
+
+
+glob.lookup = {".": r"\.", "?": ".", "*": ".*?"}
+
