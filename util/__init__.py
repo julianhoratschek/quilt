@@ -11,7 +11,6 @@ def glob(pattern: str, text_list: list[str], ignore_case: bool = False) -> bool:
     pattern_re: Pattern = compile(sub(r"[.?*]", repl, pattern), flags)
     for val in text_list:
         if pattern_re.search(val) is not None:
-            print(f"\tmatched: {val}")
             return True
     return False
 

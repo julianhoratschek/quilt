@@ -206,7 +206,7 @@ class Parser:
                 if glob_match not in self.runtime.namespaces:
                     print(f"!! Namespace {glob_match} for glob match is not registered in runtime")
                     return
-                self.glob_namespace = self.runtime.namespaces[self.glob_namespace]
+                self.glob_namespace = self.runtime.namespaces[glob_match]
 
             case "option":
                 if len(self.entries) == 0:
