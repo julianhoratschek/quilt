@@ -69,7 +69,13 @@ class Parser:
         match self.current_tag.name:
 
             # Remove namespace part from stack
-            case "field" | "form" | "insert" | "value":
+            case "field" | "form" | "value":
+                self.namespaces.pop()
+
+            case "insert":
+                ns_name: str = self.parent_tag["name"]
+                self.runtime.namespaces[self.current_namespace] = \
+                    f"<!--begin[{ns_name}]!-->{self.runtime.namespaces[self.current_namespace]}<!--end[{ns_name}]!-->"
                 self.namespaces.pop()
 
             # Map all values onto last processed field input
@@ -190,7 +196,7 @@ class Parser:
 
                 if (not (glob_pattern := self.current_tag["for"])
                         or not glob(glob_pattern, self.glob_namespace, self.current_tag.attr("ignore_case") != "")):
-                    self.runtime.namespaces[self.current_namespace] = ""
+                    self.runtime.namespaces[self.current_namespace] = f"<!--skip[{ns_name}]!-->"
                     self.namespaces.pop()
                     return self._skip_tag()
 
