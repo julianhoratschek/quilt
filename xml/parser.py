@@ -200,6 +200,11 @@ class Parser:
                     self.namespaces.pop()
                     return self._skip_tag()
 
+                self.runtime.namespaces[self.current_namespace] = ""
+
+                # DBG
+                print(f"Insert: {glob_pattern} for {self.glob_namespace}")
+
             case "mapping":
                 self.entries.clear()
                 if self.parent_tag.name != "field":
