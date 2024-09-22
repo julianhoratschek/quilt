@@ -67,6 +67,9 @@ if __name__ == "__main__":
 
         # Add new icd-codes into runtime
         case ProgramMode.Add:
+            xml.options["ignore_forms"].extend([
+                "gdb", "midas_score", "treatments", "afflictions",
+                "whodas_categories", "whodas_score", "bdi", "chronic_pain"])
             rt.namespaces["diagnoses:icd10"].extend(args.add_list)
             rt.namespaces["diagnoses:names"].extend(["[Diagnose einfügen]" for _ in args.add_list])
 
@@ -89,6 +92,8 @@ if __name__ == "__main__":
 
         case ProgramMode.Add:
             add_content(rt, xml.options)
+            print("Text blocks were added.")
+            print("!! IMPORTANT: Please add the new diagnoses or medications manually !!")
 
         case ProgramMode.Remove:
             print("!! Remove is not implemented yet")

@@ -1,4 +1,5 @@
 from script import Runtime
+from util import remove_zip_file
 
 from pathlib import Path
 from re import Pattern, Match, sub, compile
@@ -20,16 +21,15 @@ def add_content(runtime: Runtime, options: dict[str, str | list[str]]):
         print(f"!! File {path_name} does not seem to exist, nothing was added")
         return
 
-    with ZipFile(path_name, "w") as zip_archive:
-        with zip_archive.open("word/document.xml", "w") as document_file:
-            document_file.write(
-                insert_pattern
-                .sub(
-                    repl,
-                    zip_archive
-                    .read("word/document.xml")
-                    .decode("utf-8"))
-                .encode("utf-8"))
+    with ZipFile(path_name, "r", compression=ZIP_DEFLATED) as zip_archive:
+        text: str = insert_pattern.sub(repl, zip_archive.read("word/document.xml").decode("utf-8"))
+
+    with ZipFile(path_name, "a", compression=ZIP_DEFLATED) as zip_archive:
+        remove_zip_file(zip_archive, "word/document.xml")
+        zip_archive.writestr(
+            "word/document.xml",
+            text.encode("utf-8"),
+            compress_type=ZIP_DEFLATED)
 
 
 def write_file(runtime: Runtime, options: dict[str, str | list[str]]):

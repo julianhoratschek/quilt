@@ -17,7 +17,7 @@ class Parser:
     OptionsGroup: int = 3
     AutoCloseTagGroup: int = 4
 
-    def __init__(self, rt: Runtime, options: dict[str, str | list[str]] = None):
+    def __init__(self, rt: Runtime, options: dict[str, str | list[str]] = None, skip_tags: list[str] = None):
         self.runtime: Runtime = rt
 
         # Content of xml-file to process
@@ -51,6 +51,9 @@ class Parser:
         self.options: dict[str, str | list[str]] = options if options else {
             "ignore_forms": []
         }
+
+        # List of tags to ignore
+        self.skip_tags: list[str] = skip_tags if skip_tags else []
 
     def __str__(self) -> str:
         return f"Tag Stack: {self.tag_stack}\nOptions: {self.options}"
@@ -185,7 +188,7 @@ class Parser:
 
             case "import":
                 if import_file := self.current_tag["name"]:
-                    p: Parser = Parser(self.runtime, self.options)
+                    p: Parser = Parser(self.runtime, self.options, self.skip_tags)
                     p.process(Path(import_file))
 
             case "insert":
@@ -201,9 +204,6 @@ class Parser:
                     return self._skip_tag()
 
                 self.runtime.namespaces[self.current_namespace] = ""
-
-                # DBG
-                print(f"Insert: {glob_pattern} for {self.glob_namespace}")
 
             case "mapping":
                 self.entries.clear()
@@ -356,6 +356,10 @@ class Parser:
                 tag_match.group(self.CloseTagGroup) is not None,
                 tag_match.group(self.AutoCloseTagGroup) is not None)
             self.pos += tag_match.end()
+
+            if self.current_tag.name in self.skip_tags:
+                self._skip_tag()
+                continue
 
             if self.current_tag.is_closing:
                 self._close_tag()
