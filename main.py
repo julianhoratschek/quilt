@@ -1,6 +1,6 @@
 from script import Runtime
 from xml import Parser
-from word import find_file, attach_runtime, write_file, add_content, parse_medication
+from word import find_file, attach_runtime, write_file, add_content, parse_medication, CellName
 
 from pathlib import Path
 from argparse import ArgumentParser, Namespace
@@ -15,6 +15,7 @@ class ProgramMode(Enum):
 
 if __name__ == "__main__":
 
+    # Setup ArgumentParser
     parser: ArgumentParser = ArgumentParser(
         prog="brief",
         description="A short program to write medical letters",
@@ -37,6 +38,7 @@ if __name__ == "__main__":
     args: Namespace = parser.parse_args()
     program_mode: ProgramMode = ProgramMode.Add if args.add_list else ProgramMode.Create
 
+    # Setup Runtime and XML-Parser
     rt: Runtime = Runtime()
     xml: Parser = Parser(rt)
 
@@ -67,11 +69,18 @@ if __name__ == "__main__":
 
         # Add new icd-codes into runtime
         case ProgramMode.Add:
+
+            # Don't run through forms for adding textblocks
             xml.options["ignore_forms"].extend([
                 "gdb", "midas_score", "treatments", "afflictions",
                 "whodas_categories", "whodas_score", "bdi", "chronic_pain"])
+
+            # TODO: Distinguish icd10 from medication
             rt.namespaces["diagnoses:icd10"].extend(args.add_list)
             rt.namespaces["diagnoses:names"].extend(["[Diagnose einfügen]" for _ in args.add_list])
+
+            # HACK: We are simulating a medication-string for each new entry
+            parse_medication(rt, [f"{name} 0mg 0-0-0" for name in args.add_list], CellName.CurrentBaseMedication)
 
         # TODO implement
         case ProgramMode.Remove:
