@@ -7,22 +7,28 @@ from zipfile import ZipFile, ZIP_DEFLATED
 from shutil import copy
 
 
-def add_content(runtime: Runtime, options: dict[str, str | list[str]]):
+def add_content(runtime: Runtime, options: dict[str, str | list[str]]) -> bool:
     def repl(m: Match) -> str:
         return str(runtime.run(m.group(1)))
+
+    def cleanup(_m: Match) -> str:
+        return ""
 
     path_name: Path = Path(options["output_dir"]) / Path(
         f"A-{runtime.namespaces['patient:last_name']}, "
         f"{runtime.namespaces['patient:first_name']} "
         f"{runtime.namespaces['patient:admission']}.docx")
-    insert_pattern: Pattern = compile(r"<!--skip\[([^]]+)]!-->")
+    insert_pattern: Pattern = compile(
+        r'<w:bookmarkStart w:id="[\d_]+" w:name="skip\[([^]]+)]"/>')
+    cleanup_pattern: Pattern = compile(r'<w:bookmarkEnd w:id="[\d_]+"/>')
 
     if not path_name.exists():
         print(f"!! File {path_name} does not seem to exist, nothing was added")
-        return
+        return False
 
     with ZipFile(path_name, "r", compression=ZIP_DEFLATED) as zip_archive:
-        text: str = insert_pattern.sub(repl, zip_archive.read("word/document.xml").decode("utf-8"))
+        text: str = insert_pattern.sub(
+            repl, cleanup_pattern.sub(cleanup, zip_archive.read("word/document.xml").decode("utf-8")))
 
     with ZipFile(path_name, "a", compression=ZIP_DEFLATED) as zip_archive:
         remove_zip_file(zip_archive, "word/document.xml")
@@ -30,6 +36,8 @@ def add_content(runtime: Runtime, options: dict[str, str | list[str]]):
             "word/document.xml",
             text.encode("utf-8"),
             compress_type=ZIP_DEFLATED)
+
+    return True
 
 
 def write_file(runtime: Runtime, options: dict[str, str | list[str]]):

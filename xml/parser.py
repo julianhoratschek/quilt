@@ -7,6 +7,7 @@ from util import glob
 
 from pathlib import Path
 from re import Pattern, Match, compile, finditer, search, sub
+from datetime import datetime
 
 
 class Parser:
@@ -55,8 +56,15 @@ class Parser:
         # List of tags to ignore
         self.skip_tags: list[str] = skip_tags if skip_tags else []
 
+        self._bookmark_ts: int = int(datetime.now().timestamp())
+        self._bookmark_id: int = 0
+
     def __str__(self) -> str:
         return f"Tag Stack: {self.tag_stack}\nOptions: {self.options}"
+
+    @property
+    def _bookmark(self) -> str:
+        return f"{self._bookmark_ts}_{self._bookmark_id}"
 
     @property
     def current_namespace(self) -> str:
@@ -78,7 +86,10 @@ class Parser:
             case "insert":
                 ns_name: str = self.parent_tag["name"]
                 self.runtime.namespaces[self.current_namespace] = \
-                    f"<!--begin[{ns_name}]!-->{self.runtime.namespaces[self.current_namespace]}<!--end[{ns_name}]!-->"
+                    (f"<w:bookmarkStart w:id=\"{self._bookmark}\" w:name=\"insert[{ns_name}]\"/>"
+                     f"{self.runtime.namespaces[self.current_namespace]}"
+                     f"<w:bookmarkEnd w:id=\"{self._bookmark}\"/>")
+                self._bookmark_id += 1
                 self.namespaces.pop()
 
             # Map all values onto last processed field input
@@ -199,7 +210,11 @@ class Parser:
 
                 if (not (glob_pattern := self.current_tag["for"])
                         or not glob(glob_pattern, self.glob_namespace, self.current_tag.attr("ignore_case") != "")):
-                    self.runtime.namespaces[self.current_namespace] = f"<!--skip[{ns_name}]!-->"
+                    print(f"Not {glob_pattern} for {self.glob_namespace}")
+                    self.runtime.namespaces[self.current_namespace] = \
+                        (f"<w:bookmarkStart w:id=\"{self._bookmark}\" w:name=\"skip[{ns_name}]\"/>"
+                         f"<w:bookmarkEnd w:id=\"{self._bookmark}\"/>")
+                    self._bookmark_id += 1
                     self.namespaces.pop()
                     return self._skip_tag()
 

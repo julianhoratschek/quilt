@@ -63,7 +63,7 @@ if __name__ == "__main__":
         # Don't overwrite existing files silently
         case ProgramMode.Create:
             if generated_path.exists() \
-            and input(f"A generated File {file_path} already exists. Overwrite it? y(es), n(o): ").lower()[0] != 'y':
+            and input(f"A generated File {generated_path} already exists. Overwrite it? y(es), n(o): ").lower()[0] != 'y':
                 print("!! File generation aborted")
                 exit(0)
 
@@ -100,9 +100,9 @@ if __name__ == "__main__":
             write_file(rt, xml.options)
 
         case ProgramMode.Add:
-            add_content(rt, xml.options)
-            print("Text blocks were added.")
-            print("!! IMPORTANT: Please add the new diagnoses or medications manually !!")
+            if add_content(rt, xml.options):
+                print("Text blocks were added.")
+                print("!! IMPORTANT: Please add the new diagnoses or medications manually !!")
 
         case ProgramMode.Remove:
             print("!! Remove is not implemented yet")

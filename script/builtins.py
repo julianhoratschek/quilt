@@ -34,7 +34,7 @@ builtin_counter.counters = {}
 
 
 def builtin_empty(args: list) -> bool:
-    return bool(len(args[0]))
+    return not bool(len(args[0]))
 
 
 def builtin_eq(args: list) -> bool:
