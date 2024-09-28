@@ -84,12 +84,7 @@ class Parser:
                 self.namespaces.pop()
 
             case "insert":
-                ns_name: str = self.parent_tag["name"]
-                self.runtime.namespaces[self.current_namespace] = \
-                    (f"<w:bookmarkStart w:id=\"{self._bookmark}\" w:name=\"insert[{ns_name}]\"/>"
-                     f"{self.runtime.namespaces[self.current_namespace]}"
-                     f"<w:bookmarkEnd w:id=\"{self._bookmark}\"/>")
-                self._bookmark_id += 1
+                self.runtime.namespaces[self.current_namespace] = f"{self.runtime.namespaces[self.current_namespace]}"
                 self.namespaces.pop()
 
             # Map all values onto last processed field input
@@ -210,7 +205,6 @@ class Parser:
 
                 if (not (glob_pattern := self.current_tag["for"])
                         or not glob(glob_pattern, self.glob_namespace, self.current_tag.attr("ignore_case") != "")):
-                    print(f"Not {glob_pattern} for {self.glob_namespace}")
                     self.runtime.namespaces[self.current_namespace] = \
                         (f"<w:bookmarkStart w:id=\"{self._bookmark}\" w:name=\"skip[{ns_name}]\"/>"
                          f"<w:bookmarkEnd w:id=\"{self._bookmark}\"/>")
@@ -268,7 +262,7 @@ class Parser:
 
             case "text":
                 if not (when_clause := self.current_tag.attr("when")) \
-                        or int(self.runtime.run(when_clause)) != 0:
+                        or bool(self.runtime.run(when_clause)):
                     self.text_blocks.append(self._content())
 
             case "textblock":
