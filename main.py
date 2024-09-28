@@ -62,8 +62,11 @@ if __name__ == "__main__":
 
         # Don't overwrite existing files silently
         case ProgramMode.Create:
-            if generated_path.exists() \
-            and input(f"A generated File {generated_path} already exists. Overwrite it? y(es), n(o): ").lower()[0] != 'y':
+            if (generated_path.exists()
+                    and (not (usr_input := input(f"A generated File {generated_path} already exists. "
+                                                 f"Overwrite it? y(es), n(o): "))
+                         or len(usr_input) < 1
+                         or usr_input.lower()[0] != 'y')):
                 print("!! File generation aborted")
                 exit(0)
 
@@ -72,7 +75,7 @@ if __name__ == "__main__":
 
             # Don't run through forms for adding textblocks
             xml.options["ignore_forms"].extend([
-                "gdb", "midas_score", "treatments", "afflictions",
+                "patient", "gdb", "midas_score", "treatments", "afflictions",
                 "whodas_categories", "whodas_score", "bdi", "chronic_pain"])
 
             # TODO: Distinguish icd10 from medication
