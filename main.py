@@ -27,13 +27,6 @@ if __name__ == "__main__":
                         type=str,
                         dest="add_list",
                         help="add diagnoses with corresponding textblocks to an existing letter")
-    # TODO implement
-    parser.add_argument("-d", "--delete",
-                        action="extend",
-                        nargs="+",
-                        type=str,
-                        dest="remove_list",
-                        help="remove diagnoses and textblocks from an existing letter")
 
     args: Namespace = parser.parse_args()
     program_mode: ProgramMode = ProgramMode.Add if args.add_list else ProgramMode.Create
@@ -51,7 +44,6 @@ if __name__ == "__main__":
     # Read file and prepare runtime
     attach_runtime(rt, file_path)
 
-    # TODO put into write_file?
     generated_path: Path = (Path(xml.options["output_dir"]) /
                             Path(f"A-{rt.namespaces['patient:last_name']}, "
                                  f"{rt.namespaces['patient:first_name']} "
@@ -100,10 +92,10 @@ if __name__ == "__main__":
     match program_mode:
         case ProgramMode.Create:
             # Process runtime data and write to output
-            write_file(rt, xml.options)
+            write_file(generated_path, rt, xml.options)
 
         case ProgramMode.Add:
-            if add_content(rt, xml.options):
+            if add_content(generated_path, rt, xml.options):
                 print("Text blocks were added.")
                 print("!! IMPORTANT: Please add the new diagnoses or medications manually !!")
 
