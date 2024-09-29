@@ -11,6 +11,9 @@ class Runtime:
     NumberToken: int = 2
     DQString: int = 3
 
+    BuiltinMethodNames: list[str] = [
+        "btwn", "counter", "empty", "eq", "get", "gt", "join", "mask", "not", "run", "sum", "upper", "var"]
+
     # Script syntax as RegEx
     ScriptRe: Pattern = compile(r"([a-zA-Z_][\w_:]+)|(\d+)|\"([^\"]+)\"|\[|\(|]|\)|!")
 
@@ -33,21 +36,7 @@ class Runtime:
         self.stack: list = []
 
         # Setup namespaces containing all builtin method names
-        self.namespaces: dict = {
-            "btwn": "btwn",
-            "counter": "counter",
-            "empty": "empty",
-            "eq": "eq",
-            "get": "get",
-            "gt": "gt",
-            "join": "join",
-            "mask": "mask",
-            "not": "not",
-            "run": "run",
-            "sum": "sum",
-            "upper": "upper",
-            "var": "var"
-        }
+        self.namespaces: dict = {builtin_name: builtin_name for builtin_name in Runtime.BuiltinMethodNames}
         self.templates: list[Template] = []
 
     def __str__(self) -> str:
@@ -84,9 +73,14 @@ class Runtime:
         ])
 
     def run(self, line: str):
+        """Run a line of script in this runtime"""
+
         self.stack.clear()
 
+        # Walk backwards as the script mimics stack execution order
         for token in self.ScriptRe.finditer(line[::-1]):
+
+            # Push Namespace value
             if identifier := token.group(self.IdentifierToken):
                 identifier = identifier[::-1]
                 if identifier in self.namespaces:
@@ -94,18 +88,27 @@ class Runtime:
                 else:
                     print(f"!! Identifier <{identifier}> is not a registered namespace")
 
+            # Push number
             elif number := token.group(self.NumberToken):
                 self.stack.append(int(number[::-1]))
 
+            # Push string content
             elif text := token.group(self.DQString):
                 self.stack.append(text[::-1])
 
             else:
                 match token.group(0)[0]:
+                    # Collect array or parameter list as list and push
                     case '(' | '[':
+                        # Look for EndParam
+                        i: int = 0
                         for i, value in enumerate(reversed(self.stack)):
                             if isinstance(value, self.EndParam):
                                 break
+                        else:
+                            print("!! Missing ) or ]")
+                            return ""
+
                         result: list = self.stack[len(self.stack) - i:]
                         self.stack = self.stack[:len(self.stack) - i - 1]
                         self.stack.append(result[::-1])
@@ -113,6 +116,7 @@ class Runtime:
                     case ')' | ']':
                         self.stack.append(self.EndParam.get())
 
+                    # Call method
                     case '!':
                         callback_name: str = self.stack.pop()
 

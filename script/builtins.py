@@ -1,6 +1,6 @@
 
 def builtin_btwn(args: list) -> bool:
-    """Returns True is args[0] is between args[1] and args[2] (inclusive).
+    """Returns True is args[0] is between args[1] and args[2] (inclusive). Only defined for positive values.
     Signature: btwn(val: int, lower: int, higher: int)"""
 
     if len(args) != 3:
