@@ -83,6 +83,7 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t xml:space="preserve">Dimenhydrinat (Vomex A®) Dragee 50 mg (maximal 3x täglich) oder Dimenhydrinat (Vomex A®) als Suppositorium 150 mg (Tageshöchstdosis 300 mg) </w:t>
                                 </w:r>
@@ -107,25 +108,12 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t>Melperon 10 mg (bis zu 5x täglich) unter Beachtung des Nebenwirkungsspektrums, insbesondere Reaktionsvermögen. Melperon kann bei regelmäßiger Einnahme Dyskinesien verursachen, zudem schränken beide Medikamente die Fahrtauglichkeit ein.</w:t>
                                 </w:r>
                             </w:p>
-                            <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00683856">
-                                <w:pPr>
-                                    <w:tabs>
-                                        <w:tab w:val="left" w:pos="1701"/>
-                                        <w:tab w:val="left" w:pos="2268"/>
-                                        <w:tab w:val="left" w:pos="6804"/>
-                                    </w:tabs>
-                                    <w:rPr>
-                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                                  w:cs="Lucida Sans Unicode"/>
-                                        <w:sz w:val="18"/>
-                                        <w:szCs w:val="18"/>
-                                    </w:rPr>
-                                </w:pPr>
-                            </w:p>
+                            <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00683856"/>
                             <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00683856">
                                 <w:pPr>
                                     <w:tabs>
@@ -146,25 +134,12 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t xml:space="preserve">Im Notfall, bei Eskalation der Rebound-Kopfschmerzen: 16 mg Dexamethason in 250 ml NaCl als Kurzinfusion i.v. </w:t>
                                 </w:r>
                             </w:p>
-                            <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00683856">
-                                <w:pPr>
-                                    <w:tabs>
-                                        <w:tab w:val="left" w:pos="1701"/>
-                                        <w:tab w:val="left" w:pos="2268"/>
-                                        <w:tab w:val="left" w:pos="6804"/>
-                                    </w:tabs>
-                                    <w:rPr>
-                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                                  w:cs="Lucida Sans Unicode"/>
-                                        <w:sz w:val="18"/>
-                                        <w:szCs w:val="18"/>
-                                    </w:rPr>
-                                </w:pPr>
-                            </w:p>
+                            <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00683856"/>
                             <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00683856">
                                 <w:pPr>
                                     <w:tabs>
@@ -185,6 +160,7 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t xml:space="preserve">Oder orale Anwendung: </w:t>
                                 </w:r>
@@ -209,25 +185,12 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t>Prednisolon 100 mg oral (z.B. 2x50 mg Decortin H) oder als Suppositorium (Rectodelt 100 mg)</w:t>
                                 </w:r>
                             </w:p>
-                            <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="00932F5E">
-                                <w:pPr>
-                                    <w:tabs>
-                                        <w:tab w:val="left" w:pos="1701"/>
-                                        <w:tab w:val="left" w:pos="2268"/>
-                                        <w:tab w:val="left" w:pos="6804"/>
-                                    </w:tabs>
-                                    <w:rPr>
-                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                                  w:cs="Lucida Sans Unicode"/>
-                                        <w:sz w:val="18"/>
-                                        <w:szCs w:val="18"/>
-                                    </w:rPr>
-                                </w:pPr>
-                            </w:p>
+                            <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="00932F5E"/>
                         </w:tc>
                     </w:tr>
                 </text>
@@ -257,6 +220,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>(nach der Schmerzmittelpause)</w:t>
                         </w:r>
@@ -287,6 +251,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">Wir empfehlen die ambulante Fortführung der </w:t>
                         </w:r>
@@ -298,6 +263,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Analgetikapause für insgesamt vier Wochen</w:t>
                         </w:r>
@@ -307,6 +273,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>. Analgetikapause heißt: Alle Medikamente für die Akutbehandlung von Kopf- und anderen Schmerzen dürfen für einen bestimten Zeitraum nicht eingenommen werden. Die Pause hat nach spätestens vier bis sechs Wochen ihr Ziel erreicht und kann beendet werden. Attacken können dann wieder mit Akutmedikation behandelt werden. Eine medikamentöse Attackentherapie kann auch dann wieder beginnen. Nach Abschluss der Analgetikapause sollte eine Reevaluation der Kopfschmerzen und entsprechende Diagnosesicherung erfolgen.</w:t>
                         </w:r>
@@ -323,6 +290,7 @@
                                       w:cs="Lucida Sans Unicode"/>
                             <w:sz w:val="18"/>
                             <w:szCs w:val="18"/>
+                            <w:highlight w:val="cyan"/>
                         </w:rPr>
                         <w:t>Aufgrund der Intensität der Schmerzen</w:t>
                     </w:r>
@@ -342,6 +310,7 @@
                                       w:cs="Lucida Sans Unicode"/>
                             <w:sz w:val="18"/>
                             <w:szCs w:val="18"/>
+                            <w:highlight w:val="cyan"/>
                         </w:rPr>
                         <w:t xml:space="preserve"> werden die Grenzschwellen für die Entstehung von Kopfschmerzen bei Medikamentenübergebrauch eindeutig überschritten. </w:t>
                     </w:r>
@@ -357,6 +326,7 @@
                                       w:cs="Lucida Sans Unicode"/>
                             <w:sz w:val="18"/>
                             <w:szCs w:val="18"/>
+                            <w:highlight w:val="cyan"/>
                         </w:rPr>
                         <w:t xml:space="preserve">sowie einer Entzugsbehandlung</w:t>
                     </w:r>
@@ -387,26 +357,12 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">Der Einsatz von Triptanen und/oder Schmerzmitteln an mehr als 10 Tagen im Monat überschreitet die Grenzschwellen für die Entstehung von Kopfschmerzen bei Medikamentenübergebrauch. Es besteht ein Fehlgebrauch durch nicht-selektive Anwendung der Triptane bei Kopfschmerz vom Spannungstyp und Medikamentenübergebrauchskopfschmerzen. Es besteht ein Fehlgebrauch aufgrund nicht spezifischer Differenzierung der Akutmedikation in der Akutbehandlung der Migräne, Spannungskopfschmerzen und der Intervallkopfschmerzen. Es besteht ein Fehlgebrauch indem Triptane erst dann eingenommen werden, wenn die Migräneattacke die höchste Kopfschmerzintensität erreicht hat. Es besteht ein Fehlgebrauch aufgrund Wiederholung des primär eingesetzten Triptans bei primärer Unwirksamkeit im Anfall. Es besteht ein Fehlgebrauch bei der Anwendung von Escape-Medikation bei primärer Unwirksamkeit des Triptans. Bei status migraenosus werden über 5 Tage täglich Schmerzmitteln und Triptane eingesetzt.</w:t>
                         </w:r>
                     </w:p>
-                    <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00213423">
-                        <w:pPr>
-                            <w:tabs>
-                                <w:tab w:val="left" w:pos="1701"/>
-                                <w:tab w:val="left" w:pos="2268"/>
-                                <w:tab w:val="left" w:pos="6804"/>
-                            </w:tabs>
-                            <w:jc w:val="both"/>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="18"/>
-                                <w:szCs w:val="18"/>
-                            </w:rPr>
-                        </w:pPr>
-                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00213423"/>
                 </text>
             </textblock>
         </insert>
@@ -483,7 +439,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
-                                <w:highlight w:val="yellow"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                         </w:pPr>
                         <w:r w:rsidRPr="00F07558">
@@ -492,7 +448,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
-                                <w:highlight w:val="yellow"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">Wir führten eine konsequente </w:t>
                         </w:r>
@@ -504,7 +460,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
-                                <w:highlight w:val="yellow"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Medikamenten-Einnahmepause</w:t>
                         </w:r>
@@ -514,7 +470,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
-                                <w:highlight w:val="yellow"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> für jegliche Kopfschmerzakutmedikation durch. Zur Erleichterung der zu erwartenden Umstellungsreaktion erfolgte eine befristete intravenöse und orale Gabe von Prednisolon. </w:t>
                         </w:r>
@@ -524,27 +480,12 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
-                                <w:highlight w:val="yellow"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Zum Einsatz kamen ebenfalls Dimenhydrinat und Melperon, sowie Infusionen mit Dimenhydrinat und Magnesium.</w:t>
                         </w:r>
                     </w:p>
-                    <w:p w:rsidR="00877D06" w:rsidRPr="00F07558" w:rsidRDefault="00877D06" w:rsidP="00F07558">
-                        <w:pPr>
-                            <w:tabs>
-                                <w:tab w:val="left" w:pos="1701"/>
-                                <w:tab w:val="left" w:pos="6804"/>
-                            </w:tabs>
-                            <w:jc w:val="both"/>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="18"/>
-                                <w:szCs w:val="18"/>
-                                <w:highlight w:val="yellow"/>
-                            </w:rPr>
-                        </w:pPr>
-                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRPr="00F07558" w:rsidRDefault="00877D06" w:rsidP="00F07558"/>
                     <w:p w:rsidR="00877D06" w:rsidRPr="00F07558" w:rsidRDefault="00877D06" w:rsidP="00F07558">
                         <w:pPr>
                             <w:tabs>
@@ -595,7 +536,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
-                                <w:highlight w:val="yellow"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">Wir führten eine konsequente </w:t>
                         </w:r>
@@ -607,7 +548,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
-                                <w:highlight w:val="yellow"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Medikamenten-Einnahmepause</w:t>
                         </w:r>
@@ -617,32 +558,29 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
-                                <w:highlight w:val="yellow"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> für jegliche Kopfschmerzakutmedikation durch. Dabei wurde auf eine intravenöse und orale Gabe von Prednisolon nach einem festen Zeitschema verzichtet. Bedarfsweise erhielt #{the} #{patient} Medikamente zur Schmerzdistanzierung.</w:t>
                         </w:r>
                     </w:p>
-                    <w:p w:rsidR="00877D06" w:rsidRPr="00F07558" w:rsidRDefault="00877D06" w:rsidP="00F07558">
-                        <w:pPr>
-                            <w:tabs>
-                                <w:tab w:val="left" w:pos="1701"/>
-                                <w:tab w:val="left" w:pos="6804"/>
-                            </w:tabs>
-                            <w:jc w:val="both"/>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="18"/>
-                                <w:szCs w:val="18"/>
-                            </w:rPr>
-                        </w:pPr>
-                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRPr="00F07558" w:rsidRDefault="00877D06" w:rsidP="00F07558"/>
                 </text>
             </textblock>
         </insert>
         <insert for="G44.4*" name="overuse:attack_after_pause">
             <textblock>
-                <text>nach Abschluss der Analgetikapause</text>
+                <text>
+                    <w:r w:rsidRPr="00E27723">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                      w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                            <w:highlight w:val="cyan"/>
+                        </w:rPr>
+                        <w:t xml:space="preserve">nach Abschluss der Analgetikapause</w:t>
+                    </w:r>
+                </text>
             </textblock>
         </insert>
         <insert for="G44.4*" name="overuse:continuation">
@@ -654,7 +592,7 @@
                                       w:cs="Lucida Sans Unicode"/>
                             <w:sz w:val="18"/>
                             <w:szCs w:val="18"/>
-                            <w:highlight w:val="yellow"/>
+                            <w:highlight w:val="cyan"/>
                         </w:rPr>
                         <w:t xml:space="preserve">Des Weiteren empfehlen wir die ambulante Fortführung der </w:t>
                     </w:r>
@@ -666,7 +604,7 @@
                             <w:bCs/>
                             <w:sz w:val="18"/>
                             <w:szCs w:val="18"/>
-                            <w:highlight w:val="yellow"/>
+                            <w:highlight w:val="cyan"/>
                         </w:rPr>
                         <w:t>Analgetikapause für insgesamt vier Wochen</w:t>
                     </w:r>
@@ -676,7 +614,7 @@
                                       w:cs="Lucida Sans Unicode"/>
                             <w:sz w:val="18"/>
                             <w:szCs w:val="18"/>
-                            <w:highlight w:val="yellow"/>
+                            <w:highlight w:val="cyan"/>
                         </w:rPr>
                         <w:t xml:space="preserve">. In dieser Phase kann es sinnvoll sein #{the} #{patient} arbeitsunfähig zu schreiben.</w:t>
                     </w:r>
@@ -1027,25 +965,12 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t>100% Sauerstoffinhalation 15 l/min über 15 Minuten mit Gesichtsmaske</w:t>
                                 </w:r>
                             </w:p>
-                            <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00933427">
-                                <w:pPr>
-                                    <w:tabs>
-                                        <w:tab w:val="left" w:pos="1701"/>
-                                        <w:tab w:val="left" w:pos="2268"/>
-                                        <w:tab w:val="left" w:pos="6804"/>
-                                    </w:tabs>
-                                    <w:rPr>
-                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                                  w:cs="Lucida Sans Unicode"/>
-                                        <w:sz w:val="18"/>
-                                        <w:szCs w:val="18"/>
-                                    </w:rPr>
-                                </w:pPr>
-                            </w:p>
+                            <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00933427"/>
                             <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00933427">
                                 <w:pPr>
                                     <w:tabs>
@@ -1066,6 +991,7 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t xml:space="preserve">oder </w:t>
                                 </w:r>
@@ -1090,6 +1016,7 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t>Sumatriptan</w:t>
                                 </w:r>
@@ -1099,25 +1026,12 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t xml:space="preserve"> Inject 6 mg, maximal 2x täglich, Mindestabstand 4 Stunden, keine Obergrenze in Form von Tagen/Monat </w:t>
                                 </w:r>
                             </w:p>
-                            <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00933427">
-                                <w:pPr>
-                                    <w:tabs>
-                                        <w:tab w:val="left" w:pos="1701"/>
-                                        <w:tab w:val="left" w:pos="2268"/>
-                                        <w:tab w:val="left" w:pos="6804"/>
-                                    </w:tabs>
-                                    <w:rPr>
-                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                                  w:cs="Lucida Sans Unicode"/>
-                                        <w:sz w:val="18"/>
-                                        <w:szCs w:val="18"/>
-                                    </w:rPr>
-                                </w:pPr>
-                            </w:p>
+                            <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00933427"/>
                             <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00933427">
                                 <w:pPr>
                                     <w:tabs>
@@ -1138,6 +1052,7 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t xml:space="preserve">alternativ </w:t>
                                 </w:r>
@@ -1162,6 +1077,7 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t>Zolmitriptan 5 mg nasal maximal 2x täglich, Mindestabstand 4 Stunden, keine Obergrenze in Form von Tagen/Monat</w:t>
                                 </w:r>
@@ -1186,6 +1102,7 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t>und/oder</w:t>
                                 </w:r>
@@ -1210,25 +1127,12 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t xml:space="preserve">Xylocain-Nasenspray </w:t>
                                 </w:r>
                             </w:p>
-                            <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00933427">
-                                <w:pPr>
-                                    <w:tabs>
-                                        <w:tab w:val="left" w:pos="1701"/>
-                                        <w:tab w:val="left" w:pos="2268"/>
-                                        <w:tab w:val="left" w:pos="6804"/>
-                                    </w:tabs>
-                                    <w:rPr>
-                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                                  w:cs="Lucida Sans Unicode"/>
-                                        <w:sz w:val="18"/>
-                                        <w:szCs w:val="18"/>
-                                    </w:rPr>
-                                </w:pPr>
-                            </w:p>
+                            <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00933427"/>
                             <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00933427">
                                 <w:pPr>
                                     <w:tabs>
@@ -1249,6 +1153,7 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t>und/oder</w:t>
                                 </w:r>
@@ -1273,25 +1178,12 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t>10 ml Eiswasser</w:t>
                                 </w:r>
                             </w:p>
-                            <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="00933427">
-                                <w:pPr>
-                                    <w:tabs>
-                                        <w:tab w:val="left" w:pos="1701"/>
-                                        <w:tab w:val="left" w:pos="2268"/>
-                                        <w:tab w:val="left" w:pos="6804"/>
-                                    </w:tabs>
-                                    <w:rPr>
-                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                                  w:cs="Lucida Sans Unicode"/>
-                                        <w:sz w:val="18"/>
-                                        <w:szCs w:val="18"/>
-                                    </w:rPr>
-                                </w:pPr>
-                            </w:p>
+                            <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="00933427"/>
                         </w:tc>
                     </w:tr>
                 </text>
@@ -1320,21 +1212,12 @@
                                 <w:bCs/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Vorgehen bei neuer aktiver Clusterperiode</w:t>
                         </w:r>
                     </w:p>
-                    <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
-                        <w:pPr>
-                            <w:pStyle w:val="Kopfzeile"/>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="18"/>
-                                <w:szCs w:val="18"/>
-                            </w:rPr>
-                        </w:pPr>
-                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D"/>
                     <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
                         <w:pPr>
                             <w:pStyle w:val="Kopfzeile"/>
@@ -1355,34 +1238,12 @@
                                 <w:bCs/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
-                            <w:t>I. Verhaltensregeln</w:t>
-                        </w:r>
-                        <w:r>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:b/>
-                                <w:bCs/>
-                                <w:sz w:val="18"/>
-                                <w:szCs w:val="18"/>
-                            </w:rPr>
-                            <w:t>:</w:t>
+                            <w:t>I. Verhaltensregeln:</w:t>
                         </w:r>
                     </w:p>
-                    <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
-                        <w:pPr>
-                            <w:pStyle w:val="Kopfzeile"/>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:b/>
-                                <w:bCs/>
-                                <w:sz w:val="18"/>
-                                <w:szCs w:val="18"/>
-                            </w:rPr>
-                        </w:pPr>
-                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D"/>
                     <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
                         <w:pPr>
                             <w:pStyle w:val="Kopfzeile"/>
@@ -1399,6 +1260,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">Kein Alkohol, erst wieder, wenn 4 Wochen attackenfrei </w:t>
                         </w:r>
@@ -1419,6 +1281,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>- Kein Nikotin</w:t>
                         </w:r>
@@ -1439,6 +1302,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>- Keine Nitrate</w:t>
                         </w:r>
@@ -1459,21 +1323,12 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>- Kein Nitrospray, keine Nitrotabletten</w:t>
                         </w:r>
                     </w:p>
-                    <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
-                        <w:pPr>
-                            <w:pStyle w:val="Kopfzeile"/>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="18"/>
-                                <w:szCs w:val="18"/>
-                            </w:rPr>
-                        </w:pPr>
-                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D"/>
                     <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
                         <w:pPr>
                             <w:pStyle w:val="Kopfzeile"/>
@@ -1494,24 +1349,13 @@
                                 <w:bCs/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>II. Medikamentöse Vorbeugung (aktuell, Anpassung in ca. 6 Wochen nach Rücksprache):
                             </w:t>
                         </w:r>
                     </w:p>
-                    <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
-                        <w:pPr>
-                            <w:pStyle w:val="Kopfzeile"/>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:b/>
-                                <w:bCs/>
-                                <w:sz w:val="18"/>
-                                <w:szCs w:val="18"/>
-                            </w:rPr>
-                        </w:pPr>
-                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D"/>
                     <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
                         <w:pPr>
                             <w:pStyle w:val="Kopfzeile"/>
@@ -1528,6 +1372,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Isoptin RR (Wirkung tritt nach ca. 7 Tagen ein)</w:t>
                         </w:r>
@@ -1548,6 +1393,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">- 8 Uhr: 240 mg</w:t>
                         </w:r>
@@ -1568,6 +1414,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>- 20 Uhr: 240 mg</w:t>
                         </w:r>
@@ -1588,21 +1435,12 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">Wenn attackenfrei, kann nach 6 Wochen jeweils eine halbe Tablette Isoptin pro Woche abdosiert werden.</w:t>
                         </w:r>
                     </w:p>
-                    <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
-                        <w:pPr>
-                            <w:pStyle w:val="Kopfzeile"/>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="18"/>
-                                <w:szCs w:val="18"/>
-                            </w:rPr>
-                        </w:pPr>
-                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D"/>
                     <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
                         <w:pPr>
                             <w:pStyle w:val="Kopfzeile"/>
@@ -1619,6 +1457,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Zusätzlich Prednisolongabe initial:</w:t>
                         </w:r>
@@ -1639,6 +1478,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>- Prednisolon (Decortin H) Tabletten à 20 mg (N2=50 Stück)</w:t>
                         </w:r>
@@ -1659,6 +1499,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>- Dazu Pantoprazol 40 mg am Morgen, Magenschutz (N2=50 Stück)</w:t>
                         </w:r>
@@ -1679,6 +1520,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>- Zur Nacht für 4 Tage Dalmadorm</w:t>
                         </w:r>
@@ -1699,21 +1541,12 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">- Decortin jeweils am Morgen nach dem Frühstück in folgender absteigender Dosierung:</w:t>
                         </w:r>
                     </w:p>
-                    <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
-                        <w:pPr>
-                            <w:pStyle w:val="Kopfzeile"/>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="18"/>
-                                <w:szCs w:val="18"/>
-                            </w:rPr>
-                        </w:pPr>
-                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D"/>
                     <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
                         <w:pPr>
                             <w:pStyle w:val="Kopfzeile"/>
@@ -1730,6 +1563,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>1.-2. Tag</w:t>
                         </w:r>
@@ -1739,6 +1573,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:tab/>
                             <w:t>100 mg</w:t>
@@ -1749,6 +1584,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:tab/>
                         </w:r>
@@ -1758,6 +1594,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:tab/>
                             <w:t>5 Tabletten zu 20 mg</w:t>
@@ -1779,6 +1616,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>3.-4. Tag</w:t>
                         </w:r>
@@ -1788,6 +1626,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:tab/>
                             <w:t>80 mg</w:t>
@@ -1798,6 +1637,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:tab/>
                         </w:r>
@@ -1807,6 +1647,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:tab/>
                             <w:t>4 Tabletten zu 20 mg</w:t>
@@ -1828,6 +1669,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>4.-6. Tag</w:t>
                         </w:r>
@@ -1837,6 +1679,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:tab/>
                             <w:t>60 mg</w:t>
@@ -1847,6 +1690,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:tab/>
                         </w:r>
@@ -1856,6 +1700,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:tab/>
                             <w:t>3 Tabletten zu 20 mg</w:t>
@@ -1877,6 +1722,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>7.-8. Tag</w:t>
                         </w:r>
@@ -1886,6 +1732,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:tab/>
                             <w:t>40 mg</w:t>
@@ -1896,6 +1743,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:tab/>
                         </w:r>
@@ -1905,6 +1753,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:tab/>
                             <w:t>2 Tabletten zu 20 mg</w:t>
@@ -1926,6 +1775,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>9.-10. Tag</w:t>
                         </w:r>
@@ -1935,6 +1785,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:tab/>
                             <w:t>20 mg</w:t>
@@ -1945,6 +1796,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:tab/>
                         </w:r>
@@ -1954,6 +1806,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:tab/>
                             <w:t>1 Tablette zu 20 mg</w:t>
@@ -1975,6 +1828,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>11.-12. Tag</w:t>
                         </w:r>
@@ -1984,6 +1838,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:tab/>
                             <w:t>10 mg</w:t>
@@ -2003,6 +1858,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:tab/>
                             <w:t>1/2 Tablette zu 20 mg</w:t>
@@ -2024,6 +1880,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>dann absetzen</w:t>
                         </w:r>
@@ -2062,26 +1919,12 @@
                                 <w:bCs/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>III. Behandlung der akuten Cluster-Attacke</w:t>
                         </w:r>
                     </w:p>
-                    <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
-                        <w:pPr>
-                            <w:pStyle w:val="Kopfzeile"/>
-                            <w:tabs>
-                                <w:tab w:val="left" w:pos="113"/>
-                            </w:tabs>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:b/>
-                                <w:bCs/>
-                                <w:sz w:val="18"/>
-                                <w:szCs w:val="18"/>
-                            </w:rPr>
-                        </w:pPr>
-                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D"/>
                     <w:p w:rsidR="00877D06" w:rsidRPr="0023639D" w:rsidRDefault="00877D06" w:rsidP="000B1B4D">
                         <w:pPr>
                             <w:pStyle w:val="Kopfzeile"/>
@@ -2110,6 +1953,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Sumatriptan 3 oder 6 mg s.c. mit Autoinjektor (Alternativ auch 2 oder 4 mg mit Fertigspritze)</w:t>
                         </w:r>
@@ -2142,6 +1986,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Sauerstoff 10 Liter/min über 10 Minuten</w:t>
                         </w:r>
@@ -2265,6 +2110,7 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
                                         <w:t xml:space="preserve">Beginn aktueller Episode XX, zuvor bereits XX Episoden, nach letzter Cluster-Episode Attackenfreies Intervall von XX Monaten. Aktuell XX bis XX Attacken alle XX Tage, zeitliche Häufung morgens zwischen XX und XX Uhr, jahreszeitliche Häufung im Frühling/Sommer. Aktuelle Attackendauer XX bis XX Minuten. Dauerschmerz im Clusterareal.</w:t>
                                     </w:r>
@@ -2328,6 +2174,7 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
                                         <w:t>Strikt links/rechts, periorbital, temporal</w:t>
                                     </w:r>
@@ -2391,6 +2238,7 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
                                         <w:t>Sehr stark</w:t>
                                     </w:r>
@@ -2454,6 +2302,7 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
                                         <w:t>Bohrend, stechend</w:t>
                                     </w:r>
@@ -2517,6 +2366,7 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
                                         <w:t>Ausgeprägte körperliche Unruhe</w:t>
                                     </w:r>
@@ -2580,6 +2430,7 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
                                         <w:t>Trigeminoautonome Symptome mit ipsilateraler conjunctivaler Injektion, Lakrimation, Ptosis, Lidschwellung, nasaler Kongestion, Rhinorhoe, Schwitzen</w:t>
                                     </w:r>
@@ -2587,22 +2438,7 @@
                             </w:tc>
                         </w:tr>
                     </w:tbl>
-                    <w:p w:rsidR="00877D06" w:rsidRPr="000820A6" w:rsidRDefault="00877D06" w:rsidP="0099148E">
-                        <w:pPr>
-                            <w:tabs>
-                                <w:tab w:val="left" w:pos="1701"/>
-                                <w:tab w:val="left" w:pos="2268"/>
-                                <w:tab w:val="left" w:pos="6804"/>
-                            </w:tabs>
-                            <w:jc w:val="both"/>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="18"/>
-                                <w:szCs w:val="18"/>
-                            </w:rPr>
-                        </w:pPr>
-                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRPr="000820A6" w:rsidRDefault="00877D06" w:rsidP="0099148E"/>
                 </text>
             </textblock>
         </insert>
@@ -2615,6 +2451,7 @@
                                       w:cs="Lucida Sans Unicode"/>
                             <w:sz w:val="18"/>
                             <w:szCs w:val="18"/>
+                            <w:highlight w:val="cyan"/>
                         </w:rPr>
                         <w:t xml:space="preserve">#{appellation} #{patient:last_name} beschreibt einen Clusterkopfschmerz, welcher strikt links/rechts-seitig auftrete und mit trigeminoautonomer Symptomatik mit ipsilateraler conjunctivaler Injektion, Lakrimation, Ptosis, Lidschwellung, nasaler Kongestion, Rhinorhoe einhergehe. Die aktuellen Clusterattacken treten XX mal täglich auf und dauern zwischen XX und XX Minuten an. Eine tageszeitliche Häufung bestehe in den frühen Morgenstunden. Die aktuelle Episode bestehe seit XX, eine Remissionsphase von mindestens 3 Monaten habe es seit Beginn nicht gegeben. Insgesamt zeigen sich die Diagnosekriterien für einen chronischen Clusterkopfschmerz erfüllt. </w:t>
                     </w:r>
@@ -2752,6 +2589,7 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t xml:space="preserve">Dimenhydrinat (Vomex A®) 50 mg bei Übelkeit </w:t>
                                 </w:r>
@@ -2801,6 +2639,7 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t>+ Naproxen 500 mg gleichzeitig mit</w:t>
                                 </w:r>
@@ -2820,6 +2659,7 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t xml:space="preserve"> zur Verhinderung des Wiederkehrkopfschmerzes einnehmen.</w:t>
                                 </w:r>
@@ -2859,10 +2699,9 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
-                                    <w:t>Alternativ kann an Stelle von Eletriptan auch Rizatriptan zur Anwendung
-                                        kommen.
-                                    </w:t>
+                                    <w:t>Alternativ kann an Stelle von Eletriptan auch Rizatriptan zur Anwendung kommen.</w:t>
                                 </w:r>
                             </w:p>
                             <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00CB2B28">
@@ -2900,6 +2739,7 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t xml:space="preserve">Bitte Triptane innerhalb einer Attacke nicht mischen. </w:t>
                                 </w:r>
@@ -2924,25 +2764,12 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t xml:space="preserve">Erneute Einnahme frühestens nach 4 Stunden bei primär guter Wirksamkeit und Wiederkehrkopfschmerz, maximal 3 Tage in Folge anwenden. </w:t>
                                 </w:r>
                             </w:p>
-                            <w:p w:rsidR="00877D06" w:rsidRPr="00CB2B28" w:rsidRDefault="00877D06" w:rsidP="00CB2B28">
-                                <w:pPr>
-                                    <w:tabs>
-                                        <w:tab w:val="left" w:pos="1701"/>
-                                        <w:tab w:val="left" w:pos="2268"/>
-                                        <w:tab w:val="left" w:pos="6804"/>
-                                    </w:tabs>
-                                    <w:rPr>
-                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                                  w:cs="Lucida Sans Unicode"/>
-                                        <w:sz w:val="18"/>
-                                        <w:szCs w:val="18"/>
-                                    </w:rPr>
-                                </w:pPr>
-                            </w:p>
+                            <w:p w:rsidR="00877D06" w:rsidRPr="00CB2B28" w:rsidRDefault="00877D06" w:rsidP="00CB2B28"/>
                             <w:p w:rsidR="00877D06" w:rsidRPr="00CB2B28" w:rsidRDefault="00877D06" w:rsidP="00CB2B28">
                                 <w:pPr>
                                     <w:tabs>
@@ -2963,6 +2790,7 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t xml:space="preserve">Ersatzmedikation bei Wirkungslosigkeit: </w:t>
                                 </w:r>
@@ -2987,6 +2815,7 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t>Metamizol (z.B. Novalgin/Novaminsulfon) 1 g (entsprechen 40 Tropfen) in Abständen von 6 bis 8 Stunden bis zu 4x am Tag möglich. Oder:</w:t>
                                 </w:r>
@@ -3006,6 +2835,7 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t>Diclofenac: Initialdosis 50 mg (entsprechen 20 Tropfen). Falls nach 2 Std. keine ausreichende Besserung eintritt, zweite Dosis von 50 mg (20 Tropfen) möglich. Weitere Dosen in Abständen von 4 bis 6 Stunden möglich. Gesamtdosis von 200 mg/Tag darf nicht überschritten werden.</w:t>
                                 </w:r>
@@ -3044,6 +2874,7 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t>Migräne mit Aura</w:t>
                                 </w:r>
@@ -3075,6 +2906,7 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t>Metamizol (z.B. Novalgin/Novaminsulfon) 1 g (entsprechen 40 Tropfen) in Abständen von 6 bis 8 Stunden bis zu 4x am Tag möglich. Oder:</w:t>
                                 </w:r>
@@ -3095,20 +2927,12 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t>Diclofenac: Initialdosis 50 mg (entsprechen 20 Tropfen). Falls nach 2 Std. keine ausreichende Besserung eintritt, zweite Dosis von 50 mg (20 Tropfen) möglich. Weitere Dosen in Abständen von 4 bis 6 Stunden möglich. Gesamtdosis von 200 mg/Tag darf nicht überschritten werden.</w:t>
                                 </w:r>
                             </w:p>
-                            <w:p w:rsidR="00877D06" w:rsidRPr="00F0589D" w:rsidRDefault="00877D06" w:rsidP="004814EE">
-                                <w:pPr>
-                                    <w:rPr>
-                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                                  w:cs="Lucida Sans Unicode"/>
-                                        <w:sz w:val="18"/>
-                                        <w:szCs w:val="18"/>
-                                    </w:rPr>
-                                </w:pPr>
-                            </w:p>
+                            <w:p w:rsidR="00877D06" w:rsidRPr="00F0589D" w:rsidRDefault="00877D06" w:rsidP="004814EE"/>
                             <w:p w:rsidR="00877D06" w:rsidRPr="00F0589D" w:rsidRDefault="00877D06" w:rsidP="004814EE">
                                 <w:pPr>
                                     <w:rPr>
@@ -3124,20 +2948,12 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t xml:space="preserve">Bei sicherer vollständiger Rückbildung der Aurasymptomatik Anschlussbehandlung mittels Triptan (s.o.) möglich. </w:t>
                                 </w:r>
                             </w:p>
-                            <w:p w:rsidR="00877D06" w:rsidRPr="00F0589D" w:rsidRDefault="00877D06" w:rsidP="004814EE">
-                                <w:pPr>
-                                    <w:rPr>
-                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                                  w:cs="Lucida Sans Unicode"/>
-                                        <w:sz w:val="18"/>
-                                        <w:szCs w:val="18"/>
-                                    </w:rPr>
-                                </w:pPr>
-                            </w:p>
+                            <w:p w:rsidR="00877D06" w:rsidRPr="00F0589D" w:rsidRDefault="00877D06" w:rsidP="004814EE"/>
                             <w:p w:rsidR="00877D06" w:rsidRPr="00E66A25" w:rsidRDefault="00877D06" w:rsidP="00E66A25">
                                 <w:pPr>
                                     <w:rPr>
@@ -3157,6 +2973,7 @@
                                         <w:bCs/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t>Triptane sind während einer Aura kontraindiziert.</w:t>
                                 </w:r>
@@ -3199,7 +3016,31 @@
                                     <w:t>Status migraenosus</w:t>
                                 </w:r>
                             </w:p>
-                            (Attackendauer mehr als 72 Stunden)
+                            <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="004814EE">
+                                <w:pPr>
+                                    <w:tabs>
+                                        <w:tab w:val="left" w:pos="1701"/>
+                                        <w:tab w:val="left" w:pos="2268"/>
+                                        <w:tab w:val="left" w:pos="6804"/>
+                                    </w:tabs>
+                                    <w:jc w:val="both"/>
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                </w:pPr>
+                                <w:r w:rsidRPr="00166F0D">
+                                    <w:rPr>
+                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                                  w:cs="Lucida Sans Unicode"/>
+                                        <w:sz w:val="18"/>
+                                        <w:szCs w:val="18"/>
+                                    </w:rPr>
+                                    <w:t>(Attackendauer mehr als 72 Stunden)</w:t>
+                                </w:r>
+                            </w:p>
                         </w:tc>
                         <w:tc>
                             <w:tcPr>
@@ -3226,20 +3067,12 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t>Prednisolon 100 mg + ggf. Diazepam 10 mg zur Schmerzdistanzierung</w:t>
                                 </w:r>
                             </w:p>
-                            <w:p w:rsidR="00877D06" w:rsidRPr="00F0589D" w:rsidRDefault="00877D06" w:rsidP="004814EE">
-                                <w:pPr>
-                                    <w:rPr>
-                                        <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                                  w:cs="Lucida Sans Unicode"/>
-                                        <w:sz w:val="18"/>
-                                        <w:szCs w:val="18"/>
-                                    </w:rPr>
-                                </w:pPr>
-                            </w:p>
+                            <w:p w:rsidR="00877D06" w:rsidRPr="00F0589D" w:rsidRDefault="00877D06" w:rsidP="004814EE"/>
                             <w:p w:rsidR="00877D06" w:rsidRPr="00F0589D" w:rsidRDefault="00877D06" w:rsidP="004814EE">
                                 <w:pPr>
                                     <w:rPr>
@@ -3255,6 +3088,7 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t xml:space="preserve">Oder alternativ durch den Arzt durchzuführen: Aspirin 1.000 mg als Kurzinfusion</w:t>
                                 </w:r>
@@ -3380,6 +3214,7 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
                                         <w:t>Kopfschmerzanfälle seit der Kindheit bestehend, seit einigen Jahren deutliche Zunahme der Frequenz. Attackendauer XX Tage, Kopfschmerzen an bis zu XX Tagen/Monat.</w:t>
                                     </w:r>
@@ -3443,6 +3278,7 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
                                         <w:t>Unilateral/Seitenwechselnd temporal, parietal, periorbital, nuchal</w:t>
                                     </w:r>
@@ -3506,6 +3342,7 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
                                         <w:t>Mittelstark bis sehr stark</w:t>
                                     </w:r>
@@ -3569,6 +3406,7 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
                                         <w:t>Pulsierend, pochend</w:t>
                                     </w:r>
@@ -3632,6 +3470,7 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
                                         <w:t>Körperliche Tätigkeiten verstärken den Schmerz, Bettruhe erforderlich, Bettruhe wird häufig eingehalten.</w:t>
                                     </w:r>
@@ -3695,6 +3534,7 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
                                         <w:t>Übelkeit, Erbrechen, Phonophobie, Photophobie, Geruchsüberempfindlichkeit, Schwindel, Konzentrationsstörungen, Müdigkeit, Berührungsempfindlichkeit</w:t>
                                     </w:r>
@@ -3758,6 +3598,7 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
                                         <w:t>Vorübergehende einseitige Sehstörungen in Form von Flimmerskotomen</w:t>
                                     </w:r>
@@ -3765,39 +3606,56 @@
                             </w:tc>
                         </w:tr>
                     </w:tbl>
-                    <w:p w:rsidR="00877D06" w:rsidRPr="000820A6" w:rsidRDefault="00877D06" w:rsidP="0099148E">
-                        <w:pPr>
-                            <w:tabs>
-                                <w:tab w:val="left" w:pos="1701"/>
-                                <w:tab w:val="left" w:pos="2268"/>
-                                <w:tab w:val="left" w:pos="6804"/>
-                            </w:tabs>
-                            <w:jc w:val="both"/>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="18"/>
-                                <w:szCs w:val="18"/>
-                            </w:rPr>
-                        </w:pPr>
-                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRPr="000820A6" w:rsidRDefault="00877D06" w:rsidP="0099148E"/>
                 </text>
             </textblock>
         </insert>
         <insert for="G43.1*" name="migraine:with_aura:anamnesis">
             <textblock>
-                <text>mit und</text>
+                <text>
+                    <w:r w:rsidRPr="00213423">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                      w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                            <w:highlight w:val="cyan"/>
+                        </w:rPr>
+                        <w:t xml:space="preserve">mit und</w:t>
+                    </w:r>
+                </text>
             </textblock>
         </insert>
         <insert for="G43.1*" name="migraine:with_aura:description">
             <textblock>
-                <text>Dabei treten visuelle Auren in Form von Flimmerskotomen in ca. der Hälfte der Kopfschmerzen auf.
+                <text>
+                    <w:r w:rsidRPr="00213423">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                      w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                            <w:highlight w:val="cyan"/>
+                        </w:rPr>
+                        <w:t xml:space="preserve">Dabei treten visuelle Auren in Form von Flimmerskotomen in ca. der Hälfte der Kopfschmerzen auf.</w:t>
+                    </w:r>
                 </text>
             </textblock>
         </insert>
         <insert for="G43.2*" name="migraine:status:anamnesis">
             <textblock>
-                <text>Einzelne Attacken verlaufen häufig prolongiert als Status migraenosus.</text>
+                <text>
+                    <w:r w:rsidRPr="00213423">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                      w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                            <w:highlight w:val="cyan"/>
+                        </w:rPr>
+                        <w:t xml:space="preserve">Einzelne Attacken verlaufen häufig prolongiert als Status migraenosus.</w:t>
+                    </w:r>
+                </text>
             </textblock>
         </insert>
         <insert for="G43.0*|G43.1*" name="migraine:anamnesis">
@@ -3809,6 +3667,7 @@
                                       w:cs="Lucida Sans Unicode"/>
                             <w:sz w:val="18"/>
                             <w:szCs w:val="18"/>
+                            <w:highlight w:val="cyan"/>
                         </w:rPr>
                         <w:t xml:space="preserve">Bei #{appellation} #{patient:last_name} besteht seit dem XX Lebensjahr eine Migräne</w:t>
                     </w:r>
@@ -3819,6 +3678,7 @@
                                       w:cs="Lucida Sans Unicode"/>
                             <w:sz w:val="18"/>
                             <w:szCs w:val="18"/>
+                            <w:highlight w:val="cyan"/>
                         </w:rPr>
                         <w:t xml:space="preserve"> ohne Aura. </w:t>
                     </w:r>
@@ -3829,6 +3689,7 @@
                                       w:cs="Lucida Sans Unicode"/>
                             <w:sz w:val="18"/>
                             <w:szCs w:val="18"/>
+                            <w:highlight w:val="cyan"/>
                         </w:rPr>
                         <w:t xml:space="preserve">Im Laufe der Jahre kam es zu einer kontinuierlichen Zunahme der Häufigkeit, Dauer und Intensität der Schmerzen auf zuletzt ca. XX Tage pro Monat. </w:t>
                     </w:r>
@@ -3839,6 +3700,7 @@
                                       w:cs="Lucida Sans Unicode"/>
                             <w:sz w:val="18"/>
                             <w:szCs w:val="18"/>
+                            <w:highlight w:val="cyan"/>
                         </w:rPr>
                         <w:t xml:space="preserve">Die Kriterien einer chronischen Migräne nach ICHD-3 sind demnach erfüllt. </w:t>
                     </w:r>
@@ -3868,26 +3730,12 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
-                                <w:highlight w:val="yellow"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Zur Prophylaxe der Migräne erhielt #{the} #{patient} die hochdosierten Nahrungsergänzungsmittel Vitamin B2 und Magnesium.</w:t>
                         </w:r>
                     </w:p>
-                    <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="008200BE">
-                        <w:pPr>
-                            <w:tabs>
-                                <w:tab w:val="left" w:pos="1701"/>
-                                <w:tab w:val="left" w:pos="6804"/>
-                            </w:tabs>
-                            <w:jc w:val="both"/>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="18"/>
-                                <w:szCs w:val="18"/>
-                            </w:rPr>
-                        </w:pPr>
-                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="008200BE"/>
                 </text>
             </textblock>
         </insert>
@@ -3908,6 +3756,7 @@
                             <w:rPr>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">Wir empfahlen#{overuse:attack_after_pause} zur </w:t>
                         </w:r>
@@ -3917,6 +3766,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">Attackenbehandlung der Migräne ohne Aura </w:t>
                         </w:r>
@@ -3924,6 +3774,7 @@
                             <w:rPr>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">den Einsatz einer Kombination aus dem selektiven Serotoninrezeptoragonisten </w:t>
                         </w:r>
@@ -3939,25 +3790,12 @@
                             <w:rPr>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">40 mg oral mit dem langwirksamen Naproxen als Tablette zu 500 mg. Ziel dieser Kombination ist zum einen eine schnelle und effektive Schmerzlinderung, zum anderen ein Verhindern oder zumindest Hinauszögern des Auftretens von Wiederkehrkopfschmerzen. Der empfohlene selektive Serotoninrezeptoragonist gehört zur Gruppe der Triptane. Bei dessen Anwendung müssen einige Besonderheiten berücksichtigt werden. Bei zunächst erfolgreicher Anwendung des Triptans können nach einigen Stunden sog. Wiederkehrkopfschmerzen auftreten. Wiederkehrkopfschmerzen sind definiert als erneut auftretende Migränekopfschmerzen, meist innerhalb von 4 bis 12 Stunden, nachdem die initiale Applikation des Triptans zu einer bedeutsamen Reduktion der Migränekopfschmerzen geführt hatte. In dieser Situation ist eine Wiederholung der Anwendung möglich. Allerdings sollte dabei ein Abstand von mindestens 4 Stunden zur Erstanwendung eingehalten werden. Innerhalb von 24 Stunden sollte die Einnahme des Triptans maximal einmal wiederholt werden. Die Migräneakutmedikation sollte maximal an 10 Tagen im Monat eingenommen werden, um die Entstehung eines medikamenteninduzierten Dauerkopfschmerzes zu verhindern. Zur Therapiekontrolle sollte die Migräne-App kontinuierlich geführt werden, um sowohl Kopfschmerzsymptome als auch Therapieeffekte im Verlauf zu protokollieren (Download kostenlos in iOS bzw. Google-Play Store). Die Migräne-App dokumentiert den Verlauf von Migräne und Kopfschmerzen mit aktiver Dateneingabe. #{!upper(pron)} meldet aggregierte Informationen aus dem Datensatz zurück und unterstützt so Patienten als auch betreuende Ärzte in der Verlaufs- und Erfolgskontrolle, bei der Einhaltung von Therapieregeln sowie bei der Therapieanpassung. Die Migräne-App enthält zusätzlich umfangreiche Report-, Informations- und Selbsthilfe-Tools.</w:t>
                         </w:r>
                     </w:p>
-                    <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="008200BE">
-                        <w:pPr>
-                            <w:tabs>
-                                <w:tab w:val="left" w:pos="1701"/>
-                                <w:tab w:val="left" w:pos="6804"/>
-                            </w:tabs>
-                            <w:jc w:val="both"/>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="18"/>
-                                <w:szCs w:val="18"/>
-                            </w:rPr>
-                        </w:pPr>
-                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="008200BE"/>
                 </text>
             </textblock>
         </insert>
@@ -3981,25 +3819,12 @@
                             <w:rPr>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
-                                <w:highlight w:val="yellow"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">Bei Migräne mit Aura ist der Einsatz von Triptanen während einer Aura kontraindiziert. Hier empfiehlt sich die Einnahme von Akutanalgetika wie Novaminsulfon® (Metamizol) 40° bis zu 4x täglich. Alternativ ist Diclofenac 20°, maximal 3x täglich möglich. Nach sicher abgeklungener Aurasymptomatik kann der Einsatz von Triptanen erfolgen.</w:t>
                         </w:r>
                     </w:p>
-                    <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="008A1328">
-                        <w:pPr>
-                            <w:pStyle w:val="Textkrper"/>
-                            <w:tabs>
-                                <w:tab w:val="left" w:pos="1701"/>
-                                <w:tab w:val="left" w:pos="6804"/>
-                            </w:tabs>
-                            <w:spacing w:line="240" w:lineRule="auto"/>
-                            <w:rPr>
-                                <w:sz w:val="18"/>
-                                <w:szCs w:val="18"/>
-                            </w:rPr>
-                        </w:pPr>
-                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="008A1328"/>
                 </text>
             </textblock>
         </insert>
@@ -4024,6 +3849,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">Bei der Behandlung chronischer </w:t>
                         </w:r>
@@ -4035,6 +3861,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Kopfschmerzen vom Spannungstyp</w:t>
                         </w:r>
@@ -4044,21 +3871,12 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> sind Verhaltensmaßnahmen in Form von Stressreduktion, Entspannungsverfahren, Sporttherapie, Biofeedback, Wärmeanwendungen, Massageanwendungen sowie ggf. eine Behandlung einer oromandibulären Dysfunktion ein zentraler Baustein.</w:t>
                         </w:r>
                     </w:p>
-                    <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="005A2602">
-                        <w:pPr>
-                            <w:jc w:val="both"/>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="18"/>
-                                <w:szCs w:val="18"/>
-                            </w:rPr>
-                        </w:pPr>
-                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="005A2602"/>
                     <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="0055091A">
                         <w:pPr>
                             <w:jc w:val="both"/>
@@ -4075,6 +3893,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">Die hier vermittelten nicht-medikamentöse Therapieoptionen bei </w:t>
                         </w:r>
@@ -4086,6 +3905,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Kopfschmerzen vom Spannungstyp</w:t>
                         </w:r>
@@ -4095,6 +3915,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> sollten auch ambulant fortgesetzt werden. Diese beinhalten eine Reduktion psychischer Stressoren, eine Reduktion muskulärer Stressoren, die Behandlung von Angst und Depression sowie Therapie einer oromandibulären Dysfunktion. Die diesbezüglichen Strategien schließen Entspannungsverfahren wie die Progressive Muskelrelaxation, im Biofeedback erlernte Strategien, Stressbewältigungs-kompetenzen, Lerneinheiten aus Patientenseminaren sowie sporttherapeutische Aktivitäten ein. Physikalische Therapiemaßnahmen umfassen die Thermotherapie, Physiotherapie, TENS-Behandlung sowie Reiztherapie. Üblicherweise ist der chronische Kopfschmerz vom Spannungstyp nur nach mehrmonatiger intensiver und nachhaltiger Behandlung zu verbessern.</w:t>
                         </w:r>
@@ -4129,6 +3950,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Kopfschmerzen vom Spannungstyp</w:t>
                         </w:r>
@@ -4136,24 +3958,12 @@
                             <w:rPr>
                                 <w:sz w:val="18"/>
                                 <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> sollten möglichst nur in Ausnahmefällen, maximal jedoch an 10 Tagen im Monat analgetisch behandelt werden, um die Entstehung eines medikamenteninduzierten Dauerkopfschmerzes zu vermeiden. Die medikamentöse Akuttherapie muss darauf ausgerichtet sein, einen Kopfschmerz bei Medikamentenübergebrauch als Komplikation zu vermeiden. Daher ist vorzugsweise die Anwendung von Pfefferminzöl in alkoholischer Lösung (z.B. Euminz N) zu empfehlen, Non-Opioid-Analgetika und Opioid-Analgetika im eigentlichen Sinn sollten vermieden werden. Zur Therapiekontrolle sollte der Kopfschmerzkalender oder die Migräne-App kontinuierlich geführt werden, um sowohl Kopfschmerzsymptome, Medikamenteneinnahme als auch Therapieeffekte im Verlauf zu protokollieren.</w:t>
                         </w:r>
                     </w:p>
-                    <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00F12FDC">
-                        <w:pPr>
-                            <w:pStyle w:val="Textkrper"/>
-                            <w:tabs>
-                                <w:tab w:val="left" w:pos="1701"/>
-                                <w:tab w:val="left" w:pos="6804"/>
-                            </w:tabs>
-                            <w:spacing w:line="240" w:lineRule="auto"/>
-                            <w:rPr>
-                                <w:sz w:val="18"/>
-                                <w:szCs w:val="18"/>
-                            </w:rPr>
-                        </w:pPr>
-                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00F12FDC"/>
                 </text>
             </textblock>
         </insert>
@@ -4216,6 +4026,7 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
+                                        <w:highlight w:val="cyan"/>
                                     </w:rPr>
                                     <w:t xml:space="preserve">Euminz N kutan im Bereich der schmerzhaften Kopfpartien 3x im Abstand von jeweils 10 Minuten auftragen</w:t>
                                 </w:r>
@@ -4341,6 +4152,7 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
                                         <w:t>Beginn mit episodischen Kopfschmerzattacken im 20. Lebensjahr. Kontinuierliche Zunahme der Häufigkeit. Inzwischen täglich und pausenlos auftretend</w:t>
                                     </w:r>
@@ -4404,8 +4216,9 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
-                                        <w:t>Holokranial</w:t>
+                                        <w:t>Holokranial, Gefühl eines engen Helmes</w:t>
                                     </w:r>
                                 </w:p>
                             </w:tc>
@@ -4467,6 +4280,7 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
                                         <w:t>Leicht bis mittelstark</w:t>
                                     </w:r>
@@ -4530,6 +4344,7 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
                                         <w:t>Dumpf, drückend</w:t>
                                     </w:r>
@@ -4593,6 +4408,7 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
                                         <w:t>Körperliche Tätigkeit behindert, kann aber ausgeführt werden. Keine Verstärkung durch körperliche Routineaktivitäten wie Gehen oder Treppensteigen</w:t>
                                     </w:r>
@@ -4656,6 +4472,7 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
                                         <w:t>Übelkeit, Reizbarkeit</w:t>
                                     </w:r>
@@ -4663,22 +4480,7 @@
                             </w:tc>
                         </w:tr>
                     </w:tbl>
-                    <w:p w:rsidR="00877D06" w:rsidRPr="000820A6" w:rsidRDefault="00877D06" w:rsidP="0099148E">
-                        <w:pPr>
-                            <w:tabs>
-                                <w:tab w:val="left" w:pos="1701"/>
-                                <w:tab w:val="left" w:pos="2268"/>
-                                <w:tab w:val="left" w:pos="6804"/>
-                            </w:tabs>
-                            <w:jc w:val="both"/>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="18"/>
-                                <w:szCs w:val="18"/>
-                            </w:rPr>
-                        </w:pPr>
-                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRPr="000820A6" w:rsidRDefault="00877D06" w:rsidP="0099148E"/>
                 </text>
             </textblock>
         </insert>
@@ -4691,6 +4493,7 @@
                                       w:cs="Lucida Sans Unicode"/>
                             <w:sz w:val="18"/>
                             <w:szCs w:val="18"/>
+                            <w:highlight w:val="cyan"/>
                         </w:rPr>
                         <w:t xml:space="preserve">Darüber hinaus besteht seit vielen Jahren ein Kopfschmerz vom Spannungstyp, der ebenfalls in der Häufigkeit zunahm. Seit vielen Jahren tritt dieser nach zunächst episodischem Beginn in der chronischen Verlaufsform als Dauerkopfschmerz auf. </w:t>
                     </w:r>
@@ -4845,6 +4648,7 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
                                         <w:t>Seit XX Jahren bestehend, in aktueller Ausprägung seit XX Monaten. Täglicher Dauerschmerz.</w:t>
                                     </w:r>
@@ -4908,6 +4712,7 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
                                         <w:t>Lumbaler-/Thorakaler Bereich mit Ausstrahlung in das linke/rechte Bein
                                         </w:t>
@@ -4972,6 +4777,7 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
                                         <w:t>Mittelstark bis stark</w:t>
                                     </w:r>
@@ -5027,6 +4833,7 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
                                     </w:pPr>
                                     <w:r w:rsidRPr="00764B64">
@@ -5098,6 +4905,7 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
                                         <w:t>Verstärkung in statischer körperlicher Tätigkeit wie Sitzen, Liegen, Stehen, in leichter körperlicher Betätigung oder Ruhe Besserung</w:t>
                                     </w:r>
@@ -5161,6 +4969,7 @@
                                                       w:cs="Lucida Sans Unicode"/>
                                             <w:sz w:val="18"/>
                                             <w:szCs w:val="18"/>
+                                            <w:highlight w:val="yellow"/>
                                         </w:rPr>
                                         <w:t>Keine, insbesondere keine Blasen- oder Mastdarmstörungen</w:t>
                                     </w:r>
@@ -5168,22 +4977,7 @@
                             </w:tc>
                         </w:tr>
                     </w:tbl>
-                    <w:p w:rsidR="00877D06" w:rsidRPr="000820A6" w:rsidRDefault="00877D06" w:rsidP="0099148E">
-                        <w:pPr>
-                            <w:tabs>
-                                <w:tab w:val="left" w:pos="1701"/>
-                                <w:tab w:val="left" w:pos="2268"/>
-                                <w:tab w:val="left" w:pos="6804"/>
-                            </w:tabs>
-                            <w:jc w:val="both"/>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="18"/>
-                                <w:szCs w:val="18"/>
-                            </w:rPr>
-                        </w:pPr>
-                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRPr="000820A6" w:rsidRDefault="00877D06" w:rsidP="0099148E"/>
                 </text>
             </textblock>
         </insert>
@@ -5220,6 +5014,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Im Verlauf kann bei weiterhin guter Verträglichkeit des</w:t>
                         </w:r>
@@ -5231,6 +5026,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> Venlafaxins</w:t>
                         </w:r>
@@ -5240,6 +5036,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> und nicht ausreichender Wirksamkeit eine weitere Dosisanpassung unter Labor- (u.a. Leberwerte) sowie EKG-Kontrollen erfolgen. Die Zieldosis beträgt hier 75-150 mg. Eine Überprüfung der Indikation empfehlen wir bei guter Verträglickeit und Wirksamkeit frühestens nach 6-9 Monaten. Venlafaxin beim Auslassversuch bitte sukzessive in der Dosis reduzieren, um unangenehme Absetzsymptome (in der Regel grippeartig) zu vermeiden.</w:t>
                         </w:r>
@@ -5273,6 +5070,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Im Verlauf kann bei weiterhin guter Verträglichkeit des</w:t>
                         </w:r>
@@ -5284,6 +5082,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> Amitriptylins</w:t>
                         </w:r>
@@ -5293,6 +5092,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> unter Labor- (u.a. Leberwerte) sowie EKG-Kontrollen eine weitere Dosisanpassung erfolgen. Die Zieldosis beträgt aus schmerztherapeutischer Sicht 50-100 mg pro Tag. Eine Überprüfung der Indikation empfehlen wir bei guter Verträglichkeit und Wirksamkeit frühestens nach 6-9 Monaten. </w:t>
                         </w:r>
@@ -5326,6 +5126,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Im Verlauf kann bei weiterhin guter Verträglichkeit des</w:t>
                         </w:r>
@@ -5337,6 +5138,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> Doxepins</w:t>
                         </w:r>
@@ -5346,6 +5148,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> unter Labor- (u.a. Leberwerte) sowie EKG-Kontrollen eine weitere Dosisanpassung erfolgen. Die Zieldosis beträgt aus schmerztherapeutischer Sicht 50-100 mg pro Tag. Eine Überprüfung der Indikation empfehlen wir bei guter Verträglichkeit und Wirksamkeit frühestens nach 6-9 Monaten. </w:t>
                         </w:r>
@@ -5379,6 +5182,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Im Verlauf kann bei weiterhin guter Verträglichkeit des</w:t>
                         </w:r>
@@ -5390,6 +5194,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> Trimipramins</w:t>
                         </w:r>
@@ -5399,6 +5204,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> unter Labor- (u.a. Leberwerte) sowie EKG-Kontrollen eine weitere Dosisanpassung erfolgen. Die Zieldosis beträgt aus schmerztherapeutischer Sicht 50-100 mg pro Tag. Eine Überprüfung der Indikation empfehlen wir bei guter Verträglichkeit und Wirksamkeit frühestens nach 6-9 Monaten. </w:t>
                         </w:r>
@@ -5443,6 +5249,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Etoricoxib</w:t>
                         </w:r>
@@ -5452,6 +5259,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> wirkt schmerzlindernd und entzündungshemmend. Die Behandlungsdauer mit Etoricoxib ist zunächst auf 8 Wochen begrenzt. Anschließend Reevaluation empfohlen.</w:t>
                         </w:r>
@@ -5487,6 +5295,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Duloxetin</w:t>
                         </w:r>
@@ -5496,6 +5305,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> kann im Verlauf bei guter Verträglichkeit und unter Leberwert- und EKG-Kontrollen vorsichtig weiter aufdosiert werden. Die Zieldosis aus schmerztherapeutischer Sicht sind hierbei 60 mg pro Tag.</w:t>
                         </w:r>
@@ -5529,6 +5339,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">Eine Überprüfung der Indikation des </w:t>
                         </w:r>
@@ -5540,6 +5351,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Duloxetins</w:t>
                         </w:r>
@@ -5549,6 +5361,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> empfehlen wir bei guter Verträglichkeit und Wirksamkeit frühestens nach 9-12 Monaten. Duloxetin beim Auslassversuch bitte sukzessive in der Dosis reduzieren, um unangenehme Absetzsymptome (in der Regel grippeartig) zu vermeiden.</w:t>
                         </w:r>
@@ -5582,6 +5395,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">Die Gabe von </w:t>
                         </w:r>
@@ -5593,6 +5407,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Pregabalin</w:t>
                         </w:r>
@@ -5602,17 +5417,9 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
-                            <w:t xml:space="preserve"> ist zeitlich nicht befristet. </w:t>
-                        </w:r>
-                        <w:r w:rsidRPr="00675C3C">
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                            <w:t xml:space="preserve">Die Dosis des Pregabalins kann abhängig vom klinischen Verlauf bei guter Verträglichkeit und unter Leberwert- und Elektrolytkontrolle weiter erhöht werden. Zieldosis aus schmerztherapeutischer Sicht ist 150-300 mg pro Tag.</w:t>
+                            <w:t xml:space="preserve"> ist zeitlich nicht befristet. Die Dosis des Pregabalins kann abhängig vom klinischen Verlauf bei guter Verträglichkeit und unter Leberwert- und Elektrolytkontrolle weiter erhöht werden. Zieldosis aus schmerztherapeutischer Sicht ist 150-300 mg pro Tag.</w:t>
                         </w:r>
                     </w:p>
                 </text>
@@ -5645,6 +5452,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">Evaluation der Wirksamkeit 8 Wochen nach der hier erreichten Zieldosis des </w:t>
                         </w:r>
@@ -5656,19 +5464,9 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
-                            <w:t>Mirtazapin</w:t>
-                        </w:r>
-                        <w:r>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:b/>
-                                <w:bCs/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                            <w:t>s</w:t>
+                            <w:t>Mirtazapins</w:t>
                         </w:r>
                         <w:r>
                             <w:rPr>
@@ -5676,10 +5474,9 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
-                            <w:t>. Diese ist aus schmerztherapeutischer Sicht 30-45 mg. Eine Überprüfung der Indikation
-                                empfehlen wir bei guter Verträglichkeit nach 6-9 Monaten.
-                            </w:t>
+                            <w:t>. Diese ist aus schmerztherapeutischer Sicht 30-45 mg. Eine Überprüfung der Indikation empfehlen wir bei guter Verträglichkeit nach 6-9 Monaten.</w:t>
                         </w:r>
                     </w:p>
                 </text>
@@ -5712,6 +5509,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">Evaluation der Wirksamkeit 8 Wochen nach der hier erreichten Zieldosis des </w:t>
                         </w:r>
@@ -5723,6 +5521,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Opipramols</w:t>
                         </w:r>
@@ -5732,6 +5531,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>. Diese ist aus schmerztherapeutischer Sicht 100-150 mg/Tag. Eine Überprüfung der Indikation empfehlen wir bei guter Verträglichkeit nach 6-9 Monaten.</w:t>
                         </w:r>
@@ -5766,6 +5566,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">Evaluation der Wirksamkeit 8 Wochen nach der hier erreichten Zieldosis des </w:t>
                         </w:r>
@@ -5777,6 +5578,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Topiramats</w:t>
                         </w:r>
@@ -5786,6 +5588,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>. Diese ist aus schmerztherapeutischer Sicht 25-100 mg/Tag. Eine Überprüfung der Indikation empfehlen wir bei guter Verträglichkeit nach 6-9 Monaten.</w:t>
                         </w:r>
@@ -5821,6 +5624,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Escitalopram</w:t>
                         </w:r>
@@ -5830,6 +5634,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> dient neben der Förderung der Neuroplastizität auch der Stimmungsaufhellung und Anxiolyse. Eine Dosisanpassung bis 10 mg pro Tag kann bei guter Verträglichkeit und Wirksamkeit unter Labor- (u.a. Leberwerte) sowie EKG-Kontrollen erfolgen. Eine Überprüfung der Indikation empfehlen wir bei guter Verträglichkeit und Wirksamkeit frühestens nach 9-12 Monaten. SSRI beim Auslassversuch bitte sukzessive in der Dosis reduzieren, um unangenehme Absetzsymptome zu vermeiden.</w:t>
                         </w:r>
@@ -5865,6 +5670,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Candesartan</w:t>
                         </w:r>
@@ -5874,6 +5680,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> dient neben der Einstellung des erhöhten Blutdrucks auch zur Migräneprophylaxe, bei arterieller Hypertonie ist die Einnahme nicht primär zeitlich begrenzt. Unter der Eindosierung sollen regelmäßige Blutdruckkontrollen erfolgen. Eine Dosisanpassung kann ebenfalls entsprechend der Blutdruckeinstellung erfolgen. Zieldosis aus schmerztherapeutischer Sicht sind 16 mg /Tag.</w:t>
                         </w:r>
@@ -5909,6 +5716,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Amlodipin</w:t>
                         </w:r>
@@ -5918,6 +5726,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> dient neben der Einstellung des erhöhten Blutdrucks auch zur Migräneprophylaxe, bei arterieller Hypertonie ist die Einnahme nicht primär zeitlich begrenzt. Unter der Eindosierung sollen regelmäßige Blutdruckkontrollen erfolgen. Eine Dosisanpassung kann ebenfalls entsprechend der Blutdruckeinstellung erfolgen.</w:t>
                         </w:r>
@@ -5953,6 +5762,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Metoprolol</w:t>
                         </w:r>
@@ -5962,6 +5772,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> dient neben der Einstellung des erhöhten Blutdrucks auch zur Migräneprophylaxe, bei arterieller Hypertonie ist die Einnahme nicht primär zeitlich begrenzt. Unter der Eindosierung sollen regelmäßige Blutdruckkontrollen erfolgen. Eine Dosisanpassung kann ebenfalls entsprechend der Blutdruckeinstellung erfolgen.</w:t>
                         </w:r>
@@ -5997,6 +5808,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Bisoprolol</w:t>
                         </w:r>
@@ -6006,6 +5818,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> dient neben der Einstellung des erhöhten Blutdrucks auch zur Migräneprophylaxe, bei arterieller Hypertonie ist die Einnahme nicht primär zeitlich begrenzt. Unter der Eindosierung sollen regelmäßige Blutdruckkontrollen erfolgen. Eine Dosisanpassung kann ebenfalls entsprechend der Blutdruckeinstellung erfolgen.</w:t>
                         </w:r>
@@ -6039,6 +5852,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">Die Einnahme von </w:t>
                         </w:r>
@@ -6050,6 +5864,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Magnesium und Vitamin B2</w:t>
                         </w:r>
@@ -6059,6 +5874,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> sollte nach 1-2 Monaten in seiner Wirkung evaluiert werden. Magnesium und Vitamin B2 sind als Kombinationspräparat (z.B. Migravent) erhältlich.</w:t>
                         </w:r>
@@ -6094,6 +5910,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">Sertralin </w:t>
                         </w:r>
@@ -6103,6 +5920,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>ist ein Antidepressivum aus der Wirkstoffgruppe der selektiven Serotonin-Wiederaufnahme-Inhibitoren (SSRI) und wird zur Behandlung und Prophylaxe von Depressionen, Panik, Angststörung sowie posttraumatischen Belastungsstörungen angewendet.</w:t>
                         </w:r>
@@ -6136,6 +5954,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Evaluation der Wirksamkeit 8 Wochen nach Erreichen der Zieldosis des</w:t>
                         </w:r>
@@ -6147,6 +5966,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Clomipramins</w:t>
                         </w:r>
@@ -6156,6 +5976,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">. Dies sind aus schmerztherapeutischer Sicht 75 mg/Tag. Eine Überprüfung der Indikation empfehlen wir bei guter Verträglichkeit und unter Labor- und Leberwerte- sowie EKG- und Blutdruckkontrollen unter Berücksichtigung des thymoleptischen Effektes nach 6-9 Monaten. </w:t>
                         </w:r>
@@ -6191,6 +6012,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Carbamazepin</w:t>
                         </w:r>
@@ -6200,6 +6022,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> kann im Verlauf bei guter Verträglichkeit und unter Leberwert- und Elektrolytwertkontrolle vorsichtig weiter aufdosiert werden. </w:t>
                         </w:r>
@@ -6233,6 +6056,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">Die Dosis des </w:t>
                         </w:r>
@@ -6244,6 +6068,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Gabapentin</w:t>
                         </w:r>
@@ -6253,6 +6078,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> kann abhängig vom klinischen Verlauf bei guter Verträglichkeit und unter Leberwert- und Elektrolytkontrolle weiter erhöht werden. Zieldosis aus schmerztherapeutischer Sicht sind 1.200-2.400 mg/Tag.</w:t>
                         </w:r>
@@ -6286,6 +6112,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">Die Wirksamkeit von </w:t>
                         </w:r>
@@ -6297,6 +6124,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Tizanidin</w:t>
                         </w:r>
@@ -6306,6 +6134,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> auf die Kopfschmerzen soll im Verlauf evaluiert werden. Wir empfehlen nach 2-3 Monaten einen Auslassversuch durchzuführen. Bei nicht ausreichender Wirksamkeit kann ggf. eine Dosisanpassung erfolgen. Hierunter Labor- (Leberwerte) und EKG-Kontrollen erbeten.</w:t>
                         </w:r>
@@ -6339,6 +6168,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">Auslassversuch von </w:t>
                         </w:r>
@@ -6350,6 +6180,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Flunarizin</w:t>
                         </w:r>
@@ -6359,6 +6190,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> nach maximal 6 bis 9 Monaten (Gefahr von extrapyramidal- motorischen Störungen). Flunarizin kann zu depressiven Verstimmungen, Angstzuständen, Schlaflosigkeit und Asthenie sowie zu extrapyramidal- motorischen Störungen führen. Wir empfehlen regelmäßige klinische Kontrollen. Eine Dosissteigerung des Flunarizins auf 5 mg täglich ist aus schmerztherapeutischer Sicht unter Beachtung der unerwünschten Arneimittelwirkung sowie Labor- und EKG-Kontrollen möglich. Eine Dosissteigerung bis zu maximal 10 mg/Tag ist prinzipiell durchführbar. Bei Auftreten von Dyskinesien oder einer Stimmungsverschlechterung ggf. vorzeitiges Absetzen von Flunarizin. </w:t>
                         </w:r>
@@ -6394,6 +6226,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Atosil</w:t>
                         </w:r>
@@ -6403,6 +6236,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> (Promethazin) bitte im Verlauf bei weiterer Stabilität ausschleichend absetzen.</w:t>
                         </w:r>
@@ -6438,6 +6272,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Lamotrigin</w:t>
                         </w:r>
@@ -6447,6 +6282,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> im Verlauf bei guter Verträglichkeit und unter Leberwert- und Elektrolytwert-Kontrolle vorsichtig weiter im 14-tägigen Abstand um 25 mg/Tag erhöhen. Bis zu einer Dosis von 100 mg sollte die Gabe nur morgendlich erfolgen, danach auf eine morgendliche und abendliche Gabe verteilen. Zieldosis aus schmerztherapeutischer Sicht sind hierbei 150 mg/die. </w:t>
                         </w:r>
@@ -6476,6 +6312,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Lamotrigin</w:t>
                         </w:r>
@@ -6487,17 +6324,9 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
-                            <w:t xml:space="preserve"> </w:t>
-                        </w:r>
-                        <w:r w:rsidRPr="00432CD7">
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                            <w:t>kann bei plötzlichem Absetzen zu Rebound-Anfällen führen. Stufenweises Absetzen über einen Zeitraum von 2 Wochen empfohlen. Bei An- oder Wiederabsetzen potenzielle pharmakokinetische Wechselwirkungen bedenken. Labor- (Leberwerte) und EKG-Kontrolle während der Einnahme der oben genannten Medikation</w:t>
+                            <w:t xml:space="preserve"> kann bei plötzlichem Absetzen zu Rebound-Anfällen führen. Stufenweises Absetzen über einen Zeitraum von 2 Wochen empfohlen. Bei An- oder Wiederabsetzen potenzielle pharmakokinetische Wechselwirkungen bedenken. Labor- (Leberwerte) und EKG-Kontrolle während der Einnahme der oben genannten Medikation</w:t>
                         </w:r>
                     </w:p>
                     <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="005863E9">
@@ -6520,6 +6349,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve">Östrogenhaltigen Kombinationspräparate wie Valette führen zu einer Senkung des </w:t>
                         </w:r>
@@ -6531,6 +6361,7 @@
                                 <w:bCs/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t>Lamotrigenspiegels.</w:t>
                         </w:r>
@@ -6540,6 +6371,7 @@
                                           w:cs="Lucida Sans Unicode"/>
                                 <w:sz w:val="16"/>
                                 <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> Während der Pillenpause kommt es zur Spiegelerhöhung und es kann infolgedessen zu einer Intoxikation kommen. Rein Gestagenhaltige Präparate haben keine wesentlichen Wechselwirkungen mit Lamotrigen.</w:t>
                         </w:r>
