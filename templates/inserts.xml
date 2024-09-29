@@ -2699,7 +2699,7 @@
                                                   w:cs="Lucida Sans Unicode"/>
                                         <w:sz w:val="18"/>
                                         <w:szCs w:val="18"/>
-                                        <w:highlight w:val="cyan"/>
+                                        <w:highlight w:val="yellow"/>
                                     </w:rPr>
                                     <w:t>Alternativ kann an Stelle von Eletriptan auch Rizatriptan zur Anwendung kommen.</w:t>
                                 </w:r>
@@ -3621,7 +3621,7 @@
                             <w:szCs w:val="18"/>
                             <w:highlight w:val="cyan"/>
                         </w:rPr>
-                        <w:t xml:space="preserve">mit und</w:t>
+                        <w:t xml:space="preserve"> mit und</w:t>
                     </w:r>
                 </text>
             </textblock>
@@ -3637,7 +3637,7 @@
                             <w:szCs w:val="18"/>
                             <w:highlight w:val="cyan"/>
                         </w:rPr>
-                        <w:t xml:space="preserve">Dabei treten visuelle Auren in Form von Flimmerskotomen in ca. der Hälfte der Kopfschmerzen auf.</w:t>
+                        <w:t xml:space="preserve">Dabei treten visuelle Auren in Form von Flimmerskotomen in ca. der Hälfte der Kopfschmerzen auf. </w:t>
                     </w:r>
                 </text>
             </textblock>
@@ -3784,7 +3784,7 @@
                                 <w:szCs w:val="18"/>
                                 <w:highlight w:val="yellow"/>
                             </w:rPr>
-                            <w:t>Eletriptan</w:t>
+                            <w:t>Eletriptan 40 mg oral</w:t>
                         </w:r>
                         <w:r w:rsidRPr="00334C70">
                             <w:rPr>
@@ -3792,7 +3792,7 @@
                                 <w:szCs w:val="18"/>
                                 <w:highlight w:val="cyan"/>
                             </w:rPr>
-                            <w:t xml:space="preserve">40 mg oral mit dem langwirksamen Naproxen als Tablette zu 500 mg. Ziel dieser Kombination ist zum einen eine schnelle und effektive Schmerzlinderung, zum anderen ein Verhindern oder zumindest Hinauszögern des Auftretens von Wiederkehrkopfschmerzen. Der empfohlene selektive Serotoninrezeptoragonist gehört zur Gruppe der Triptane. Bei dessen Anwendung müssen einige Besonderheiten berücksichtigt werden. Bei zunächst erfolgreicher Anwendung des Triptans können nach einigen Stunden sog. Wiederkehrkopfschmerzen auftreten. Wiederkehrkopfschmerzen sind definiert als erneut auftretende Migränekopfschmerzen, meist innerhalb von 4 bis 12 Stunden, nachdem die initiale Applikation des Triptans zu einer bedeutsamen Reduktion der Migränekopfschmerzen geführt hatte. In dieser Situation ist eine Wiederholung der Anwendung möglich. Allerdings sollte dabei ein Abstand von mindestens 4 Stunden zur Erstanwendung eingehalten werden. Innerhalb von 24 Stunden sollte die Einnahme des Triptans maximal einmal wiederholt werden. Die Migräneakutmedikation sollte maximal an 10 Tagen im Monat eingenommen werden, um die Entstehung eines medikamenteninduzierten Dauerkopfschmerzes zu verhindern. Zur Therapiekontrolle sollte die Migräne-App kontinuierlich geführt werden, um sowohl Kopfschmerzsymptome als auch Therapieeffekte im Verlauf zu protokollieren (Download kostenlos in iOS bzw. Google-Play Store). Die Migräne-App dokumentiert den Verlauf von Migräne und Kopfschmerzen mit aktiver Dateneingabe. #{!upper(pron)} meldet aggregierte Informationen aus dem Datensatz zurück und unterstützt so Patienten als auch betreuende Ärzte in der Verlaufs- und Erfolgskontrolle, bei der Einhaltung von Therapieregeln sowie bei der Therapieanpassung. Die Migräne-App enthält zusätzlich umfangreiche Report-, Informations- und Selbsthilfe-Tools.</w:t>
+                            <w:t xml:space="preserve"> mit dem langwirksamen Naproxen als Tablette zu 500 mg. Ziel dieser Kombination ist zum einen eine schnelle und effektive Schmerzlinderung, zum anderen ein Verhindern oder zumindest Hinauszögern des Auftretens von Wiederkehrkopfschmerzen. Der empfohlene selektive Serotoninrezeptoragonist gehört zur Gruppe der Triptane. Bei dessen Anwendung müssen einige Besonderheiten berücksichtigt werden. Bei zunächst erfolgreicher Anwendung des Triptans können nach einigen Stunden sog. Wiederkehrkopfschmerzen auftreten. Wiederkehrkopfschmerzen sind definiert als erneut auftretende Migränekopfschmerzen, meist innerhalb von 4 bis 12 Stunden, nachdem die initiale Applikation des Triptans zu einer bedeutsamen Reduktion der Migränekopfschmerzen geführt hatte. In dieser Situation ist eine Wiederholung der Anwendung möglich. Allerdings sollte dabei ein Abstand von mindestens 4 Stunden zur Erstanwendung eingehalten werden. Innerhalb von 24 Stunden sollte die Einnahme des Triptans maximal einmal wiederholt werden. Die Migräneakutmedikation sollte maximal an 10 Tagen im Monat eingenommen werden, um die Entstehung eines medikamenteninduzierten Dauerkopfschmerzes zu verhindern. Zur Therapiekontrolle sollte die Migräne-App kontinuierlich geführt werden, um sowohl Kopfschmerzsymptome als auch Therapieeffekte im Verlauf zu protokollieren (Download kostenlos in iOS bzw. Google-Play Store). Die Migräne-App dokumentiert den Verlauf von Migräne und Kopfschmerzen mit aktiver Dateneingabe. #{!upper(pron)} meldet aggregierte Informationen aus dem Datensatz zurück und unterstützt so Patienten als auch betreuende Ärzte in der Verlaufs- und Erfolgskontrolle, bei der Einhaltung von Therapieregeln sowie bei der Therapieanpassung. Die Migräne-App enthält zusätzlich umfangreiche Report-, Informations- und Selbsthilfe-Tools.</w:t>
                         </w:r>
                     </w:p>
                     <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="008200BE"/>
@@ -4988,6 +4988,62 @@
     </match>
 
     <match against="medication:current:base:name">
+        <insert for="erenumab|galcanezumab|fremanezumab|aimovig|ajovy|emgality" name="med:cgrp" ignore_case="True">
+            <textblock>
+                <text>
+                    <w:p w:rsidR="00877D06" w:rsidRPr="00675C3C" w:rsidRDefault="00877D06" w:rsidP="001F38D3">
+                        <w:pPr>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="21"/>
+                            </w:numPr>
+                            <w:tabs>
+                                <w:tab w:val="left" w:pos="743"/>
+                                <w:tab w:val="left" w:pos="6804"/>
+                            </w:tabs>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                          w:cs="Lucida Sans Unicode"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="16"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                          w:cs="Lucida Sans Unicode"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">Die Gabe von </w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="001F38D3">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                          w:cs="Lucida Sans Unicode"/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="16"/>
+                                <w:highlight w:val="yellow"/>
+                            </w:rPr>
+                            <w:t>Erenumab, Fremanezumab oder Galcanezumab</w:t>
+                        </w:r>
+                        <w:r>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                          w:cs="Lucida Sans Unicode"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> sollte 1x monatlich erfolgen. Es sollte eine regelmäßige Überprüfung der Indikation erfolgen sowie der Wirksamkeit. Ein Auslassversuch sollte nach 12 Monaten erfolgen. </w:t>
+                        </w:r>
+                    </w:p>
+                </text>
+            </textblock>
+        </insert>
         <insert for="venlafaxin" name="med:venlafaxin" ignore_case="True">
             <textblock>
                 <text>
@@ -5100,7 +5156,7 @@
                 </text>
             </textblock>
         </insert>
-        <insert for="doxepin" name="med:doxepin" ignore_case="True">
+        <insert for="doxepin|aponal" name="med:doxepin" ignore_case="True">
             <textblock>
                 <text>
                     <w:p w:rsidR="00877D06" w:rsidRPr="00872C49" w:rsidRDefault="00877D06" w:rsidP="005863E9">
@@ -6374,6 +6430,248 @@
                                 <w:highlight w:val="cyan"/>
                             </w:rPr>
                             <w:t xml:space="preserve"> Während der Pillenpause kommt es zur Spiegelerhöhung und es kann infolgedessen zu einer Intoxikation kommen. Rein Gestagenhaltige Präparate haben keine wesentlichen Wechselwirkungen mit Lamotrigen.</w:t>
+                        </w:r>
+                    </w:p>
+                </text>
+            </textblock>
+        </insert>
+        <insert for="tramal|tramadol|tilidin|mst|buprenorphin|fentanyl|hydromorphon|morphin|oxycodon|paladon|piritramid|tapentadol" name="med:opioid" ignore_case="True">
+            <textblock>
+                <text>
+                    <w:p w:rsidR="00877D06" w:rsidRPr="00675C3C" w:rsidRDefault="00877D06" w:rsidP="005863E9">
+                        <w:pPr>
+                            <w:tabs>
+                                <w:tab w:val="left" w:pos="743"/>
+                                <w:tab w:val="left" w:pos="6804"/>
+                            </w:tabs>
+                            <w:ind w:left="720"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                          w:cs="Lucida Sans Unicode"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="16"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRPr="00C64365" w:rsidRDefault="00877D06" w:rsidP="005863E9">
+                        <w:pPr>
+                            <w:tabs>
+                                <w:tab w:val="left" w:pos="743"/>
+                                <w:tab w:val="left" w:pos="6804"/>
+                            </w:tabs>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                          w:cs="Lucida Sans Unicode"/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="16"/>
+                                <w:u w:val="single"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00C64365">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                          w:cs="Lucida Sans Unicode"/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="16"/>
+                                <w:u w:val="single"/>
+                                <w:highlight w:val="cyan"/>
+                            </w:rPr>
+                            <w:t>Opioide</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRPr="00C64365" w:rsidRDefault="00877D06" w:rsidP="005863E9">
+                        <w:pPr>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="21"/>
+                            </w:numPr>
+                            <w:jc w:val="both"/>
+                            <w:rPr>
+                                <w:rStyle w:val="Hervorhebung"/>
+                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                          w:cs="Lucida Sans Unicode"/>
+                                <w:i w:val="0"/>
+                                <w:iCs w:val="0"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="16"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00675C3C">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                          w:cs="Lucida Sans Unicode"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">Anpassung der Dosierung von </w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00675C3C">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                          w:cs="Lucida Sans Unicode"/>
+                                <w:b/>
+                                <w:bCs/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="16"/>
+                                <w:highlight w:val="yellow"/>
+                            </w:rPr>
+                            <w:t>MST, Tramadol, Tilidin, Paladon, Oxycodon</w:t>
+                        </w:r>
+                        <w:r w:rsidRPr="00675C3C">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                          w:cs="Lucida Sans Unicode"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> entsprechend der Wirksamkeit und Verträglichkeit. Einnahme im festen 12-stündigen Rhythmus. Es sollten keine unretardierten Opioide eingesetzt werden. Obstipationsprophylaxe mit Makrogol (Movicol), Nausea-Prophylaxe bei Bedarf mit Metoclopramid oder Dimenhydrinat empfohlen. Ausreichende Trinkmenge beachten! Wir empfehlen nach 6-9 Monaten einen Auslassversuch.</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRPr="00675C3C" w:rsidRDefault="00877D06" w:rsidP="005863E9">
+                        <w:pPr>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="21"/>
+                            </w:numPr>
+                            <w:jc w:val="both"/>
+                            <w:rPr>
+                                <w:rStyle w:val="Hervorhebung"/>
+                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                          w:cs="Lucida Sans Unicode"/>
+                                <w:i w:val="0"/>
+                                <w:iCs w:val="0"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="16"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="003C4179">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                          w:cs="Lucida Sans Unicode"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
+                            </w:rPr>
+                            <w:t>#{!upper(the)} #{patient} wurde auf die eingeschränkte Reaktionsfähigkeit durch die o.g. Medikation hingewiesen und auf eine mögliche Beeinträchtigung im Straßenverkehr.</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRPr="00675C3C" w:rsidRDefault="00877D06" w:rsidP="005863E9">
+                        <w:pPr>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="21"/>
+                            </w:numPr>
+                            <w:jc w:val="both"/>
+                            <w:rPr>
+                                <w:rStyle w:val="Hervorhebung"/>
+                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                          w:cs="Lucida Sans Unicode"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="16"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00675C3C">
+                            <w:rPr>
+                                <w:rStyle w:val="Hervorhebung"/>
+                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                          w:cs="Lucida Sans Unicode"/>
+                                <w:i w:val="0"/>
+                                <w:iCs w:val="0"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
+                            </w:rPr>
+                            <w:t>Durch zentralnervöse Nebenwirkungen wie z.B. Schwindel, Benommenheit, Müdigkeit zu Beginn der Behandlungen oder in höheren Dosen kann es auch bei bestimmungsgemäßem Gebrauch zu einer Einschränkung des Reaktionsvermögens kommen, insbesondere besteht eine mögliche Auswirkung auf die Fähigkeit zur aktiven Teilnahme im Straßenverkehr, zum Betrieb von Maschinen oder zum Arbeiten ohne sicheren Halt. Dies gilt ebenfalls in verstärktem Maße im Zusammenwirken mit Alkohol.</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRPr="00675C3C" w:rsidRDefault="00877D06" w:rsidP="005863E9">
+                        <w:pPr>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="21"/>
+                            </w:numPr>
+                            <w:tabs>
+                                <w:tab w:val="left" w:pos="743"/>
+                                <w:tab w:val="left" w:pos="6804"/>
+                            </w:tabs>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                          w:cs="Lucida Sans Unicode"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="16"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00675C3C">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                          w:cs="Lucida Sans Unicode"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
+                            </w:rPr>
+                            <w:t>Obstipationsprophylaxe mit Macrogol (Movicol®)</w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRPr="00675C3C" w:rsidRDefault="00877D06" w:rsidP="005863E9">
+                        <w:pPr>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="21"/>
+                            </w:numPr>
+                            <w:tabs>
+                                <w:tab w:val="left" w:pos="743"/>
+                                <w:tab w:val="left" w:pos="6804"/>
+                            </w:tabs>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                          w:cs="Lucida Sans Unicode"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="16"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00675C3C">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                          w:cs="Lucida Sans Unicode"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve">Nauseaprophylaxe mit Metoclopramid oder Dimenhydrinat empfohlen </w:t>
+                        </w:r>
+                    </w:p>
+                    <w:p w:rsidR="00877D06" w:rsidRPr="0099148E" w:rsidRDefault="00877D06" w:rsidP="0099148E">
+                        <w:pPr>
+                            <w:numPr>
+                                <w:ilvl w:val="0"/>
+                                <w:numId w:val="21"/>
+                            </w:numPr>
+                            <w:tabs>
+                                <w:tab w:val="left" w:pos="743"/>
+                                <w:tab w:val="left" w:pos="6804"/>
+                            </w:tabs>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                          w:cs="Lucida Sans Unicode"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="16"/>
+                            </w:rPr>
+                        </w:pPr>
+                        <w:r w:rsidRPr="00675C3C">
+                            <w:rPr>
+                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                          w:cs="Lucida Sans Unicode"/>
+                                <w:sz w:val="16"/>
+                                <w:szCs w:val="16"/>
+                                <w:highlight w:val="cyan"/>
+                            </w:rPr>
+                            <w:t>Ausreichende Trinkmenge beachten</w:t>
                         </w:r>
                     </w:p>
                 </text>

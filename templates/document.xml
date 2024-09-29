@@ -2510,72 +2510,33 @@
                         </w:r>
                     </w:p>
                     #{cluster:base_medication_info}
-                    <w:p w:rsidR="00877D06" w:rsidRPr="00675C3C" w:rsidRDefault="00877D06" w:rsidP="001F38D3">
-                        <w:pPr>
-                            <w:numPr>
-                                <w:ilvl w:val="0"/>
-                                <w:numId w:val="21"/>
-                            </w:numPr>
-                            <w:tabs>
-                                <w:tab w:val="left" w:pos="743"/>
-                                <w:tab w:val="left" w:pos="6804"/>
-                            </w:tabs>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                        </w:pPr>
-                        <w:r>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                            <w:t xml:space="preserve">Die Gabe von </w:t>
-                        </w:r>
-                        <w:r w:rsidRPr="001F38D3">
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:b/>
-                                <w:bCs/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                            <w:t>Galcanezumab</w:t>
-                        </w:r>
-                        <w:r>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                            <w:t xml:space="preserve"> sollte 1x monatlich erfolgen. Es sollte eine regelmäßige Überprüfung der Indikation erfolgen sowie der Wirksamkeit. Ein Auslassversuch sollte nach 12 Monaten erfolgen. </w:t>
-                        </w:r>
-                    </w:p>
-                    <w:p w:rsidR="00877D06" w:rsidRPr="00675C3C" w:rsidRDefault="00877D06" w:rsidP="005863E9">
-                        <w:pPr>
-                            <w:numPr>
-                                <w:ilvl w:val="0"/>
-                                <w:numId w:val="21"/>
-                            </w:numPr>
-                            <w:tabs>
-                                <w:tab w:val="left" w:pos="743"/>
-                                <w:tab w:val="left" w:pos="6804"/>
-                            </w:tabs>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                        </w:pPr>
-                    </w:p>
-                    #{med:venlafaxin}#{med:amitriptylin}#{med:doxepin}#{med:trimipramin}#{med:etoricoxib}#{med:duloxetin}#{med:duloxetin:out}#{med:pregabalin}#{med:mirtazapin}#{med:opipramol}#{med:topiramat}#{med:escitalopram}#{med:candesartan}#{med:amlodipin}#{med:metoprolol}#{med:bisoprolol}#{med:mgb}#{med:sertralin}#{med:anafranil}#{med:carbamazepin}#{med:gabapentin}#{med:tizanidin}#{med:flunarizin}#{med:atosil}#{med:lamotrigin}
+                    #{med:cgrp}
+                    #{med:venlafaxin}
+                    #{med:amitriptylin}
+                    #{med:doxepin}
+                    #{med:trimipramin}
+                    #{med:etoricoxib}
+                    #{med:duloxetin}
+                    #{med:duloxetin:out}
+                    #{med:pregabalin}
+                    #{med:mirtazapin}
+                    #{med:opipramol}
+                    #{med:topiramat}
+                    #{med:escitalopram}
+                    #{med:candesartan}
+                    #{med:amlodipin}
+                    #{med:metoprolol}
+                    #{med:bisoprolol}
+                    #{med:mgb}
+                    #{med:sertralin}
+                    #{med:anafranil}
+                    #{med:carbamazepin}
+                    #{med:gabapentin}
+                    #{med:tizanidin}
+                    #{med:flunarizin}
+                    #{med:atosil}
+                    #{med:lamotrigin}
+                    #{med:opioid}
                     <w:p w:rsidR="00877D06" w:rsidRPr="004D192F" w:rsidRDefault="00877D06" w:rsidP="005863E9">
                         <w:pPr>
                             <w:numPr>
@@ -2628,297 +2589,6 @@
                                 <w:szCs w:val="16"/>
                             </w:rPr>
                             <w:t>#{!upper(the)} #{patient} wurde auf die eingeschränkte Reaktionsfähigkeit insbesondere während der Eindosierungsphase durch o.g. Medikation hingewiesen sowie eine hierdurch bedingte mögliche Beeinträchtigung im Straßenverkehr.</w:t>
-                        </w:r>
-                    </w:p>
-                    <w:p w:rsidR="00877D06" w:rsidRPr="00675C3C" w:rsidRDefault="00877D06" w:rsidP="005863E9">
-                        <w:pPr>
-                            <w:tabs>
-                                <w:tab w:val="left" w:pos="743"/>
-                                <w:tab w:val="left" w:pos="6804"/>
-                            </w:tabs>
-                            <w:ind w:left="720"/>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                        </w:pPr>
-                    </w:p>
-                    <w:p w:rsidR="00877D06" w:rsidRPr="00C64365" w:rsidRDefault="00877D06" w:rsidP="005863E9">
-                        <w:pPr>
-                            <w:tabs>
-                                <w:tab w:val="left" w:pos="743"/>
-                                <w:tab w:val="left" w:pos="6804"/>
-                            </w:tabs>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:b/>
-                                <w:bCs/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                                <w:u w:val="single"/>
-                            </w:rPr>
-                        </w:pPr>
-                        <w:r w:rsidRPr="00C64365">
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:b/>
-                                <w:bCs/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                                <w:u w:val="single"/>
-                            </w:rPr>
-                            <w:t>Opioide</w:t>
-                        </w:r>
-                    </w:p>
-                    <w:p w:rsidR="00877D06" w:rsidRPr="00C64365" w:rsidRDefault="00877D06" w:rsidP="005863E9">
-                        <w:pPr>
-                            <w:numPr>
-                                <w:ilvl w:val="0"/>
-                                <w:numId w:val="21"/>
-                            </w:numPr>
-                            <w:jc w:val="both"/>
-                            <w:rPr>
-                                <w:rStyle w:val="Hervorhebung"/>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:i w:val="0"/>
-                                <w:iCs w:val="0"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                        </w:pPr>
-                        <w:r w:rsidRPr="00675C3C">
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                            <w:t xml:space="preserve">Anpassung der Dosierung von </w:t>
-                        </w:r>
-                        <w:r w:rsidRPr="00675C3C">
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:b/>
-                                <w:bCs/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                            <w:t>Tilidin/Paladon/Oxycodon</w:t>
-                        </w:r>
-                        <w:r w:rsidRPr="00675C3C">
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                            <w:t xml:space="preserve"> entsprechend der Wirksamkeit und Verträ</w:t>
-                        </w:r>
-                        <w:r w:rsidRPr="00675C3C">
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                            <w:t>g</w:t>
-                        </w:r>
-                        <w:r w:rsidRPr="00675C3C">
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                            <w:t xml:space="preserve">lichkeit. </w:t>
-                        </w:r>
-                        <w:r w:rsidRPr="00675C3C">
-                            <w:rPr>
-                                <w:rStyle w:val="Hervorhebung"/>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:i w:val="0"/>
-                                <w:iCs w:val="0"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                            <w:t xml:space="preserve">Einnahme im festen 12-stündigen Rhythmus. Es sollten keine unretardierten Opioide eingesetzt werden. </w:t>
-                        </w:r>
-                        <w:r w:rsidRPr="00675C3C">
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                            <w:t xml:space="preserve">Obstipationsprophylaxe mit Makrogol (Movicol), Nausea-Prophylaxe bei Bedarf mit </w:t>
-                        </w:r>
-                        <w:r w:rsidRPr="00675C3C">
-                            <w:rPr>
-                                <w:rStyle w:val="Hervorhebung"/>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:i w:val="0"/>
-                                <w:iCs w:val="0"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                            <w:t xml:space="preserve">Metoclopramid oder Dimenhydrinat empfohlen. Ausreichende Trinkmenge beachten! </w:t>
-                        </w:r>
-                        <w:r w:rsidRPr="00C64365">
-                            <w:rPr>
-                                <w:rStyle w:val="Hervorhebung"/>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:i w:val="0"/>
-                                <w:iCs w:val="0"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                            <w:t>Wir empfehlen nach 6-9 Monaten einen Auslassversuch.</w:t>
-                        </w:r>
-                    </w:p>
-                    <w:p w:rsidR="00877D06" w:rsidRPr="00675C3C" w:rsidRDefault="00877D06" w:rsidP="005863E9">
-                        <w:pPr>
-                            <w:numPr>
-                                <w:ilvl w:val="0"/>
-                                <w:numId w:val="21"/>
-                            </w:numPr>
-                            <w:jc w:val="both"/>
-                            <w:rPr>
-                                <w:rStyle w:val="Hervorhebung"/>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:i w:val="0"/>
-                                <w:iCs w:val="0"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                        </w:pPr>
-                        <w:r w:rsidRPr="003C4179">
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                                <w:highlight w:val="yellow"/>
-                            </w:rPr>
-                            <w:t>#{!upper(the)} #{patient} wurde auf die eingeschränkte Reaktionsfähigkeit durch die o.g. Medikation hingewiesen und auf eine mögliche Beeinträchtigung im Straßenverkehr.</w:t>
-                        </w:r>
-                    </w:p>
-                    <w:p w:rsidR="00877D06" w:rsidRPr="00675C3C" w:rsidRDefault="00877D06" w:rsidP="005863E9">
-                        <w:pPr>
-                            <w:numPr>
-                                <w:ilvl w:val="0"/>
-                                <w:numId w:val="21"/>
-                            </w:numPr>
-                            <w:jc w:val="both"/>
-                            <w:rPr>
-                                <w:rStyle w:val="Hervorhebung"/>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                        </w:pPr>
-                        <w:r w:rsidRPr="00675C3C">
-                            <w:rPr>
-                                <w:rStyle w:val="Hervorhebung"/>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:i w:val="0"/>
-                                <w:iCs w:val="0"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                            <w:t>Durch zentralnervöse Nebenwirkungen wie z.B. Schwindel, Benommenheit, Müdigkeit zu Beginn der Behandlungen oder in höheren Dosen kann es auch bei bestimmungsgemäßem Gebrauch zu einer Einschränkung des Reaktionsvermögens kommen, insbesondere besteht eine mögliche Auswirkung auf die Fähigkeit zur aktiven Teilnahme im Straßenverkehr, zum Betrieb von Maschinen oder zum Arbeiten ohne sicheren Halt. Dies gilt ebenfalls in verstärktem Maße im Zusammenwirken mit Alkohol.</w:t>
-                        </w:r>
-                    </w:p>
-                    <w:p w:rsidR="00877D06" w:rsidRPr="00675C3C" w:rsidRDefault="00877D06" w:rsidP="005863E9">
-                        <w:pPr>
-                            <w:numPr>
-                                <w:ilvl w:val="0"/>
-                                <w:numId w:val="21"/>
-                            </w:numPr>
-                            <w:tabs>
-                                <w:tab w:val="left" w:pos="743"/>
-                                <w:tab w:val="left" w:pos="6804"/>
-                            </w:tabs>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                        </w:pPr>
-                        <w:r w:rsidRPr="00675C3C">
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                            <w:t>Obstipationsprophylaxe mit Macrogol (Movicol®)</w:t>
-                        </w:r>
-                    </w:p>
-                    <w:p w:rsidR="00877D06" w:rsidRPr="00675C3C" w:rsidRDefault="00877D06" w:rsidP="005863E9">
-                        <w:pPr>
-                            <w:numPr>
-                                <w:ilvl w:val="0"/>
-                                <w:numId w:val="21"/>
-                            </w:numPr>
-                            <w:tabs>
-                                <w:tab w:val="left" w:pos="743"/>
-                                <w:tab w:val="left" w:pos="6804"/>
-                            </w:tabs>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                        </w:pPr>
-                        <w:r w:rsidRPr="00675C3C">
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                            <w:t xml:space="preserve">Nauseaprophylaxe mit Metoclopramid oder Dimenhydrinat empfohlen </w:t>
-                        </w:r>
-                    </w:p>
-                    <w:p w:rsidR="00877D06" w:rsidRPr="0099148E" w:rsidRDefault="00877D06" w:rsidP="0099148E">
-                        <w:pPr>
-                            <w:numPr>
-                                <w:ilvl w:val="0"/>
-                                <w:numId w:val="21"/>
-                            </w:numPr>
-                            <w:tabs>
-                                <w:tab w:val="left" w:pos="743"/>
-                                <w:tab w:val="left" w:pos="6804"/>
-                            </w:tabs>
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                        </w:pPr>
-                        <w:r w:rsidRPr="00675C3C">
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                            </w:rPr>
-                            <w:t>Ausreichende Trinkmenge beachten</w:t>
                         </w:r>
                     </w:p>
                 </w:tc>
@@ -4526,6 +4196,7 @@
                     <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
                     <w:sz w:val="18"/>
                     <w:szCs w:val="18"/>
+                    <w:highlight w:val="yellow"/>
                 </w:rPr>
                 <w:t xml:space="preserve">#{patient:age} Jahre. Größe: #{patient:height} cm, Gewicht: #{patient:weight} kg. Guter Allgemeinzustand bei normalem Ernährungszustand. Keine auffallend erhöhte physische Reagibilität. Das Herz ist auskultatorisch unauffällig bei einer Herzfrequenz von #{patient:pulse}/min und reinen Herztönen. Die Lunge ist auskultatorisch ebenfalls unauffällig bei vesikulärem Atemgeräusch. Der Blutdruck beträgt #{patient:rr} mmHg. Das Adomen ist weich, die Peristaltik regelrecht. Kein Druck- oder Klopfschmerz. Die Nierenlager sind nicht klopfschmerzhaft. Es findet sich ein unauffälliger peripherer Pulsstatus. Keine zervikale Lymphknotenschwellung. Keine Varikosis, keine Ödeme. #{!upper(the)} #{patient} raucht nicht und trinkt keinen Alkohol. Die Schulter-Nacken Muskulatur ist im Tonus erhöht und verspannt. Es findet sich eine lokale Allodynie und Hyperpathie der Schulter-Nacken -Muskulatur.</w:t>
             </w:r>
@@ -4580,6 +4251,7 @@
                     <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
                     <w:sz w:val="18"/>
                     <w:szCs w:val="18"/>
+                    <w:highlight w:val="yellow"/>
                 </w:rPr>
                 <w:t xml:space="preserve">: Keine Meningismuszeichen, Kopf frei beweglich, kein Kalottenklopfschmerz, NAP frei. Kein Karotiden-Strömungsgeräusch, Arteria temporalis nicht druckdolent. Hirnnervenstatus: Regelrecht. Motorik: Keine Muskelatrophien, normaler Muskeltonus, keine Paresen, Muskeleigenreflexe seitengleich mittellebhaft auslösbar, keine Pyramidenbahnzeichen nach Babinski. Lasègue negativ. Sensibilität: Ungestört. Koordination: FNV und KHV beidseits metrisch, Eudiadochokinese. Romberg-Stehversuch sicher, keine Drehtendenz im Unterberger-Tretversuch. Gangbild: Ungestört. </w:t>
             </w:r>
@@ -4908,6 +4580,7 @@
                     <w:bCs/>
                     <w:sz w:val="18"/>
                     <w:szCs w:val="18"/>
+                    <w:highlight w:val="yellow"/>
                 </w:rPr>
                 <w:t>Laborergebnisse</w:t>
             </w:r>
@@ -4945,6 +4618,7 @@
                     <w:bCs/>
                     <w:sz w:val="18"/>
                     <w:szCs w:val="18"/>
+                    <w:highlight w:val="yellow"/>
                 </w:rPr>
                 <w:t>EKG (#{patient:admission}):</w:t>
             </w:r>
@@ -4953,6 +4627,7 @@
                     <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
                     <w:sz w:val="18"/>
                     <w:szCs w:val="18"/>
+                    <w:highlight w:val="yellow"/>
                 </w:rPr>
                 <w:t xml:space="preserve"> Indifferenztyp, Sinusrhythmus, XX /min, QTc XXX ms. Keine Erregungsausbreitungs- oder -rückbildungsstörungen.</w:t>
             </w:r>
@@ -4990,6 +4665,7 @@
                     <w:bCs/>
                     <w:sz w:val="18"/>
                     <w:szCs w:val="18"/>
+                    <w:highlight w:val="yellow"/>
                 </w:rPr>
                 <w:t>EKG (#{patient:admission}):</w:t>
             </w:r>
@@ -4998,6 +4674,7 @@
                     <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
                     <w:sz w:val="18"/>
                     <w:szCs w:val="18"/>
+                    <w:highlight w:val="yellow"/>
                 </w:rPr>
                 <w:t xml:space="preserve"> Befundkonstanz</w:t>
             </w:r>

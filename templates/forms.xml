@@ -1,16 +1,16 @@
 <templates>
     <form name="patient">
         <field name="height" type="text">
-            <prompt>Größe (cm): </prompt>
+            <prompt default="170">Größe (cm): </prompt>
         </field>
         <field name="weight" type="text">
-            <prompt>Gewicht (kg): </prompt>
+            <prompt default="75">Gewicht (kg): </prompt>
         </field>
         <field name="rr" type="text">
-            <prompt>Blutdruck (mmHg): </prompt>
+            <prompt default="118/87">Blutdruck (mmHg): </prompt>
         </field>
         <field name="pulse" type="text">
-            <prompt>Herzfrequenz (/Min.): </prompt>
+            <prompt default="67">Herzfrequenz (/Min.): </prompt>
         </field>
     </form>
 
@@ -26,7 +26,7 @@
 
     <form name="midas_score">
         <field name="values" type="numbers" count="5">
-            <prompt default="00000">MIDAS-Score (5 Zahlen): </prompt>
+            <prompt default="30 30 30 30 30">MIDAS-Score (5 Zahlen): </prompt>
 
             <value name="sum" content="!sum(midas_score:values)"/>
         </field>
@@ -181,7 +181,7 @@
         </field>
 
         <textblock>
-            <text>In der Selbstauskunft beschreibt #{the} #{patient} das häufige Auftreten von #{!join(afflictions:values, ", ", " und ")}.</text>
+            <text when="!not(!empty(afflictions:values))">In der Selbstauskunft beschreibt #{the} #{patient} das häufige Auftreten von #{!join(afflictions:values, ", ", " und ")}.</text>
         </textblock>
     </form>
 
@@ -206,7 +206,7 @@
 
     <form name="whodas_score">
         <field name="values" type="numbers" count="3">
-            <prompt default="000">WHODAS Score (3 Zahlen): </prompt>
+            <prompt default="15 15 15">WHODAS Score (3 Zahlen): </prompt>
         </field>
 
         <textblock>
@@ -219,7 +219,7 @@
 
     <form name="bdi">
         <field name="values" type="numbers" count="19">
-            <prompt default="1111111111111111111">BDI-II Score (19 Zahlen): </prompt>
+            <prompt default="2222222222222222222">BDI-II Score (19 Zahlen): </prompt>
 
             <mapping start="2" type="mapped">
                 <select>
