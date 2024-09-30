@@ -95,7 +95,7 @@ if __name__ == "__main__":
             write_file(generated_path, rt, xml.options)
 
         case ProgramMode.Add:
-            if add_content(generated_path, rt, xml.options):
+            if add_content(generated_path, rt):
                 print("Text blocks were added.")
                 print("!! IMPORTANT: Please add the new diagnoses or medications manually !!")
 

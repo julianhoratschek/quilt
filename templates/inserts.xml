@@ -4503,7 +4503,7 @@
         <insert for="G44.8*" name="cmd"></insert>
         <insert for="G47.0*" name="sleep"></insert>
         <insert for="M62.8*" name="mfs"></insert>
-        <insert for="M54.*|M79.70" name="back_pain:treatment">
+        <insert for="M54.*|M53.*|M79.70" name="back_pain:treatment">
             <textblock>
                 <text>
                     <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00F66F6A">

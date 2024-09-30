@@ -7,7 +7,9 @@ from zipfile import ZipFile, ZIP_DEFLATED
 from shutil import copy
 
 
-def add_content(output_file_path: Path, runtime: Runtime, options: dict[str, str | list[str]]) -> bool:
+def add_content(output_file_path: Path, runtime: Runtime) -> bool:
+
+    # Overwrite bookmarkEnd tags when bookmarkStart is replaced by text inserts
     def cleanup(_m: Match) -> str:
         nonlocal cleanup_ids
         return "" if str(_m.group(1)) in cleanup_ids else _m.group(0)
@@ -16,13 +18,7 @@ def add_content(output_file_path: Path, runtime: Runtime, options: dict[str, str
     last_pos: int = 0
     cleanup_ids: list[str] = []
 
-    #path_name: Path = Path(options["output_dir"]) / Path(
-    #    f"A-{runtime.namespaces['patient:last_name']}, "
-    #    f"{runtime.namespaces['patient:first_name']} "
-    #    f"{runtime.namespaces['patient:admission']}.docx")
-
-    insert_pattern: Pattern = compile(
-        r'<w:bookmarkStart w:id="([\d_]+)" w:name="skip\[([^]]+)]"/>')
+    insert_pattern: Pattern = compile(r'<w:bookmarkStart w:id="([\d_]+)" w:name="skip\[([^]]+)]"/>')
     cleanup_pattern: Pattern = compile(r'<w:bookmarkEnd w:id="([\d_]+)"/>')
 
     # Make sure we are working on an existing file
@@ -108,9 +104,6 @@ def write_file(output_file_path: Path, runtime: Runtime, options: dict[str, str 
     file_name: Path = copy(
         options["docx_template"],
         output_file_path)
-        #output_dir / Path(f"A-{runtime.namespaces['patient:last_name']}, "
-        #                  f"{runtime.namespaces['patient:first_name']} "
-        #                  f"{runtime.namespaces['patient:admission']}.docx"))
 
     with ZipFile(file_name, "a", compression=ZIP_DEFLATED) as output_file:
         output_file.writestr(

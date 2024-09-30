@@ -84,7 +84,7 @@ class Parser:
                 self.namespaces.pop()
 
             case "insert":
-                self.runtime.namespaces[self.current_namespace] = f"{self.runtime.namespaces[self.current_namespace]}"
+                # self.runtime.namespaces[self.current_namespace] = f"{self.runtime.namespaces[self.current_namespace]}"
                 self.namespaces.pop()
 
             # Map all values onto last processed field input
