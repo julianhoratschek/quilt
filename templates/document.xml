@@ -2586,8 +2586,6 @@
             </w:tr>
         </w:tbl>
         <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00835596"/>
-        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00E43C7B"/>
-        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="00E43C7B"/>
         <w:tbl>
             <w:tblPr>
                 <w:tblW w:w="0" w:type="auto"/>
@@ -2603,16 +2601,14 @@
                 <w:tblLook w:val="00A0"/>
             </w:tblPr>
             <w:tblGrid>
-                <w:gridCol w:w="3691"/>
-                <w:gridCol w:w="15"/>
-                <w:gridCol w:w="5371"/>
-                <w:gridCol w:w="20"/>
+                <w:gridCol w:w="3706"/>
+                <w:gridCol w:w="5391"/>
             </w:tblGrid>
             <w:tr w:rsidR="00877D06" w:rsidRPr="00166F0D">
                 <w:tc>
                     <w:tcPr>
                         <w:tcW w:w="9097" w:type="dxa"/>
-                        <w:gridSpan w:val="4"/>
+                        <w:gridSpan w:val="2"/>
                         <w:shd w:val="clear" w:color="auto" w:fill="D9D9D9"/>
                     </w:tcPr>
                     <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="000B07A2">
@@ -2650,7 +2646,6 @@
                 <w:tc>
                     <w:tcPr>
                         <w:tcW w:w="3706" w:type="dxa"/>
-                        <w:gridSpan w:val="2"/>
                     </w:tcPr>
                     <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="000B07A2">
                         <w:pPr>
@@ -2685,7 +2680,6 @@
                 <w:tc>
                     <w:tcPr>
                         <w:tcW w:w="5391" w:type="dxa"/>
-                        <w:gridSpan w:val="2"/>
                     </w:tcPr>
                     <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="000B07A2">
                         <w:pPr>
@@ -2722,7 +2716,6 @@
                 <w:tc>
                     <w:tcPr>
                         <w:tcW w:w="3706" w:type="dxa"/>
-                        <w:gridSpan w:val="2"/>
                     </w:tcPr>
                     <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="000B07A2">
                         <w:pPr>
@@ -2744,7 +2737,6 @@
                 <w:tc>
                     <w:tcPr>
                         <w:tcW w:w="5391" w:type="dxa"/>
-                        <w:gridSpan w:val="2"/>
                     </w:tcPr>
                     <w:p w:rsidR="00877D06" w:rsidRPr="00166F0D" w:rsidRDefault="00877D06" w:rsidP="000B07A2">
                         <w:pPr>
@@ -2767,7 +2759,7 @@
                 <w:tc>
                     <w:tcPr>
                         <w:tcW w:w="9097" w:type="dxa"/>
-                        <w:gridSpan w:val="4"/>
+                        <w:gridSpan w:val="2"/>
                     </w:tcPr>
                     <w:p w:rsidR="00877D06" w:rsidRPr="004F573F" w:rsidRDefault="00877D06" w:rsidP="00747319">
                         <w:pPr>
@@ -3014,27 +3006,7 @@
                                 <w:szCs w:val="16"/>
                                 <w:highlight w:val="yellow"/>
                             </w:rPr>
-                            <w:t>eber/Schüttelfrost, Halsschmerzen, Abg</w:t>
-                        </w:r>
-                        <w:r w:rsidRPr="000302C9">
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                                <w:highlight w:val="yellow"/>
-                            </w:rPr>
-                            <w:t>e</w:t>
-                        </w:r>
-                        <w:r w:rsidRPr="000302C9">
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="16"/>
-                                <w:szCs w:val="16"/>
-                                <w:highlight w:val="yellow"/>
-                            </w:rPr>
-                            <w:t xml:space="preserve">schlagenheit oder Affektionen von Haut und Schleimhäuten ist unverzüglich ein Arzt aufzusuchen und auf die Medikamenteneinnahme hinzuweisen. </w:t>
+                            <w:t>eber/Schüttelfrost, Halsschmerzen, Abgeschlagenheit oder Affektionen von Haut und Schleimhäuten ist unverzüglich ein Arzt aufzusuchen und auf die Medikamenteneinnahme hinzuweisen. </w:t>
                         </w:r>
                     </w:p>
                     #{overuse:continuation:front}
