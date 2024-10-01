@@ -3828,6 +3828,21 @@
                 </text>
             </textblock>
         </insert>
+        <insert for="G43.*" name="migraine:myo_oro">
+            <textblock>
+                <text>
+                    <w:r w:rsidRPr="00213423">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                            <w:highlight w:val="cyan"/>
+                        </w:rPr>
+                        <w:t xml:space="preserve"> Eine analgetische Behandlung dieser ebenfalls mit Schmerzen einhergehenden Erkrankungen interferiert gravierend mit der Behandlung der Migräne.</w:t>
+                    </w:r>
+                </text>
+            </textblock>
+        </insert>
         <insert for="G43.103" name="migraine:brain_stem"></insert>
         <insert for="G43.108|G44.800" name="stinging"></insert>
         <insert for="G44.2*" name="tension:treatment">
@@ -4988,6 +5003,22 @@
     </match>
 
     <match against="medication:current:base:name">
+        <insert for="botox|onabotulinumtoxin|onabotulinumtoxin*a" name="med:botox" ignore_case="True">
+            <textblock>
+                <text>
+                    <w:r w:rsidRPr="00954E45">
+                        <w:rPr>
+                            <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
+                                      w:cs="Lucida Sans Unicode"/>
+                            <w:sz w:val="18"/>
+                            <w:szCs w:val="18"/>
+                            <w:highlight w:val="cyan"/>
+                        </w:rPr>
+                        <w:t>Als zusätzliche Prophylaxe setzten wir bei der hier vorliegenden chronischen Migräne Botulinumtoxin Typ A nach dem PREEMPT-Schema ein. Bei guter Wirksamkeit empfehlen wir eine Wiederholung alle 3 Monate.</w:t>
+                    </w:r>
+                </text>
+            </textblock>
+        </insert>
         <insert for="erenumab|galcanezumab|fremanezumab|aimovig|ajovy|emgality" name="med:cgrp" ignore_case="True">
             <textblock>
                 <text>

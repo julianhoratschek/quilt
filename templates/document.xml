@@ -2393,16 +2393,7 @@
                                 <w:szCs w:val="18"/>
                             </w:rPr>
                         </w:pPr>
-                        <w:r w:rsidRPr="00954E45">
-                            <w:rPr>
-                                <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
-                                          w:cs="Lucida Sans Unicode"/>
-                                <w:sz w:val="18"/>
-                                <w:szCs w:val="18"/>
-                                <w:highlight w:val="yellow"/>
-                            </w:rPr>
-                            <w:t>Als zusätzliche Prophylaxe setzten wir bei der hier vorliegenden chronischen Migräne Botulinumtoxin Typ A nach dem PREEMPT-Schema ein. Bei guter Wirksamkeit empfehlen wir eine Wiederholung alle 3 Monate.</w:t>
-                        </w:r>
+                        #{med:botox}
                         <w:r>
                             <w:rPr>
                                 <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode"
@@ -4017,9 +4008,11 @@
                     <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
                     <w:sz w:val="18"/>
                     <w:szCs w:val="18"/>
+                    <w:highlight w:val="yellow"/>
                 </w:rPr>
-                <w:t xml:space="preserve">ein myofasziales Schmerzsyndrom und eine oromandibuläre Dysfunktion. Eine analgetische Behandlung dieser ebenfalls mit Schmerzen einhergehenden Erkrankungen interferiert gravierend mit der Behandlung der chronischen Migräne. </w:t>
+                <w:t xml:space="preserve">ein myofasziales Schmerzsyndrom und eine oromandibuläre Dysfunktion.</w:t>
             </w:r>
+            #{migraine:myo_oro}
             #{overuse:more_difficult}
             <w:r w:rsidRPr="00213423">
                 <w:rPr>
