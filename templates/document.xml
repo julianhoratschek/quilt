@@ -5318,7 +5318,7 @@
                     <w:sz w:val="18"/>
                     <w:szCs w:val="18"/>
                 </w:rPr>
-                <w:t xml:space="preserve">peutisches Therapieprogramm auf verhaltensmedizinischer Grundlage. </w:t>
+                <w:t xml:space="preserve">peutisches Therapieprogramm auf verhaltensmedizinischer Grundlage. Das Angebot beinhaltete sowohl Einzelbehandlungen als auch die Teilnahme an den Gruppentherapien. </w:t>
             </w:r>
             <w:r>
                 <w:rPr>
@@ -5326,63 +5326,7 @@
                     <w:sz w:val="18"/>
                     <w:szCs w:val="18"/>
                 </w:rPr>
-                <w:t>Das Angebot</w:t>
-            </w:r>
-            <w:r w:rsidRPr="00744612">
-                <w:rPr>
-                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
-                    <w:sz w:val="18"/>
-                    <w:szCs w:val="18"/>
-                </w:rPr>
-                <w:t xml:space="preserve"> beinhaltete s</w:t>
-            </w:r>
-            <w:r w:rsidRPr="00744612">
-                <w:rPr>
-                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
-                    <w:sz w:val="18"/>
-                    <w:szCs w:val="18"/>
-                </w:rPr>
-                <w:t>o</w:t>
-            </w:r>
-            <w:r w:rsidRPr="00744612">
-                <w:rPr>
-                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
-                    <w:sz w:val="18"/>
-                    <w:szCs w:val="18"/>
-                </w:rPr>
-                <w:t xml:space="preserve">wohl Einzelbehandlungen als auch die Teilnahme an den Gruppentherapien. </w:t>
-            </w:r>
-            <w:r>
-                <w:rPr>
-                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
-                    <w:sz w:val="18"/>
-                    <w:szCs w:val="18"/>
-                </w:rPr>
-                <w:t xml:space="preserve">Zudem </w:t>
-            </w:r>
-            <w:r w:rsidRPr="00744612">
-                <w:rPr>
-                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
-                    <w:sz w:val="18"/>
-                    <w:szCs w:val="18"/>
-                </w:rPr>
-                <w:t>spezielle Schmer</w:t>
-            </w:r>
-            <w:r w:rsidRPr="00744612">
-                <w:rPr>
-                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
-                    <w:sz w:val="18"/>
-                    <w:szCs w:val="18"/>
-                </w:rPr>
-                <w:t>z</w:t>
-            </w:r>
-            <w:r w:rsidRPr="00744612">
-                <w:rPr>
-                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
-                    <w:sz w:val="18"/>
-                    <w:szCs w:val="18"/>
-                </w:rPr>
-                <w:t xml:space="preserve">physiotherapie, Muskelaufbautraining, Triggerpunktbehandlung, Elektrotherapie, Lymphdrainage, Thermotherapie, Aktivierung und Bewegung, Ausdauertraining, </w:t>
+                <w:t xml:space="preserve">Zudem spezielle Schmerzphysiotherapie, Muskelaufbautraining, Triggerpunktbehandlung, Elektrotherapie, Lymphdrainage, Thermotherapie, Aktivierung und Bewegung, Ausdauertraining, </w:t>
             </w:r>
             <w:r>
                 <w:rPr>
@@ -5425,128 +5369,14 @@
                     <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
                     <w:sz w:val="18"/>
                     <w:szCs w:val="18"/>
-                    <w:highlight w:val="yellow"/>
                 </w:rPr>
-                <w:t xml:space="preserve">In den Einzeltherapiesitzungen als auch in der Gruppenbehandlung zeigte sich eine </w:t>
-            </w:r>
-            <w:r>
-                <w:rPr>
-                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
-                    <w:sz w:val="18"/>
-                    <w:szCs w:val="18"/>
-                    <w:highlight w:val="yellow"/>
-                </w:rPr>
-                <w:t>hohe</w:t>
-            </w:r>
-            <w:r w:rsidRPr="0010224B">
-                <w:rPr>
-                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
-                    <w:sz w:val="18"/>
-                    <w:szCs w:val="18"/>
-                    <w:highlight w:val="yellow"/>
-                </w:rPr>
-                <w:t xml:space="preserve"> Motivation, die erlernten Techniken im Alltag anzuwenden.</w:t>
-            </w:r>
-            <w:r w:rsidRPr="00744612">
-                <w:rPr>
-                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
-                    <w:sz w:val="18"/>
-                    <w:szCs w:val="18"/>
-                </w:rPr>
-                <w:t xml:space="preserve"> Wir empfehlen nach dem Klinikaufenthalt</w:t>
-            </w:r>
-            <w:r>
-                <w:rPr>
-                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
-                    <w:sz w:val="18"/>
-                    <w:szCs w:val="18"/>
-                </w:rPr>
-                <w:t>,</w:t>
-            </w:r>
-            <w:r w:rsidRPr="00744612">
-                <w:rPr>
-                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
-                    <w:sz w:val="18"/>
-                    <w:szCs w:val="18"/>
-                </w:rPr>
-                <w:t xml:space="preserve"> die verha</w:t>
-            </w:r>
-            <w:r w:rsidRPr="00744612">
-                <w:rPr>
-                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
-                    <w:sz w:val="18"/>
-                    <w:szCs w:val="18"/>
-                </w:rPr>
-                <w:t>l</w:t>
-            </w:r>
-            <w:r w:rsidRPr="00744612">
-                <w:rPr>
-                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
-                    <w:sz w:val="18"/>
-                    <w:szCs w:val="18"/>
-                </w:rPr>
-                <w:t>tenstherapeutischen Therapiemaßnahmen sowie Verlaufs- und Erfolgskontrollen regelmäßig anzuwe</w:t>
-            </w:r>
-            <w:r w:rsidRPr="00744612">
-                <w:rPr>
-                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
-                    <w:sz w:val="18"/>
-                    <w:szCs w:val="18"/>
-                </w:rPr>
-                <w:t>n</w:t>
-            </w:r>
-            <w:r w:rsidRPr="00744612">
-                <w:rPr>
-                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
-                    <w:sz w:val="18"/>
-                    <w:szCs w:val="18"/>
-                </w:rPr>
-                <w:t>den und fortzuführen.</w:t>
-            </w:r>
-            <w:r w:rsidRPr="00E27723">
-                <w:rPr>
-                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
-                    <w:sz w:val="18"/>
-                    <w:szCs w:val="18"/>
-                </w:rPr>
-                <w:t xml:space="preserve"> </w:t>
+                <w:t xml:space="preserve">In den Einzeltherapiesitzungen als auch in der Gruppenbehandlung zeigte sich eine hohe Motivation, die erlernten Techniken im Alltag anzuwenden. Wir empfehlen nach dem Klinikaufenthalt, die verhaltenstherapeutischen Therapiemaßnahmen sowie Verlaufs- und Erfolgskontrollen regelmäßig anzuwenden und fortzuführen.</w:t>
             </w:r>
             #{overuse:continuation}
         </w:p>
-        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="008200BE">
-            <w:pPr>
-                <w:jc w:val="both"/>
-                <w:rPr>
-                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
-                    <w:sz w:val="18"/>
-                    <w:szCs w:val="18"/>
-                </w:rPr>
-            </w:pPr>
-        </w:p>
-        <w:p w:rsidR="00877D06" w:rsidRPr="00764B64" w:rsidRDefault="00877D06" w:rsidP="008200BE">
-            <w:pPr>
-                <w:jc w:val="both"/>
-                <w:rPr>
-                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
-                    <w:sz w:val="18"/>
-                    <w:szCs w:val="18"/>
-                </w:rPr>
-            </w:pPr>
-        </w:p>
-        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="008200BE">
-            <w:pPr>
-                <w:tabs>
-                    <w:tab w:val="left" w:pos="1701"/>
-                    <w:tab w:val="left" w:pos="6804"/>
-                </w:tabs>
-                <w:jc w:val="both"/>
-                <w:rPr>
-                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
-                    <w:sz w:val="18"/>
-                    <w:szCs w:val="18"/>
-                </w:rPr>
-            </w:pPr>
-        </w:p>
+        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="008200BE"/>
+        <w:p w:rsidR="00877D06" w:rsidRPr="00764B64" w:rsidRDefault="00877D06" w:rsidP="008200BE"/>
+        <w:p w:rsidR="00877D06" w:rsidRDefault="00877D06" w:rsidP="008200BE"/>
         <w:sectPr w:rsidR="00877D06" w:rsidSect="004836C7">
             <w:headerReference w:type="default" r:id="rId8"/>
             <w:pgSz w:w="11906" w:h="16838" w:code="9"/>

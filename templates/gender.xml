@@ -1,6 +1,6 @@
 <templates>
     <form name="gender">
-        <prompt>Geschlecht (m/f): </prompt>
+        <prompt accept="m, f">Geschlecht (m/f): </prompt>
 
         <gender name="m">
             <pronoun name="the">der</pronoun>

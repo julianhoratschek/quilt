@@ -294,6 +294,11 @@ class Parser:
             if self.last_input == "%":
                 self.last_input = self.current_tag.attr("default", "")
 
+            if (accepted := self.current_tag.attr("accept", "")) \
+                    and self.last_input not in accepted.replace(" ", "").split(","):
+                print(f"!! Expected one of the following values: {accepted}")
+                continue
+
             # Don't process or save to namespace, if parent tag isn't a field
             if self.parent_tag.name != "field":
                 return
