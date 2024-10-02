@@ -3850,7 +3850,16 @@
                     <w:sz w:val="18"/>
                     <w:szCs w:val="18"/>
                 </w:rPr>
-                <w:t xml:space="preserve"> Insgesamt besteht damit ein Fehlschlag der bisherigen unimodalen Schmerztherapie#{overuse:ambulant_withdrawal}.</w:t>
+                <w:t xml:space="preserve"> Insgesamt besteht damit ein Fehlschlag der bisherigen unimodalen Schmerztherapie</w:t>
+            </w:r>
+            #{overuse:ambulant_withdrawal}
+            <w:r w:rsidRPr="00213423">
+                <w:rPr>
+                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                    <w:sz w:val="18"/>
+                    <w:szCs w:val="18"/>
+                </w:rPr>
+                <w:t>.</w:t>
             </w:r>
         </w:p>
         <w:p w:rsidR="00877D06" w:rsidRPr="00213423" w:rsidRDefault="00877D06" w:rsidP="00213423">
@@ -4718,7 +4727,16 @@
                     <w:sz w:val="18"/>
                     <w:szCs w:val="18"/>
                 </w:rPr>
-                <w:t xml:space="preserve">Aufgrund der ausgeprägten depressiven Erschöpfungsreaktion, der komplexen bestehenden unterhaltenden psychischen Komorbidität, der gravierenden somatischen Begleiterkrankungen, des schwerwiegenden langen chronischen Verlaufes#{overuse:duration} erforderte die Behandlung den Zeitraum bis zum </w:t>
+                <w:t>Aufgrund der ausgeprägten depressiven Erschöpfungsreaktion, der komplexen bestehenden unterhaltenden psychischen Komorbidität, der gravierenden somatischen Begleiterkrankungen, des schwerwiegenden langen chronischen Verlaufes</w:t>
+            </w:r>
+            #{overuse:duration}
+            <w:r w:rsidRPr="00F544EA">
+                <w:rPr>
+                    <w:rFonts w:ascii="Lucida Sans Unicode" w:hAnsi="Lucida Sans Unicode" w:cs="Lucida Sans Unicode"/>
+                    <w:sz w:val="18"/>
+                    <w:szCs w:val="18"/>
+                </w:rPr>
+                <w:t xml:space="preserve"> erforderte die Behandlung den Zeitraum bis zum </w:t>
             </w:r>
             <w:r>
                 <w:rPr>

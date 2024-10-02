@@ -328,7 +328,7 @@
                             <w:szCs w:val="18"/>
                             <w:highlight w:val="cyan"/>
                         </w:rPr>
-                        <w:t xml:space="preserve">sowie einer Entzugsbehandlung</w:t>
+                        <w:t xml:space="preserve"> sowie einer Entzugsbehandlung</w:t>
                     </w:r>
                 </text>
             </textblock>
@@ -393,7 +393,7 @@
                             <w:szCs w:val="18"/>
                             <w:highlight w:val="cyan"/>
                         </w:rPr>
-                        <w:t>und der notwendigen Minimierung des Rückfallrisikos in den Analgetika-Übergebrauch und Analgetika-Fehlgebrauch</w:t>
+                        <w:t xml:space="preserve"> und der notwendigen Minimierung des Rückfallrisikos in den Analgetika-Übergebrauch und Analgetika-Fehlgebrauch</w:t>
                     </w:r>
                 </text>
             </textblock>
@@ -578,7 +578,7 @@
                             <w:szCs w:val="18"/>
                             <w:highlight w:val="cyan"/>
                         </w:rPr>
-                        <w:t xml:space="preserve">nach Abschluss der Analgetikapause</w:t>
+                        <w:t xml:space="preserve"> nach Abschluss der Analgetikapause</w:t>
                     </w:r>
                 </text>
             </textblock>
@@ -3755,7 +3755,16 @@
                                 <w:szCs w:val="18"/>
                                 <w:highlight w:val="cyan"/>
                             </w:rPr>
-                            <w:t xml:space="preserve">Wir empfahlen#{overuse:attack_after_pause} zur </w:t>
+                            <w:t xml:space="preserve">Wir empfahlen</w:t>
+                        </w:r>
+                        #{overuse:attack_after_pause}
+                        <w:r w:rsidRPr="00334C70">
+                            <w:rPr>
+                                <w:sz w:val="18"/>
+                                <w:szCs w:val="18"/>
+                                <w:highlight w:val="cyan"/>
+                            </w:rPr>
+                            <w:t xml:space="preserve"> zur </w:t>
                         </w:r>
                         <w:r w:rsidRPr="00334C70">
                             <w:rPr>
