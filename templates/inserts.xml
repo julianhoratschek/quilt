@@ -5003,7 +5003,7 @@
         </insert>
         <insert for="F55.2*" name="misuse:declaration"></insert>
         <insert for="F62.80" name="personality"></insert>
-        <insert for="F45.41" name="chronic_pain"></insert>
+        <insert for="F45.41" name="chronic_pain_diagnosis"></insert>
         <insert for="F3?.*" name="depression"></insert>
     </match>
 

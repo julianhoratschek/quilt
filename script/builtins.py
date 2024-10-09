@@ -6,6 +6,10 @@ def builtin_btwn(args: list) -> bool:
     if len(args) != 3:
         print("!! #btwn expects 3 parameters: value, lower (inclusive), higher (inclusive)")
         return False
+    if any(map(lambda x: x < 0, args)):
+        print("!! #btwn is only defined for positive values")
+        return False
+
     return int(args[1]) <= int(args[0]) <= int(args[2])
 
 
